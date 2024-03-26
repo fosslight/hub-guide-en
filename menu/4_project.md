@@ -5,11 +5,11 @@ published: true
 # Project
 ```note
 The process that must be performed for the development and distribution of software including open source software is performed sequentially.
-![prj_status](../images/4_prj_process_en.png)
+![prj_status](images/4_prj_process_en.png)
 ```
 
 ## Project List
-![ProjectList](../images/project_list.png)
+![ProjectList](images/project_list.png)
 You can search for a project, check the overall information of the project, and download the FOSSLight Report, OSS Notice, and OSS Package.
 
 - Search : You can search for a project by basic information of the project, status, license, OSS name, etc.
@@ -27,7 +27,7 @@ You can search for a project, check the overall information of the project, and 
     - Low (Critical Score 0.1 ~ 3.9)
 
 ### Project Status
-![prj_status](../images/4_project_status.png)
+![prj_status](images/4_project_status.png)
 
 | Status | Description |
 | ------------- | ------------- |
@@ -48,7 +48,7 @@ Create a project for the software to be distributed.
 
 #### Basic Information tab
 This is a tab to modify basic information about the project or change the status.
-![prj_basic](../images/4_project_bi.png)
+![prj_basic](images/4_project_bi.png)
 Double-click the Project Name in the Project List.
 - Delete : Delete the project.
 - Drop : Changes the status of the project to Drop. To proceed with the process again, you need to click the Open button.
@@ -67,7 +67,7 @@ Enter the Open Source Software analysis result for the project to be distributed
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/LmJH3e5hRRM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 2-1. 3rd Party Tab
-![prj](../images/4_project_3rd.png)
+![prj](images/4_project_3rd.png)
 *3rd Party Tab Creation Process*  
 - In case 3rd party software is included : Load → Save 3rd party reviewed in advance
 - If 3rd Party Software is not included : Check Not Applicable → Save
@@ -79,7 +79,7 @@ You can call up the 3rd Party Software information by selecting one of the follo
 2. Project Search : Load the 3rd Party tab of another project.
 
 #### 2-2. DEP Tab
-![prj](../images/4_project_dep.png)
+![prj](images/4_project_dep.png)
 *DEP tab creation Process*
 - When OSS is included through package manager : Write OSS information of each dependencies -> Save
 - When OSS is not included through package manager : Check Not Applicable → Save
@@ -95,7 +95,7 @@ You can call up the 3rd Party Software information by selecting one of the follo
     - You can automatically generate a report with OSS information written through the [FOSSLight Dependency Scanner](../../scanner/3_dependency.md).
 
 #### 2-3. SRC Tab
-![prj](../images/4_project_src.png)
+![prj](images/4_project_src.png)
 *SRC tab creation process*  
 - When OSS by source code is included : Write OSS information by source code -> Save
 - If the source code is not subject to OSS analysis : Check Not Applicable → Save
@@ -109,7 +109,7 @@ You can call up the 3rd Party Software information by selecting one of the follo
     2. Project Search : Loads the SRC tab of another project.
 
 #### 2-4. BIN Tab
-![prj](../images/4_project_bin.png)
+![prj](images/4_project_bin.png)
 *BIN tab creation process*  
 - When binary is included : Write OSS information for each binary -> Save
 - When Binary is not included : Check Not Applicable → Save
@@ -124,7 +124,7 @@ You can call up the 3rd Party Software information by selecting one of the follo
 
 #### 2-5. BOM Tab
 Merge the list of OSS written in 3rd Party, DEP, SRC, BIN tab and request review.
-![prj](../images/4_project_bom.png)
+![prj](images/4_project_bom.png)
 
 ##### How to request a review
 1. Click the "Merge And Save" button.
@@ -149,7 +149,7 @@ Merge the list of OSS written in 3rd Party, DEP, SRC, BIN tab and request review
 <iframe width="560" height="315" src="https://www.youtube.com/embed/45voRAZC7n4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 3-1. Packaging Tab
-![prj](../images/4_project_pkg.png)
+![prj](images/4_project_pkg.png)
 On the Packaging tab, OSS Package files are uploaded and verified. (However, if you have not used Open Source under a license that requires disclosure of the source code, this tab is disabled.)
 1. OSS Package Upload
     - Upload the packaging file (compressed file) that has collected the source code.
@@ -166,7 +166,7 @@ On the Packaging tab, OSS Package files are uploaded and verified. (However, if 
 
 
 #### 3-2. Notice Tab
-![prj](../images/4_project_notice.png)
+![prj](images/4_project_notice.png)
 OSS Notice is automatically generated based on Identification > BOM tab. At this time, you can modify the format or contents of the issued OSS Notice.
 
 #### 3-3. How to request a review

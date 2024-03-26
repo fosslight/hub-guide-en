@@ -47,7 +47,7 @@ Based on the created Download location, it is automatically changed to the OSS N
 
 ## 4. Download the result
 ![new](images/2_self_export.png)
-- Self-Check Sheet : Prints the information written on the OSS Table. You can upload this sheet to the Identification tab of [Project](../started/2_try/4_project.md).
+- Self-Check Sheet : Prints the information written on the OSS Table. You can upload this sheet to the Identification tab of [Project](../menu/4_project.md).
 - Vulnerability Sheet : Prints vulnerability information for each OSS.
     - OSS Name : OSS Name written in the OSS Table
     - Nick Name : When Vulnerability is searched with the nickname of the OSS written in the OSS table, the matched nickname is displayed. (If no nickname is matched, it is marked as -)

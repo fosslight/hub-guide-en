@@ -8,16 +8,17 @@ Guide contents for FOSSLight Hub.
 
 ## FOSSLight Hub Getting started
 - [Quick Start](../started/1_install.md)
-- FOSSLight Hub Menu
-  - [Sign in / Account registration](../started/2_try/1_sign.md)
-  - [OSS(Open Source Software)](../started/2_try/2_oss.md)
-  - [License](../started/2_try/3_license.md)
-  - [Project](../started/2_try/4_project.md)
-  - [3rd Party](../started/2_try/5_third-party.md)
-  - [Self-Check](../started/2_try/6_self-check.md)
-  - [Vulnerability](../started/2_try/7_vulnerability.md)
-  - [Configuration](../started/2_try/8_configuration.md)
-  - [System](../started/2_try/9_system.md)
+
+## FOSSLight Hub Menu
+- [Sign in / Account registration](../menu/1_sign.md)
+- [OSS(Open Source Software)](../menu/2_oss.md)
+- [License](../menu/3_license.md)
+- [Project](../menu/4_project.md)
+- [3rd Party](../menu/5_third-party.md)
+- [Self-Check](../menu/6_self-check.md)
+- [Vulnerability](../menu/7_vulnerability.md)
+- [Configuration](../menu/8_configuration.md)
+- [System](../menu/9_system.md)
 
 ## Basic Tutorial Using FOSSLight Hub
 - [Project Tutorial](../tutorial/1_project.md) : Register project and execute process sequentially 

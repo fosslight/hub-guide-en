@@ -7,10 +7,10 @@ published: true
 How to sign in and register for an account with FOSSLight Hub.
 ```
 ## Sign In
-![SignIn](../images/sign_in.png)
+![SignIn](images/sign_in.png)
 - When connecting for the first time, click the "SignUp" button to register an account.
 
 ## Sign Up 
-![SignUp](../images/sign_up.png)  
+![SignUp](images/sign_up.png)  
 - If this is your first time accessing FOSSLight Hub, register for an account.
 

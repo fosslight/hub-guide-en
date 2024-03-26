@@ -96,7 +96,7 @@ How to upgrade DB version using [MyBatis Migrations](https://mybatis.org/migrati
 ✏️Note. For detailed commands, see [MyBatis Migrations](https://mybatis.org/migrations/migrate.html).
 
 ## Download NVD Data from 2002
-FOSSLight Hub downloads [NVD Data Feeds](https://nvd.nist.gov/vuln/data-feeds) provided from NVD(NATIONAL VULNERABILITY DATABASE) once a day and stores them in the database, and the stored NVD data is viewed in the [Vulnerability List](../started/2_try/7_vulnerability.md).    
+FOSSLight Hub downloads [NVD Data Feeds](https://nvd.nist.gov/vuln/data-feeds) provided from NVD(NATIONAL VULNERABILITY DATABASE) once a day and stores them in the database, and the stored NVD data is viewed in the [Vulnerability List](../menu/7_vulnerability.md).    
 At this time, when downloading NVD data from 2002 data, set as follows.      
 (If you set it only once for the first time, there is no need to set it additionally because the data will be accumulated afterwards.)           
         

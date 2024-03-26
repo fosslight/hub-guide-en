@@ -8,7 +8,7 @@ You can check registered license information and add, modify, or delete licenses
 You can check detailed information by clicking a cell in the License Name Column of the License List.
 ```
 ## License List
-![LicenseList](../images/license_list.png)
+![LicenseList](images/license_list.png)
 
 ### License Name
 - It follows the method of notation SPDX (https://spdx.org/licenses/) as the license full name.
@@ -46,7 +46,7 @@ You can check detailed information by clicking a cell in the License Name Column
 
 ## (Admin Only) Add, Modify, Delete License
 ### Add
-![NEW_OSS](../images/3_lic_new.png)
+![NEW_OSS](images/3_lic_new.png)
 1. Click the Add button in the upper right of the License List.
 2. In the "New_License" tab, enter the information of the new OSS.
     - License Name and Nick Name cannot be duplicated.

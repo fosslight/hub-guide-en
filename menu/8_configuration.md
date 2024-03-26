@@ -6,7 +6,7 @@ published: true
 ```note
 (Admin Only) Change the setting values ​​for FOSSLight Hub.
 ```
-![config](../images/8-3_configuration.png)
+![config](images/8-3_configuration.png)
 
 ## Authentication using LDAP
 FOSSLight Hub uses JNDI to support user password authentication using LDAP in an environment where LDAP such as Active Directory can be used.

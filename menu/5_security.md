@@ -21,10 +21,10 @@ You can check the vulnerability information by each CVE ID of OSS whose vulnerab
 - When the pop-up screen as shown below appears when entering the Security tab, check the OSS list whose version has not been written,
 Enter the OSS version used for OSS in the Identification tab, and then save and merge in the BOM tab.
 You can check the vulnerability of the written OSS version on the Security tab.  
-![prj](../images/4_project_security1.png)
+![prj](images/4_project_security1.png)
 
 ## Reflect on resolution of vulnerabilities with the Identification
 When checking the vulnerability score in the tabs of identification,
 you can check the max score except for the CVE ID that changed the value of the vulnerability resolution to 'Fixed' in the Security tab.
 If you click vulnerability icon on the tabs of identification, the CVE ID which has the resolution of 'Fixed' in the entire CVE ID list window for the corresponding OSS name and version is deactivated as follows.  
-![prj](../images/4_project_security2.png)
+![prj](images/4_project_security2.png)

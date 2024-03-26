@@ -31,11 +31,11 @@ Self-Check can be done through the following procedure.
     1. Upload the FOSSLight Report containing the OSS list in the Upload Analysis Result column.
         - Uploadable FOSSLight Report form can be downloaded by clicking the Export button.
     2. Select the sheet to load and click OK.  
-    ![select_sheet](../images/6_self_select_sheet.png)
+    ![select_sheet](images/6_self_select_sheet.png)
     3. Click the Save button.
  
 ### 3. Check OSS and License information
-![oss_table](../images/6_self_oss_table.png)
+![oss_table](images/6_self_oss_table.png)
 #### Warning Messages
 - Unconfirmed open source : Displayed when the same OSS Name is not registered in FOSSLight Hub.
 - Unconfirmed version : Displayed when there is the same OSS Name in FOSSLight Hub, but the same version is not registered.
@@ -63,15 +63,15 @@ However, even for registered OSS, User Guide may not be provided.
 - Detailed information related to Vulnerability can be found in [Vulnerability](7_vulnerability.md).
 ```
 1. Check in FOSSLight Hub UI
-![self_pop](../images/6_self_pop.png)
+![self_pop](images/6_self_pop.png)
 When you click the Vulnerability icon, the vulnerability information of the corresponding OSS Name and OSS Version is provided in a pop-up window.
 
 2. Confirm with export file
     - Self-Check Sheet
-    ![self_check_sheet](../images/6_self_sheet1.png)
+    ![self_check_sheet](images/6_self_sheet1.png)
     The OSS list entered by the user is described in accordance with the FOSSLight Report form.  
     The information in this tab can be used later in Identification of [Project](4_project.md).
     - Vulnerability Sheet
-    ![self_check_sheet2](../images/6_self_sheet2.png)
+    ![self_check_sheet2](images/6_self_sheet2.png)
     The entered version and higher version information of the OSS where vulnerability information was found are described.  
     At this time, if you click the Vulnerability Link, you can check the CVE-ID of the corresponding OSS Name and OSS Version. 

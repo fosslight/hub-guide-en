@@ -13,7 +13,7 @@ published: true
 ### 1. Creating a 3rd Party Project
 1. Click the Add button at the top right of the 3rd Party List.
 2. In the New_3rdParty tab, enter 3rd party information and click Save.
-    ![new_tab](../images/3_3rd_new.png)
+    ![new_tab](images/3_3rd_new.png)
 
 ### 2. Open Source Information Registration
 Register OSS (Open Source Software) information in the OSS Table at the bottom of the 3rd Party Details tab.
