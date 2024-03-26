@@ -4,7 +4,6 @@ This guide page describes the basic usage and tutorial of FOSSLight Hub and adva
 
 
 ## Contents
-Guide contents for FOSSLight Hub.
 
 ### FOSSLight Hub Getting started
 - [Quick Start](started/1_install.md)
