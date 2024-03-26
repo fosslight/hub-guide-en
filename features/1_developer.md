@@ -150,4 +150,4 @@ docker-compose restart fosslight_web
 ```
 
 ### Download NVD Data
-Set to download NVD data from 2002 data only once for the first time after server setting. : [Download NVD Data](https://fosslight.org/fosslight-guide-en/features/3_maintenance.html#download-nvd-data-from-2002)
+Set to download NVD data from 2002 data only once for the first time after server setting. : [Download NVD Data](https://fosslight.org/hub-guide-en/features/3_maintenance.html#download-nvd-data-from-2002)
