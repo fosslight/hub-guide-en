@@ -3,13 +3,7 @@
 ## Report an issue
 For improvements or bugs, please report by creating an issue in Git repository. The issue report is very helpful in upgrading the FOSSLight.
 - [FOSSLight Hub](https://github.com/fosslight/fosslight/issues)
-- [FOSSLight Dependency Scanner](https://github.com/fosslight/fosslight_dependency_scanner/issues)
-- [FOSSLight Source Scanner](https://github.com/fosslight/fosslight_source_scanner/issues)
-- [FOSSLight Binary Scanner](https://github.com/fosslight/fosslight_binary_scanner/issues)
-- [FOSSLight Yocto Scanner](https://github.com/fosslight/fosslight_yocto_scanner/issues)
-- [FOSSLight Android Scanner](https://github.com/fosslight/fosslight_android_scanner/issues)
-- [FOSSLight Prechecker](https://github.com/fosslight/fosslight_prechecker/issues)
-- [FOSSLight Guide](https://github.com/fosslight/fosslight-guide-en/issues)
+- [FOSSLight Hub Guide](https://github.com/fosslight/hub-guide-en/issues)
 
 ## Contributing
 
@@ -61,4 +55,4 @@ git commit -s -m "Write the commit message"
 - [GitHub Help](https://help.github.com)
 
 ### FOSSLight Guide's License
-Except as otherwise noted, the content of [FOSSLight Guide page](https://fosslight.org/fosslight-guide-en) is licensed under the [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0) and sample code is licensed under the [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html). 
+Except as otherwise noted, the content of [FOSSLight Hub Guide page](https://fosslight.org/hub-guide-en) is licensed under the [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0) and sample code is licensed under the [Apache-2.0](https://spdx.org/licenses/Apache-2.0.html). 
