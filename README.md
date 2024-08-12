@@ -1,3 +1,10 @@
+> **Note**
+>
+> This guide has not yet been updated to reflect the latest version of FOSSLight 
+> ([v2.0.1.pre-release](https://github.com/fosslight/fosslight/releases/tag/v2.0.1.pre-release)). 
+> The content currently pertains to version 1.x.x. We are actively working on updating the guide. 
+> If you have any questions, please reach out to us via the [issue tracker](https://github.com/fosslight/fosslight/issues).
+
 # FOSSLight Hub
 [FOSSLight Hub](https://github.com/fosslight/fosslight) is not only an integrated system that manages open source and licenses and processes sequentially open source compliance process, but also an all-in-one system that can manage security vulnerabilities, supply chain management, software BOM(Bill of Materials) and everything related to open source.    
 This guide page describes the basic usage and tutorial of FOSSLight Hub and advanced features such as how to set up the development environment and maintenance tips. 
