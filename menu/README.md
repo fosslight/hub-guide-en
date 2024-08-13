@@ -10,10 +10,10 @@ FOSSLight Hub's menu-specific functions.
 ## [Sign In & Sign Up](1_sign.md)
 Sign In & Sign Up.
 
-## [OSS List](2_oss.md)
+## [OSS List](3_oss.md)
 Check and register OSS (Open Source Software) information.
 
-## [License List](3_license.md)
+## [License List](2_license.md)
 Check and register License information.
 
 ## [Project](4_project.md)

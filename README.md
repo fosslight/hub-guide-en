@@ -17,8 +17,8 @@ This guide page describes the basic usage and tutorial of FOSSLight Hub and adva
 
 ### FOSSLight Hub Menu
 - [Sign in / Account registration](menu/1_sign.md)
-- [OSS(Open Source Software)](menu/2_oss.md)
-- [License](menu/3_license.md)
+- [OSS(Open Source Software)](menu/3_oss.md)
+- [License](menu/2_license.md)
 - [Project](menu/4_project.md)
 - [3rd Party](menu/5_third-party.md)
 - [Self-Check](menu/6_self-check.md)

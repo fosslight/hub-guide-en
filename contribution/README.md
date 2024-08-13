@@ -1,8 +1,8 @@
 ---
-sort: 8
+sort: 7
 published: true
-title: Learn more
+title: Contribution
 ---
-# Learn more
+# Contribution
 
 {% include list.liquid all=true %}
