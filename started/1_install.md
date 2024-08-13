@@ -11,4 +11,4 @@ If you use [https://demo.fosslight.org](https://demo.fosslight.org), you can exp
 - (Sample) User Account : You can experience user mode through the following user account.
     - id : user, pswd : user
 
-Note. How to build and run : [Development Guide](../features/1_developer.md)
+Note. How to build and run : [Development Guide](../advanced/1_developer.md)

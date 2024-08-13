@@ -31,9 +31,9 @@ This guide page describes the basic usage and tutorial of FOSSLight Hub and adva
 - [Self-check Tutorial](tutorial/2_self_check.md) : Simple check of Open Source information with Self-check
 
 ### FOSSLight Hub Advanced features
-- [Development documentation](features/1_developer.md)
-- [REST API](features/2_rest_api.md)
-- [Maintenance](features/3_maintenance.md)
+- [Development documentation](advanced/1_developer.md)
+- [REST API](advanced/2_rest_api.md)
+- [Maintenance](advanced/3_maintenance.md)
 
 ## License
 [FOSSLight Hub](https://github.com/fosslight/fosslight) is released under the Open Source License [AGPL-3.0][agpl].
