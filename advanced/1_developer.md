@@ -47,6 +47,15 @@ If the database already exists or if you want to change the database name, chang
 mysql -u root -p <DATABASE_NAME> < fosslight_create.sql
 ```
 Delete (or change) the CREATE USER and GRANT parts if the connection account already exists or if a different account is used.
+5. Install the tree package on the system. :
+- Ubuntu
+```
+sudo apt-get install tree
+```
+- MacOS
+```
+brew install tree
+```
 
 ### IDE Configuration
 Download [Spring Tool Suite][spring].  
