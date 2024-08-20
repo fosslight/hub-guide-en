@@ -10,11 +10,11 @@ FOSSLight Hub's menu-specific functions.
 ## [Sign In & Sign Up](1_sign.md)
 Sign In & Sign Up.
 
-## [OSS List](3_oss.md)
-Check and register OSS (Open Source Software) information.
-
-## [License List](2_license.md)
+## [License](2_license.md)
 Check and register License information.
+
+## [Open Source](3_oss.md)
+Check and register OSS (Open Source Software) information.
 
 ## [Project](4_project.md)
 Create a Project and run OSC Process.
@@ -22,11 +22,11 @@ Create a Project and run OSC Process.
 ## [3rd Party](5_third-party.md)
 Create a 3rd Party.
 
-## [Self-Check](6_self-check.md)
-Create a Self-Check and check OSS information.
-
 ## [Vulnerability](7_vulnerability.md)
 Check whether there is a vulnerability in Open Source and related information (CVE ID, CVSS Score).
+
+## [Self-Check](6_self-check.md)
+Create a Self-Check and check OSS information.
 
 ## [Configuration](8_configuration.md)
 *(Admin Only)* Change system settings.
