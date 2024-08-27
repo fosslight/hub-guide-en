@@ -22,4 +22,4 @@ After modifying the details as desired, save the changes to store the copied con
 
 > **Note**
 > When copying a Project, you can copy it according to the Process stage:
-  [Project Copy Tip](../../2_project/3_reuse_project/1_copy_project.md#Reusing-a-Project-(Project Copy))
+  [Project Copy Tip](../../2_project/3_reuse_project/1_copy_project.md#reusing-a-project-project-copy)
