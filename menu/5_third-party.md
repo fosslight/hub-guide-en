@@ -9,29 +9,61 @@ published: true
 ```
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FxQlpnaCO2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 3rd Party Project
-### 1. Creating a 3rd Party Project
-1. Click the Add button at the top right of the 3rd Party List.
-2. In the New_3rdParty tab, enter 3rd party information and click Save.
-    ![new_tab](images/3_3rd_new.png)
+## 3rd Party Software Registration Process
+### 1. Preparatory Steps
+- **Open Source Software List**
+    - Request and collect the 3rd Party OSS Checklist from the third party.
 
-### 2. Open Source Information Registration
-Register OSS (Open Source Software) information in the OSS Table at the bottom of the 3rd Party Details tab.
-There are two ways to register OSS information.
-1. Click the + button at the top left of the OSS Table to add a row and enter the OSS information.
-2. Upload the report with the OSS List written to the "OSS Checklist".
-    - Attachable OSS Checklist form can be downloaded by clicking OSS Checklist > Sample link.
+### 2. 3rd Party SW Registration
+![3rd_party_list](images/5_third_party_list.PNG)
+1. Click on '3rd Party' on the left menu.
+2. Click the **Add** button at the top left of the 3rd Party List page.
+3. In the "New_3rdParty" tab, enter the 3rd party information and click Save.
+    ![3rd_party_new](images/5_third_party_new.PNG)
+4. Input all necessary details and upload the prepared **3rd Party OSS Checklist** file.
 
-### 3. Request Review
-1. Save after creating OSS Table.
-2. Click the "Request Review" button in the upper right corner to request a review.
+
+#### Description of Each Field
+
+|Field | Description |
+|:---|:---|
+|**3rd Party Name**|Enter the 3rd Party Name.|
+|**Software Name**|Enter the name of the software received from the 3rd party.|
+|**Software Version**|Enter the version of the software received from the 3rd party.<br>(Identical versions for the same software cannot be duplicated.)|
+|**Delivery Form**|Select the form of the received software. (Source Code Form, Binary Form)|
+|**Permission**|Everyone: All users can view the information of the 3rd Party SW. <br>Creator/Watcher: Only the Watcher and Creator can view the 3rd Party SW; others cannot.|
+|**Description**|(Optional) If there is any additional information for Open Source Compliance, please write it.|
+|**Open Source Agreement**|(Optional) Attach only if you want to manage the contract at FOSSLight Hub.|
+|**OSS Checklist (Open Source List)**| Upload the pre-prepared 3rd Party OSS Checklist. (When uploading, select 'Open Source Software List' as the sheet to apply.)|
+|**fosslight_binary.txt**| (will be removed) Upload the fosslight_binary.txt file generated from the binary analysis results.|
+|**Related Documents**|(Optional) Upload the relevant documents provided by the 3rd Party.|
+|**Watcher**|Register the users with whom you want to share the information and status of the 3rd Party SW registration.|
+
+### 3. Request
+1. After entering the 3rd Party SW information, click the **Save** button(<img src="images/save_button.PNG" width="20" height="20" />).
+    ![3rd_party_save](images/5_third_party_save.PNG)
+
+2. After saving, click on the each Software name to enter the software.
+    ![3rd_party_save](images/5_third_party_save_2.PNG)
+
+3. For the loaded OSS, proceed with the **Pre-Review** on the middle left side. (Both Open Source and License)
+    ![3rd_party_save](images/5_third_party_save_3.PNG)
+
+4. If there are any changes, click the Save button(<img src="images/save_button.PNG" width="20" height="20" />) once more.
+
+5. Click the **Request** button at the top right to request a review.
+    ![3rd_party_save](images/5_third_party_save_5_request.PNG)
+
+## Notes
+### Create Project for OSS Notice
+If the software being distributed is composed solely of 3rd Party Software, you can directly create a **Project > Project** (<U>Identification Confirmed status</U>) from the confirmed 3rd Party Software. However, if identification confirmation is not possible, a project in the identification request status will be created.
 
 ## (Admin Only) 3rd Party Review
-1. In the 3rd Party List, double-click the 3rd Party, which is Status : Request.
-2. Click Review Start at the top right.
-    - Status : Changed to Review.
-3. Review the red warning message in the OSS table.
-    - If there is a red warning message on the OSS table, confirmation is not possible.
-    - To register as a new OSS, double-click the row and a new OSS registration pop-up filled in with the information of the row appears.
-4. When confirmation is complete, click the Confirm button.
-    - Click the Reject button to request confirmation from the user again. 
+1. Double-click the 3rd Party with Status : Request in the 3rd Party List.
+2. Click the **Review Start** button at the top right.
+    - The status will change to Review.
+3. Review the red warning messages in the OSS table.
+    - If there are red warning messages in the OSS table, confirmation is not possible.
+    - To register as a new OSS, double-click the row to open a new OSS registration popup with the information from that row.
+4. Once the review is complete, click the Confirm button.
+    - If you need to request confirmation from the user again, click the Reject button.
