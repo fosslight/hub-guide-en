@@ -15,6 +15,6 @@ The currently available buttons are shown for each menu. Examples for each menu 
   ![BtnProjectIdentification](../../images/common/information_view/btn_project_identification.png)
 
 - Self-Check:
-  ![img.png](../../images/common/information_view/btn_selfcheck.png)
+  ![BtnSelfCheck](../../images/common/information_view/btn_selfcheck.png)
 
 {% include list.liquid all=true %}
