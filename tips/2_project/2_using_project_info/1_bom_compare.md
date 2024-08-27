@@ -13,5 +13,5 @@ You can see the changes between the previous and current project versions.
 1. Select the two projects you want to compare from the project list.
 2. Click the BOM Compare button.
    ![BOMCompare](../../images/project/bom_compare/bom_compare_how.png){: width="80%"}
-3. A tab showing the BOM comparison will appear. You can check the differences between the before and after projects.
+3. A tab displaying the BOM comparison will appear. You can check the differences between the before and after projects.
    ![BOMCompareResult](../../images/project/bom_compare/bom_compare_result.png){: width="80%"}

@@ -11,5 +11,5 @@ you can automatically retrieve the stored information using the OSS Name and OSS
 
 - Enter the OSS Name and OSS Version.
 - After entering the Version, a popup will ask if you want to auto-fill. 
-  Click OK in the popup to complete the auto-fill.
+  Click OK in the popup to automatically retrieve the data.
   ![OSSTableAutoFill](../../images/common/oss_table_functions/oss_table_autofill.png)

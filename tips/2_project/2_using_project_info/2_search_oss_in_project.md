@@ -5,7 +5,7 @@ published: true
 
 # Search for Projects Containing Specific Open Source
 
-You can search for projects that include a specific open source through search criteria.
+You can search for projects that include a specific open source using search criteria.
 
 1. Click Advanced Search in the Search window.
    ![Search1](../../images/project/search/search_1.png)

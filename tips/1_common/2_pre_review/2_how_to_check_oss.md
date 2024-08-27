@@ -12,7 +12,7 @@ published: true
    ![PreReviewLicense](../../images/common/pre_review/pre_review_opensource.png)
 
 **Detailed Features**
-- If the written download location is redirected, 
+- If the specified download location is redirected, 
   a recommended OSS Name (Registered OSS Name) will be generated based on the redirect URL,  
   and you can check the redirect URL information at the bottom.
 - If the download location is inaccessible, a warning message <span style="color:red">Invalid download location.</span> 

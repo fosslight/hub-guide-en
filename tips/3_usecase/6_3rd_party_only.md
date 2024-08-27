@@ -6,7 +6,7 @@ published: true
 # 3rd Party Only Project
 
 This applies to projects that consist solely of software received from a 3rd party. 
-You can proceed with the OSC Process by loading only the 3rd party tab in the project.
+You can carry out the OSC Process by loading only the 3rd party tab in the project.
 
 1. In the 3rd party menu, create the 3rd party software and complete the review. 
    (Reference: [3rd Party SW Creation Guide](../../menu/5_third-party.md))

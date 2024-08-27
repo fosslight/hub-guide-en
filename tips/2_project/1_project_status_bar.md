@@ -5,10 +5,10 @@ published: true
 
 # Top Status Bar
 
-The top status bar of the project allows you to easily check the current status of the project and navigate to each stage.
+The top status bar of the project allows you to easily check the current status and navigate to each stage.
 
 > **Note**
-> Distribution is an LGE-only feature.
+> Distribution is a LGE-only feature.
 
 - You can check the status of the project. Here are some examples:
   - Progress (Distribution):  

@@ -5,10 +5,10 @@ published: true
 
 # Copy Button
 
-Use this button(![CopyIcon](../../images/common/information_view_button/copy-regular.png){: width="1.5%"})
+Click copy button(![CopyIcon](../../images/common/information_view_button/copy-regular.png){: width="1.5%"})
 to copy the current item. When you click the copy button,
 a new tab is created with the contents of the existing item copied. 
-After modifying the desired details, save the changes to store the copied content.
+After modifying the details as desired, save the changes to store the copied content.
 
 **Copy Example**
 

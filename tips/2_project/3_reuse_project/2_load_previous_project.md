@@ -32,5 +32,5 @@ Note: Only projects with the **Identification stage completed** can be imported.
    ![ProjectSearchDetailPreview](../../images/project/load_project/project_search_detail_preview.png){: width="80%"}
 6. Choose the desired import method in the popup.
    ![ProjectLoadPopup](../../images/project/load_project/project_load_popup.png){: width="80%"}
-    - Reset & Load: Clears the contents entered in the OSS table and loads the open source list from the selected project.
-    - Load & Append: Keeps the contents entered in the OSS table and adds the open source list from the selected project.
+    - Reset & Load: Clears the existing contents in the OSS table and loads the open source list from the selected project.
+    - Load & Append: Keeps the existing contents in the OSS table and adds the open source list from the selected project.

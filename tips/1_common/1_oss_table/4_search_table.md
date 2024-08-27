@@ -4,9 +4,10 @@ published: true
 ---
 
 # OSS Table Search
-A Filter Row is located below the Header Column. You can use this Filter Row to search for desired values.
+Beneath the header of the OSS Table, there is a filter for searching.
+You can use this filter to search for specific values within each column.
 ![OSSTableSearch](../../images/common/oss_table_functions/oss_table_search.png)
-- The Filter Row is composed as follows:
+- The Filter is composed as follows:
   - Search Conditions:
 
     | **Character**                                                    | ~        | ==    | !         | ^          | !^                  | !        | !@                | !~               |

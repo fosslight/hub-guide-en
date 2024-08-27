@@ -17,7 +17,7 @@ These are the types of OSS notices that can be issued from FOSSLight Hub.
   - Example: [OSS Notice Text](../../oss_notice_format/OSSNotice-4022_Sample%20Project_2021_20211230211007.txt)
 
 - Simple HTML
-  - Similar to the Html format, but the full license text is replaced with a link of the license text.
+  - Similar to the Html format, but the full license text is replaced with a link to the license text.
   - Example: [OSS Notice Simple HTML](../../oss_notice_format/simple_OSSNotice-4022_Sample%20Project_2021_20211230211010.html)
 
 - Simple Text

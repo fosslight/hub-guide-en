@@ -6,8 +6,8 @@ published: true
 # Network Service Distribution Project
 
 For projects that provide only network services, if no open source under a license that considers providing services 
-over a network as distribution is used, OSC process is completed at the **Identification stage**. 
-However, if such a license is used, OSC Process is continued to the **Distribution stage**.
+over a network as distribution is used, the OSC process is completed at the **Identification stage**. 
+However, if such a license is used, the OSC Process is continued to the **Distribution stage**.
 
 For network service projects, select the Distribution Type options as follows:  
 ![NetworkService](../images/usecase/dist_type/network_service_yes.png){: width="80%"}

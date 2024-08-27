@@ -5,6 +5,7 @@ published: true
 
 # Sync Button
 
-Click this button(![SyncIcon](../../images/common/information_view_button/rotate-solid.png){: width="1.5%"}) to sync the current item's content.
+Click sync button(![SyncIcon](../../images/common/information_view_button/rotate-solid.png){: width="1.5%"}) to sync the current item's content.
 This feature is only available on the Open Source screen. 
-For detailed usage, refer to [How to Sync Open Source](../../../menu/3_oss.md#oss-버전별-정보-일괄-변경-기능).
+For detailed instructions,
+refer to [Open Source Sync Guide](../../../menu/3_oss.md#update-information-for-each-oss-version-at-once).
