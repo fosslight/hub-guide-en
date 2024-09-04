@@ -4,14 +4,14 @@ published: true
 ---
 # License
 ```note
-You can check registered license information and add, modify, or delete licenses.
+You can view registered license information and add, modify, or delete licenses.
 You can check detailed information by clicking a cell in the License Name Column of the License List.
 ```
 ## License List
 ![LicenseList](images/3_lic_list.PNG)
 
 ### License Name
-- The License Full name follows the SPDX notation (<https://spdx.org/licenses/>).
+- The License Full Name follows the SPDX notation (<https://spdx.org/licenses/>).
 - If you click the value of the License Name column, you can check detailed information for each license.
 
 ### Identifier
@@ -19,39 +19,39 @@ You can check detailed information by clicking a cell in the License Name Column
 
 ### License Type
 - **Permissive**
-    - Known as BSD-like or BSD-style License, it has minimal requirements for software distribution.
+    - Known as BSD-like or BSD-style License, these licenses have minimal requirements for software distribution.
     - Typically, it is required to maintain the copyright notice and disclaimer.
 - **Weak Copyleft**
     - You can freely distribute copies and modified versions of the work on the condition that the same rights are retained in the derivative work. 
-    - Source codes of copies and revisions of the work must be disclosed.
+    - The source code of the original work and modifications must be disclosed.
 - **Copyleft**
-    - You can freely distribute copies and modified versions of the work on the condition that the same rights are maintained in the derivative work. 
-    - Not only copies and revisions of the work, but also the source code of the entire program linked to or operating with it must be disclosed.
+    - You can freely distribute copies and modified versions of the work on the condition that the same rights are retained in the derivative work. 
+    - Not only the source code of the original work and its modifications but also the source code of any linked or integrated programs must be disclosed.
 - **Proprietary**
     - Since it cannot be used without the permission of the software right holder, be sure to check the contractual relationship with respect to the use of the source code before using it.
 - **Proprietary Free**
-    - No additional contract is required, but can be used in a restricted form, specific terms and conditions or conditions.
+    - No additional contract is required, but can be used in specific terms and conditions or restrictions.
 
 ### Restriction
 
 |**Restriction Type**|**Description**|
 |-----|---|
 |**Non-Commercial Use Only**|Commercial use and distribution of software is prohibited. <br> ex) CC-BY-NC-X.X|
-|**Network Redistribution**|Just providing a service for use on a network is regarded as distribution, and the obligations of open source must be fulfilled. <br> ex) AGPL-3.0, OSL-2.0|
-|**No Modification**|You cannot distribute a modified version of the software. That is, it should be used without modifying the source code. <br> ex) CC-BY-ND-X.X|
-|**Platform Limitation**|Software distribution is restricted according to the operating system, technology, technology field used, and device type. <br> ex) Amazon Software License (must be used for web services, computing platforms, or applications provided by Amazon.com or its subsidiaries)|
+|**Network Redistribution**|Providing service over network is regarded as distribution, and the obligations of open source must be fulfilled. <br> ex) AGPL-3.0, OSL-2.0|
+|**No Modification**|You cannot distribute a modified version of the software. In other words, it should be used without modifying the source code. <br> ex) CC-BY-ND-X.X|
+|**Platform Limitation**|Software distribution is restricted based on the operating system, technology, technology field used, and device type. <br> ex) Amazon Software License (must be used for web services, computing platforms, or applications provided by Amazon.com or its subsidiaries)|
 |**Prohibited Purpose**|Software cannot be used for a specific purpose(field). <br> ex) The Happy Bunny License (cannot be used for military purposes)|
 |**Specification Constraints**|Software should be used in relation to a specific specification or standard. <br> ex) ETCPACK Software License Agreement (It can be used for compression and/or decompression according to the Khronos standard specifications) |
-|**Redistribution Restriction**|Restricted software sub-components (Source Code, Binary file, etc.) that can be redistributed. <br> ex) SOFTWARE LICENSE FOR VIVANTE CORPORATION (TM) USER SPACE GRAPHICS DRIVER BINARY (can only be redistributed in binary form|
-|**Contract Required**|It cannot be used without a commercial contract, with control over the use of the source code. <br>ex) QT Commercial License, NVIDIA Commercial License|
+|**Redistribution Restriction**|Restricted software sub-components (Source Code, Binary file, etc.) that can be redistributed. <br> ex) SOFTWARE LICENSE FOR VIVANTE CORPORATION (TM) USER SPACE GRAPHICS DRIVER BINARY (can only be redistributed in binary form)|
+|**Contract Required**|It cannot be used without a commercial contract. <br>ex) QT Commercial License, NVIDIA Commercial License|
 |**Internal Use Only**|It allowed only for internal use. <br> ex) Additional-Buildcraft-Objects-Mod License|
-|**No Charge**|It cannot be used if a fee is charged. <br> ex) Commons Clause License Condition v1.0, SIL Open Font License 1.1|
+|**No Charge**|It cannot be used if a fee is charged for the software. <br> ex) Commons Clause License Condition v1.0, SIL Open Font License 1.1|
 |**No Change the Name**|This license does not allow to change name. <br> ex) IPA Font License|
 |**Provide Installation Information Required**|It must provide installation information. <br> ex) GPL-3.0|
 |**Patent Warning**|This license may be subject to patent disputes and should be used with caution. <br> ex) Apple Public Source License|
 |**Semi-Copyleft**|This license has restrictions, but there are no problems with use if the source code is disclosed. <br> ex) Ruby License|
-|**Contact Required**|This license must be verified by contacting the copyright holder.|
-|**Unexpected Termination**|The license may be terminated at any time by the copyright holder.|
+|**Contact Required**|This license must be checked by contacting the copyright holder.|
+|**Unexpected Termination**|The license can be terminated at any time by the copyright holder.|
 |**Use Restriction**|There are restrictions on use, such as the number of users, country of use, and others.|
 
 ### Obligation
@@ -68,7 +68,7 @@ You can find out the notice and source code disclosure obligations for each lice
 ## (Admin Only) Add, Modify, Delete License
 ### Add
 ![NEW_OSS](images/3_lic_add.PNG)
-1. Click the Add button in the upper right of the License List.
+1. Click the Add button in the upper left of the License List.
 2. At the "New_License" tab, enter the information of the new OSS.
     - **License Name** and **Nick Name** cannot be duplicated.
     - **Obligation** :
