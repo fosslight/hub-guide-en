@@ -61,14 +61,23 @@ How to upgrade DB version using [MyBatis Migrations](https://mybatis.org/migrati
     ID             Applied At          Description
     ================================================================================
     20230322085317    ...pending...    create changelog
-    20230322091138    ...pending...    update v1.4.9
-    20230322092534    ...pending...    update v1.5.0
-
+    20230322092534    ...pending...    update v1.6.0
+    20230818004358    ...pending...    update v1.6.1
+    20240401085317    ...pending...    update 2.0.0-beta
+    20240702085317    ...pending...    update v2.0.0.pre-release
+    20240724045922    ...pending...    update v2.0.0.pre-release version oss components table
+    20240725150921    ...pending...    update v2.0.0
+    
     ------------------------------------------------------------------------
     -- MyBatis Migrations SUCCESS
     -- Total time: 0s
-    -- Finished at: Wed Mar 22 20:12:07 KST 2023
+    -- Finished at: Mon Oct 07 10:22:07 KST 2024
     -- Final Memory: 7M/500M
+    ------------------------------------------------------------------------
+   
+    $ cd scripts/
+    $ rm 20230322092534_update_v1.6.0.sql
+    $ rm 20230818004358_update_v1.6.1.sql
     ```
 
 4. Upgrade using the migrate up command
@@ -101,17 +110,18 @@ How to upgrade DB version using [MyBatis Migrations](https://mybatis.org/migrati
     ------------------------------------------------------------------------
     ID             Applied At          Description
     ================================================================================
-    20230322085317 2023-03-22 20:12:35 create changelog
-    20230322091138 2023-03-22 20:12:35 update v1.4.9
-    20230322092534 2023-03-22 20:12:36 update v1.5.0
-
+    20230322085317 2024-10-07 10:22:45 create changelog
+    20240401085317 2024-10-07 10:22:45 update 2.0.0-beta
+    20240702085317 2024-10-07 10:22:45 update v2.0.0.pre-release
+    20240724045922 2024-10-07 10:22:45 update v2.0.0.pre-release version oss components table
+    20240725150921 2024-10-07 10:22:47 update v2.0.0
+    
     ------------------------------------------------------------------------
     -- MyBatis Migrations SUCCESS
     -- Total time: 0s
-    -- Finished at: Wed Mar 22 20:12:39 KST 2023
+    -- Finished at: Mon Oct 07 10:24:19 KST 2024
     -- Final Memory: 7M/500M
     ------------------------------------------------------------------------
-
     ```
 
 ✏️Note. For detailed commands, see [MyBatis Migrations](https://mybatis.org/migrations/migrate.html).
