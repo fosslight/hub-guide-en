@@ -51,7 +51,7 @@ How to upgrade DB version using [MyBatis Migrations](https://mybatis.org/migrati
     $ export MIGRATIONS=$MIGRATIONS_HOME/bin
     $ export PATH=$MIGRATIONS:$PATH
     ```
-3. Upgrade after checking the migrate status.
+3. Check the migration status, keep only the migration scripts to be applied, and delete the rest of the scripts
     ```
     $ cd /home/test/fosslight/migration/migration
     $ migrate status
@@ -69,10 +69,31 @@ How to upgrade DB version using [MyBatis Migrations](https://mybatis.org/migrati
     -- Total time: 0s
     -- Finished at: Wed Mar 22 20:12:07 KST 2023
     -- Final Memory: 7M/500M
-
-    $ migrate up
     ```
-4. Check if the version up has been applied.
+
+4. Upgrade using the migrate up command
+    ```
+    $ migrate up
+    ------------------------------------------------------------------------
+    -- MyBatis Migrations - up
+    ------------------------------------------------------------------------
+    ========== Applying: 20230322085317_create_changelog.sql =======================
+    -- // Create Changelog
+    -- Default DDL for changelog table that will keep
+    -- a record of the migrations that have been run.
+    -- You can modify this to suit your database before
+    
+    ...
+    
+    ------------------------------------------------------------------------
+    -- MyBatis Migrations SUCCESS
+    -- Total time: 2s
+    -- Finished at: Mon Oct 07 10:22:47 KST 2024
+    -- Final Memory: 8M/500M
+    ------------------------------------------------------------------------
+    ```
+
+5. Check if the version up has been applied.
     ```
     $ migrate status
     ------------------------------------------------------------------------
