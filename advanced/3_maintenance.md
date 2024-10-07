@@ -17,11 +17,18 @@ $ mysqldump -ufosslight -pfosslight fosslight > fosslight_backup.sql
 3. Extract data with DELETE + INSERT.
     ![config](./images/sql_backup.png)
 
-### 2. Recovery    
-mysql -u[id] -p[password] [database_name] < [backup_file_name].sql
-```
-$ mysql -ufosslight -pfosslight fosslight < fosslight_backup.sql
-```
+### 2. Recovery
+1. Create a new empty DB to reflect the table structure according to the version and set the default values:
+
+   [Developer Documentation - Download & Installation - 4. Create Database and Initial Data Registration](../advanced/1_developer.md#download--installation)
+
+2. Restore the backup file:
+   
+    mysql -u[id] -p[password] [database_name] < [backup_file_name].sql
+
+    ```
+    $ mysql -ufosslight -pfosslight fosslight < fosslight_backup.sql
+    ```
 
 ## Upgrading the DB version
 How to upgrade DB version using [MyBatis Migrations](https://mybatis.org/migrations/migrate.html) (It is provided from the version that migrates from v1.5.0.)
