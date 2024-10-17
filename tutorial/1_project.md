@@ -11,6 +11,7 @@ Create a project and perform the OSC (Open Source Compliance) process.
 3. Packaging 
 4. Download OSS Notice
 ```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IUrQyj3s-Ps" title="FOSSLight Hub - 프로젝트 생성" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 1. Project creation
 1-1. Click the Add button in the Project List.  
