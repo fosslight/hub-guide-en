@@ -7,6 +7,7 @@ published: true
 The process required for the development and distribution of software that includes open source software is carried out sequentially.
 ![prj_status](images/4_prj_process_en.png)
 ```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IUrQyj3s-Ps" title="FOSSLight Hub - 프로젝트 생성" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Project List
 **You can search for a project, check the overall information of the project, and download the FOSSLight Report, OSS Notice, and OSS Package.**
