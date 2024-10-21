@@ -4,19 +4,19 @@ published: true
 ---
 # Binary DB
 ```note
- You can database (Binary DB) the binary information of the already analyzed Base Model and use it to automate the binary analysis of derivative models.
+ You can store the binary information of the already analyzed Base Model in a databse(Binary DB) and use it to automate the binary analysis of derivative models.
 ```
 
 ## How to use DB
 ###  Automation of Binary Analysis
 
-After uploading the binary analysis results of **Project > Identification > BIN, BIN(Android|Yocto) tab** or **the 3rd Party SoftWare(FOSSLight Report, binary.txt)** and clicking the Save button, FOSSLight Hub will automatically fill in the OSS Name, License, and other information by comparing it with the Binary DB for identical or similar binaries.
+After uploading the binary analysis results of **Project > Identification > BIN, BIN(Android|Yocto) tab** or **the 3rd Party Software(FOSSLight Report, binary.txt)** and clicking the Save button, FOSSLight Hub will automatically fill in the OSS Name, License, and other information by comparing it with the Binary DB for identical or similar binaries.
 -  binary.txt: A binary list file that includes checksum and TLSH values.
 
 ![binarytxt](images/11_upload_binary_txt.PNG)
 <br>
 ```note
-- When using [FOSSLight Binary Scanner v4.1.30 or later](https://github.com/fosslight/fosslight_binary_scanner/), you can check the TLSH and Checksum values in the Binary Sheet of the FOSSLight Report. (No need for the binary.txt file)
+- When using [FOSSLight Binary Scanner v4.1.30 or later](https://github.com/fosslight/fosslight_binary_scanner/), you can check the TLSH and Checksum values in the Binary Sheet of the FOSSLight Report. (binary.txt file is no longer needed)
 ```
 
 <br>
