@@ -4,7 +4,7 @@ published: true
 ---
 # 3rd Party
 ```note
-- Registers and manages the software's open source information received from the 3rd party.
+- Request the 3rd party to complete and submit the 3rd Party OSS Checklist, and register and manage the open source information of the received software.
 - Status : Only the 3rd party, which is Confirm, can be loaded from the Project > Identification - 3rd Party tab.
 ```
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IIOsmWupkn4" title="FOSSLight Hub - 3rd Party SW 등록" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -16,7 +16,7 @@ published: true
 
 ### 2. 3rd Party SW Registration
 ![3rd_party_list](images/5_third_party_list.PNG)
-1. Click on '3rd Party' on the left menu.
+1. Click on '3rd Party' in the left menu.
 2. Click the **Add** button at the top left of the 3rd Party List page.
 3. In the "New_3rdParty" tab, enter the 3rd party information and click Save.
     ![3rd_party_new](images/5_third_party_new.PNG)
