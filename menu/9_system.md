@@ -9,22 +9,22 @@ published: true
 
 ## Code Management
 ![config](images/9_system_code.PNG)
-- Set the setting value to be loaded during system operation.
+- Set the configuration values to be loaded during system operation.
 
 ## User Management
 ![config](images/9_system_user.PNG)
 Check the list of registered accounts and update the information.
-- **Create button** : Creates a Token to be used in [Rest API](../advanced/2_rest_api.md).
+- **Create button** : Creates a Token to be used for the [Rest API](../advanced/2_rest_api.md).
 - **Reset button** : Resets the password to the same ID as the ID.
-- **Use YN** : Set up dormant account.
-- **0Admin** : Admin authority is granted.
+- **Use YN** : Sets up dormant account.
+- **Admin** : Admin authority is granted.
 
 ## History List
 ![config](images/9_system_history.PNG)
 Check the data changes in the DB.
 
 ## Notification
-Manage the notification pop-up displayed when accessing the system.
+Manage the notification pop-up displayed when users access the system.
 ### ![config](images/9_system_noti_list.PNG)
 Check and edit the list of previously registered notifications.
 
