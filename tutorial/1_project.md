@@ -240,34 +240,14 @@ When Distribution is performed, the OSS notice and OSS package are registered on
 
 ## ⭐Tips for Project
 ### Check OSS Name Button (DEP, SRC, BIN Tab)
-**Automatically changes the OSS Name in the OSS Table based on the Download location saved in FOSSLight Hub.**
-- A pop-up displays the OSS list to be automatically converted.
-    - **Change OSS Name button**: Changes the OSS Name in the OSS Table for the checked rows.
-    - **<U>(Admin Only)</U> Add Nickname button**: Adds the OSS Name written in the OSS Table as a Nickname for the OSS saved in FOSSLight Hub for the checked rows.
+**Automatically changes to the OSS Name stored in the FOSSLight Hub based on the Download location written in the OSS Table.**
+- For detailed guidance, please refer to [Tips > Common > Pre-Review](../tips/1_common/2_pre_review).
  
 ### <a name="comment"></a> Adding Comments
-- Click the **Comment Edit** button at the top right of each tab to leave a comment. You can also send the comment via email to the Reviewer, Watcher, and Creator.
+- You can leave a comment on the project and send that comment via email to the Reviewer, Watcher, and Creator.
+- For detailed guidance, please refer to [Tips > Common > Comment](../tips/1_common/4_comment).
 
 
 ### <a name="warning"></a> OSS Table's Warning message 
-#### Meaning of Warning Messages by Color
-- <span style="color:red"> Red </span>: Needs correction; review request or confirmation is not possible. Review and modify as necessary.
-- <span style="color:blue"> Blue </span>: Review request and confirmation are possible, but further review is required. Please check carefully.
-- <span style="color:grey"> Gray </span>: Informational message; no specific action is needed.
-
-#### Review Items According to Warning Messages
-
-| Message  | Description |
-| ------------- | ------------- |
-|**This field is required**| This field requires input. |
-|**Unconfirmed open source**| This is a new OSS that has not been registered. |
-|**Unconfirmed version**| This is a new version that has not been registered. |
-|**Unconfirmed license**| This is a new license that has not been registered. |
-|**Dual license: Select a license**| It is marked as Dual License, but all licenses are being used. <br>Please select only the licenses you intend to use. |
-|**Specify OSS Name or put 1 license in a row**| The OSS Name is either "-" or blank while multiple licenses are written in a single row. <br>If the OSS Name is "-" or blank, please separate the licenses into different rows. |
-|**The address should be started with www**| The address format is incorrect. |
-|**Formatting error**| Line break characters are included. If multiple lines are needed, please add more rows. |
-|**Not the same as property**| The entered URL differs from the URL registered for the corresponding OSS in FOSSLight Hub. |
-
-
-
+- You can identify issues that need review through the Warning Message in the OSS Table.
+- The meaning of each Warning Message can be found in [Tips > Common > Warning Message](../tips/1_common/5_warning_message).
