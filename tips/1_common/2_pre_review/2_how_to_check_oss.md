@@ -8,10 +8,10 @@ published: true
 
 1. Click on Pre-Review > Open Source.
 2. Select the row you want to change to the 'Registered OSS Name (to be changed)' value.
-3. Click 'Change OSS Name'. The changed Open Source name will be reflected in the OSS Table.
+3. Click **'Change OSS Name'**. The changed Open Source name will be reflected in the OSS Table.
    ![PreReviewLicense](../../images/common/pre_review/pre_review_opensource.png)
 
-**Detailed Features**
+**Pre-Review Table Detailed Features**
 - If the specified download location is redirected, 
   a recommended OSS Name (Registered OSS Name) will be generated based on the redirect URL,  
   and you can check the redirect URL information at the bottom.
