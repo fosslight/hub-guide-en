@@ -78,7 +78,7 @@ This page is for entering basic information about the project.
 
 Click the Identification icon (<img src="images/tutorial_iden_icon.PNG" width="40" height="20" />) in the OSC Process section of the Project List to enter.
 
-##### Identification Process for General Projects
+**Identification Process for General Projects**
 - Click the **Request** button on the **BOM** tab after filling out the **3rd Party, DEP, SRC,** and **BIN** tabs for a review request.  
     - **3rd Party**: Load the 3rd Party included in the project.  
     - **DEP**: Document the dependency analysis results.  
@@ -86,7 +86,7 @@ Click the Identification icon (<img src="images/tutorial_iden_icon.PNG" width="4
     - **BIN**: Document the binary analysis results.  
     - **BOM**: Compile the OSS list from other tabs and review warning messages before requesting a review.
 
-##### Identification Process for Android/Yocto Models
+**Identification Process for Android/Yocto Models**
 - After filling out the **BIN(Android/Yocto)** tab, click the **Request** button to submit a review request.  
     - **BIN(Android/Yocto)**: Document the analysis results for the Android binary.
 
@@ -171,7 +171,7 @@ Collect the OSS lists written in the 3rd Party, DEP, SRC, and BIN tabs and submi
 ![prj](images/4_project_iden_bomtap.PNG)
 
 ##### How to Request a Review
-1. Click the Merge And Save button.  
+1. Click the **Save** button.  
    - This will consolidate the OSS lists from the 3rd Party, DEP, SRC, and BIN tabs.  
 2. Review the issues highlighted in the [Warning message](#warning).  
 3. Click the Request Review button to submit your review request.  
@@ -180,7 +180,7 @@ Collect the OSS lists written in the 3rd Party, DEP, SRC, and BIN tabs and submi
 ##### (Admin only) Review Process
 1. Click the Review Start button in the upper right corner of the BOM tab.
 2. Review the issues highlighted in the [Warning message](#warning).
-3. After clicking Merge And Save, click Confirm to activate the Packaging tab.  
+3. After clicking **Save**, click Confirm to activate the Packaging tab.  
    - If a re-confirmation from the Creator is needed, click **Reject** to change the status back to Progress.
 
 ### 3. Packaging
