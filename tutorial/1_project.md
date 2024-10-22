@@ -256,6 +256,7 @@ When Distribution is performed, the OSS notice and OSS package are registered on
 - <span style="color:grey"> Gray </span>: Informational message; no specific action is needed.
 
 #### Review Items According to Warning Messages
+
 | Message  | Description |
 | ------------- | ------------- |
 |**This field is required**| This field requires input. |
