@@ -8,7 +8,7 @@ You can view registered license information and add, modify, or delete licenses.
 You can check detailed information by clicking a cell in the License Name Column of the License List.
 ```
 ## License List
-![LicenseList](images/3_lic_list.PNG)
+![LicenseList](images/3_lic_list.png)
 
 ### License Name
 - The License Full Name follows the SPDX notation (<https://spdx.org/licenses/>).

@@ -168,7 +168,7 @@ You can select from the following methods to import 3rd Party Software informati
 
 
 Collect the OSS lists written in the 3rd Party, DEP, SRC, and BIN tabs and submit a review request.
-![prj](images/4_project_iden_bomtap.PNG)
+![prj](images/4_project_iden_bomtap.png)
 
 ##### How to Request a Review
 1. Click the **Save** button.  

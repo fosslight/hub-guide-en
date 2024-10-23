@@ -8,7 +8,7 @@ You can view registered OSS (Open Source Software) information and add, modify, 
 To see detailed information, click a cell in the OSS Name column of the OSS List. Deactivated Legacy OSS is displayed as a gray row.
 ```
 ## Open Source List
-![OssList](images/2_oss_list.PNG)
+![OssList](images/2_oss_list.png)
 
 ### ID
 - A number that identifies Open Source.
