@@ -48,8 +48,8 @@ To see detailed information, click a cell in the OSS Name column of the OSS List
 
 ### Obligation
 You can find out the notice and source code disclosure obligations for each open source.
-- **Notice Obligation**: Obligation for OSS Notice
-- **Source Code Obligation**: Obligation for distributing Source Code.
+- **Notice**: If the checkmark (![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to notify regarding copyright, license, or both.
+- **Source**: If the checkmark (![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to disclose the source code.
 
 ### Download Location
 - The URL is displayed as a link. You can go to the site or download Open Source by clicking on it.

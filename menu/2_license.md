@@ -56,8 +56,8 @@ You can check detailed information by clicking a cell in the License Name Column
 
 ### Obligation
 You can find out the notice and source code disclosure obligations for each license.
-- **Notice Obligation**(<img src="images/6_self_check_notice_icon.PNG" width="20" height="20" />): Obligation for OSS Notice
-- **Source Code Obligation**(<img src="images/6_self_check_src_icon.PNG" width="20" height="20" />): Obligation for distributing Source Code.
+- **Notice**: If the checkmark (![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to notify regarding copyright, license, or both.
+- **Source**: If the checkmark (![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to disclose the source code.
 
 ### Web site
 - Provides web site information of the original license. Click the URL to go to the site.
