@@ -8,11 +8,11 @@ published: true
 ```
 
 ## Code Management
-![config](images/9_system_code.PNG)
+![config](images/9_system_code.png)
 - Set the configuration values to be loaded during system operation.
 
 ## User Management
-![config](images/9_system_user.PNG)
+![config](images/9_system_user.png)
 Check the list of registered accounts and update the information.
 - **Create button** : Creates a Token to be used for the [Rest API](../advanced/2_rest_api.md).
 - **Reset button** : Resets the password to the same ID as the ID.
@@ -20,7 +20,7 @@ Check the list of registered accounts and update the information.
 - **Admin** : Admin authority is granted.
 
 ## History List
-![config](images/9_system_history.PNG)
+![config](images/9_system_history.png)
 Check the data changes in the DB.
 
 ## Notification
@@ -45,7 +45,7 @@ Check for Vulnerability Data changes.
 
 
 ## Server Setting
-![config](images/9_system_server.PNG)
+![config](images/9_system_server.png)
 ### Authentication using LDAP
 FOSSLight Hub supports user password authentication using LDAP in environments where LDAP, such as Active Directory, can be used via JNDI.
 - Provider Url: Set the LDAP server information in the format ldap://&lt;AD_SERVER_IP&gt;:&lt;LDAP_PORT&gt;. (javax.naming.Context.PROVIDER_URL)
