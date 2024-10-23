@@ -25,10 +25,10 @@ Check the data changes in the DB.
 
 ## Notification
 Manage the notification pop-up displayed when users access the system.
-### ![config](images/9_system_noti_list.PNG)
+### ![config](images/9_system_noti_list.png)
 Check and edit the list of previously registered notifications.
 
-### ![config](images/9_system_noti_add.PNG)
+### ![config](images/9_system_noti_add.png)
 
 Click the '+' button at the bottom left of the list to add a notice.
 - Start Date : Notification start date
