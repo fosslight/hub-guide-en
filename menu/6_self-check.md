@@ -67,9 +67,11 @@ Clicking the icon in the column below provides detailed information about the re
 
 #### Obligations/restrictions according to the use of OSS
 ❕ Details can be checked in the [**License List**](2_license.md).
-- **Obligation > Notify icon**(<img src="images/6_self_check_notice_icon.PNG" width="20" height="20" />): Indicates an obligation to notify regarding copyright, license, or both.
-- **Obligation > Source icon**(<img src="images/6_self_check_src_icon.PNG" width="20" height="20" />):  Indicates an obligation to disclose the source code.
-- **Restriction icon**: Indicates there are restrictions on using the OSS.  
+- **Notice Column**: If the checkmark (![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to notify regarding copyright, license, or both.
+- **Source Column**: If the checkmark (![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to disclose the source code.
+  - **Question Mark Icon** (<img src="images/6_self_check_unclear_icon.PNG" width="20" height="20" />) in the Notice/Source Column:
+    Obligations cannot be determined for unregistered Open Source/License.
+- **Restriction Column**: If the restriction icon (![RestrictionIcon](images/restriction_icon.png)) is marked, it indicates there are restrictions on using the OSS.  
 (E.g., restrictions on modification, restrictions on commercial use, etc.)
 
 ### 4. Check Vulnerability information
