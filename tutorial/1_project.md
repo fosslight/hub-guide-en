@@ -22,7 +22,7 @@ Create a project and perform the OSC (Open Source Compliance) process.
 ![prj_add](images/4_project_add.png)
 
 2. Enter the project-related information in the **New_Project** tab.
-![prj_add_bi](images/4_project_add_bi.PNG)
+   ![prj_add_information](images/4_project_add_information.png)
 
 3. Click the **Save**(<img src="images/save_button.PNG" width="20" height="20" />) button at the top right corner to finalize your entries.  
 <br>
