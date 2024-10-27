@@ -35,6 +35,10 @@ This page is for entering basic information about the project.
 - **Project Version**: Enter the project version. Leave blank if not applicable.
 - **Permission**: Set project visibility. Choose 'Creator & Watcher' for limited visibility, or 'Everyone' for full visibility.
 - **Operating System**: Select the OS or manually input it.
+- **Security Mail (Vulnerability)**: Indicates whether to receive Vulnerability emails for the project.
+  - By default, Enable is selected.
+  - If Disable is selected, Vulnerability emails for the project will no longer be received.
+  - When changing to Disable, the reason for disabling must be entered.
 - **Distribution Type**: Select the distribution type
     - **General Model**: For distributing general model, software, or applications.
     - **Transfer in-house**: For internal company transfers.
