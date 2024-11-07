@@ -35,7 +35,7 @@ published: true
 |**Description**|(Optional) Enter additional information for Open Source Compliance, if applicable.|
 |**Open Source Agreement**|(Optional) Attach only if you want to manage the contract in FOSSLight Hub.|
 |**OSS Checklist (Open Source List)**| Upload the pre-prepared 3rd Party OSS Checklist. (When uploading, select 'Open Source Software List' as the sheet to apply.)|
-|**fosslight_binary.txt**| (Will be removed) Upload the fosslight_binary.txt file generated from the binary analysis results.|
+|**(Legacy)fosslight_binary.txt**| (Will be removed) Upload the fosslight_binary.txt file generated from the binary analysis results.|
 |**Related Documents**|(Optional) Upload the relevant documents provided by the 3rd Party.|
 |**Watcher**|Register the users with whom you want to share the information and status of the 3rd Party SW registration.|
 
