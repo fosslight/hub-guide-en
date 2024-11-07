@@ -10,7 +10,7 @@ published: true
 ## How to use DB
 ###  Automation of Binary Analysis
 
-After uploading the binary analysis results of **Project > Identification > BIN, BIN(Android|Yocto) tab** or **the 3rd Party Software(FOSSLight Report, binary.txt)** and clicking the Save button, FOSSLight Hub will automatically fill in the OSS Name, License, and other information by comparing it with the Binary DB for identical or similar binaries.
+After uploading the binary analysis results of **Project > Identification > [BIN](https://fosslight.org/hub-guide-en/tutorial/1_project.html#2-4-bin-tab), BIN(Android|Yocto) tab** or **the 3rd Party Software(FOSSLight Report, binary.txt)** and clicking the Save button, FOSSLight Hub will automatically fill in the OSS Name, License, and other information by comparing it with the Binary DB for identical or similar binaries.
 -  binary.txt: A binary list file that includes checksum and TLSH values.
 
 ![binarytxt](images/11_upload_binary_txt.PNG)
