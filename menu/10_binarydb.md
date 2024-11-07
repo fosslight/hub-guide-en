@@ -13,7 +13,7 @@ published: true
 After uploading the binary analysis results of **Project > Identification > [BIN](https://fosslight.org/hub-guide-en/tutorial/1_project.html#2-4-bin-tab), BIN(Android|Yocto) tab** or **the 3rd Party Software(FOSSLight Report, binary.txt)** and clicking the Save button, FOSSLight Hub will automatically fill in the OSS Name, License, and other information by comparing it with the Binary DB for identical or similar binaries.
 -  binary.txt
     - A binary list file that includes checksum and TLSH values.
-        - As of FOSSLight Binary Scanner v4.1.31, binary.txt file is not generated.
+        - As of [FOSSLight Binary Scanner v4.1.31](https://github.com/fosslight/fosslight_binary_scanner/releases/tag/v4.1.31), binary.txt file is not generated.
         - Printed at FOSSLight Report file (hidden by default)
 
 ![binarytxt](images/11_upload_binary_txt.PNG)
