@@ -4,12 +4,12 @@ published: true
 ---
 
 # OSS Table Warning Message
-You can identify issues that need review through the Warning Message in the OSS Table.
+You can identify issues that need to be reviewed through the Warning Message in the OSS Table.
 
 ## Meaning of Warning Messages by Color
-- <span style="color:red"> Red </span>: Needs correction; review request or confirmation is not possible. Review and modify as necessary.
+- <span style="color:red"> Red </span>: Requires correction; review request or confirmation is not possible. Review and modify as necessary.
 - <span style="color:blue"> Blue </span>: Review request and confirmation are possible, but further review is required. Please check carefully.
-- <span style="color:grey"> Gray </span>: Informational message; no specific action is needed.
+- <span style="color:grey"> Gray </span>: Informational message; no specific action is required.
 
 ## Review Items According to Warning Messages
 

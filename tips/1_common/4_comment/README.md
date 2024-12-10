@@ -7,7 +7,7 @@ published: true
 
 In the detailed view of License, Open Source, Project, or 3rd Party, 
 the Comment View for history management can be found on the right side. 
-Comments can be used to record change history or facilitate communication between reviewers and users.
+Comments can be used to record change history and facilitate communication between reviewers and users.
 
 ![CommentView](../../images/common/comment/comment_view.png)
 
