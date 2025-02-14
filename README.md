@@ -35,6 +35,9 @@ This guide page describes the basic usage and tutorial of FOSSLight Hub and adva
 - [REST API](advanced/2_rest_api.md)
 - [Maintenance](advanced/3_maintenance.md)
 
+### LEARN MORE
+- [FOSSLight Report](learn/2_fosslight_report.md)
+
 ## License
 [FOSSLight Hub](https://github.com/fosslight/fosslight) is released under the Open Source License [AGPL-3.0][agpl].
 
