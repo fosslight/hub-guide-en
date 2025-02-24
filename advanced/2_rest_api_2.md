@@ -52,8 +52,8 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 Query the license information.<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black">licenseName</strong>: The name of the license to be queried</li>
-                    <li><strong class="highlight-black">licenseNameExact</strong>: If set to true, only licenses that exactly match the value entered in licenseName will be queried (default = Y)</li>
-                    <li><strong class="highlight-black">countPerPage</strong>: The number of items to query at once (default = 10000)</li>
+                    <li><strong class="highlight-black">licenseNameExact</strong>: If set to true, only licenses that exactly match the value entered in licenseName will be listed(default = Y)</li>
+                    <li><strong class="highlight-black">countPerPage</strong>: The number of items to be listed at once (default = 10000)</li>
                     <li><strong class="highlight-black">page</strong>: The page number to query (default = 1)</li>
                 </ul>
             </td>
@@ -65,11 +65,11 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 Query Open Source information.<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black">downloadLocation</strong>: Value of the download location to query</li>
-                    <li><strong class="highlight-black">downloadLocationExact</strong>: If set to true, only open source that exactly matches the value entered in downloadLocation will be queried (default = Y)</li>
+                    <li><strong class="highlight-black">downloadLocationExact</strong>: If set to true, only open source that exactly matches the value entered in downloadLocation will be listed (default = Y)</li>
                     <li><strong class="highlight-black">ossName</strong>: Name of the open source to query</li>
                     <li><strong class="highlight-black">ossNameExact</strong>: If set to true, only open source that exactly matches the value entered in ossName will be queried (default = Y)</li>
                     <li><strong class="highlight-black">ossVersion</strong>: Version of the open source to query</li>
-                    <li><strong class="highlight-black">countPerPage</strong>: Number of items to query at once (default = 10000)</li>
+                    <li><strong class="highlight-black">countPerPage</strong>: Number of items to be listed at once (default = 10000)</li>
                     <li><strong class="highlight-black">page</strong>: Page number to query (default = 1)</li>
                 </ul>
             </td>
@@ -124,7 +124,7 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                     <li><strong class="highlight-black">partnerIdList</strong>: Query based on the 3rd party ID. Multiple entries can be input in list format</li>
                     <li><strong class="highlight-black">status</strong>: Query based on the status of the 3rd party</li>
                     <li><strong class="highlight-black">updateDate</strong>: Query based on the update date of the 3rd party (fromDate-toDate)</li>
-                    <li><strong class="highlight-black">countPerPage</strong>: Number of items to query at once (default = 1000)</li>
+                    <li><strong class="highlight-black">countPerPage</strong>: Number of items to be listed at once (default = 1000)</li>
                     <li><strong class="highlight-black">page</strong>: Page number to query (default = 1)</li>
                 </ul>
             </td>
@@ -222,7 +222,7 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                     <li><strong class="highlight-black">prjNameExactYn</strong>: Set to true to retrieve only projects that exactly match the input project name</li>
                     <li><strong class="highlight-black">status</strong>: Query based on the status of the Project</li>
                     <li><strong class="highlight-black">updateDate</strong>: Query based on the date the Project was modified (fromDate-toDate)</li>
-                    <li><strong class="highlight-black">countPerPage</strong>: Number of items to query at once (default = 1000, max = 1000)</li>
+                    <li><strong class="highlight-black">countPerPage</strong>: Number of items to be listed at once (default = 1000, max = 1000)</li>
                     <li><strong class="highlight-black">page</strong>: Page number to query (default = 1)</li>
                 </ul>
             </td>
@@ -253,7 +253,7 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/selectModelListUsingGET_1"><span class="highlight">GET /api/v2/projects/models</span></a></td>
             <td><span class="highlight">JSON</span></td>
             <td>
-                Retrieve model information for the Project.<br><br>
+                 Query model information for the Project.<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> prjIdList</strong>: Information of the project IDs to be queried. Multiple IDs can be input in list form.</li>
                 </ul>
@@ -365,7 +365,7 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
             <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjSecurityExportJsonUsingGET_1"><span class="highlight">GET /api/v2/projects/{id}/security/json-data</span></a></td>
             <td><span class="highlight">JSON</span></td>
             <td>
-                Receive security vulnerability information detected in the project in JSON format<br><br>
+                Query security vulnerability information detected in the project in JSON format<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
                 </ul>
