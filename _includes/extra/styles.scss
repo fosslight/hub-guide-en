@@ -280,3 +280,64 @@ body {
   padding: 0;
   font-size: 16px;
 }
+
+//style 추가 
+$border-color: #DDDDDD; // 테두리 색상
+$highlight-color: #0066CC; // 강조 색상
+$font-family: 'Courier New'; // 폰트 패밀리
+$padding: 2px 6px; // 패딩
+$border-radius: 4px; // 테두리 반경
+
+// 테이블 스타일
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+// 강조 스타일
+.highlight {
+    font-family: $font-family;
+    font-weight: 600;
+    color: $highlight-color;
+    border: 1px solid $border-color;
+    padding: $padding;
+    border-radius: $border-radius;
+}
+
+.highlight-black {
+    font-family: $font-family;
+    font-weight: 600;
+    border: 1px solid $border-color;
+    padding: $padding;
+    border-radius: $border-radius;
+}
+
+.gray-text {
+  color: gray;
+}
+
+// 도트 및 화살표 스타일
+.large-dot {
+    font-size: 1em; // 도트 크기 조정
+    color: inherit; // 기본 텍스트 색상으로 설정
+}
+
+
+// 설명 스타일
+.description {
+    padding-left: 20px; // 왼쪽 여백 추가
+}
+
+//h2 제목 스타일 
+.specific-title {
+  font-size: 16px !important;
+  color: #000000;
+  text-align: left;
+  margin-top: 40px;
+  padding: 10px;
+  border: none; 
+  background-color: #ffe4e1;
+  border-radius: 5px;
+  display: block; 
+  width: 100%; 
+}

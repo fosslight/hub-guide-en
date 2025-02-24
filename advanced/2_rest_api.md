@@ -1,6 +1,7 @@
-# REST API
+# REST API v1
 ```note
-Functions of FOSSLight can be called with REST API.
+Functions of FOSSLight can be called with REST API.  
+REST API V1 will be supported until the end of March. Please use REST API V2 starting in April.
 ```
 
 ## How to start
