@@ -7,7 +7,7 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
 1. Log in with your **Admin account**
 2. **In the System > User Management** tab, you can issue a **Token** for each **User**.
 
-## REST API Lists
+## REST API List
 <div style="border: 1px solid #d3d3d3; border-radius: 5px; padding: 10px; margin: 20px 0;">
     :sparkles: Refer to the link below for API operation and return value.
     <p style="margin-left: 25px;">
@@ -78,7 +78,7 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/registerOssUsingPOST_1"><span class="highlight">POST /api/v2/oss</span></a></td>
             <td><span class="highlight">JSON</span></td>
             <td>
-                <span style="color: red;">(Admin only)</span> Registering Open Source.<br><br>
+                <span style="color: red;">(Admin only)</span> Register Open Source.<br><br>
                 <ul class="description-list">
                     <li>Input data according to the ossMaster format</li>
                 </ul>
@@ -264,7 +264,7 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjBomAsJsonUsingGET"><span class="highlight">GET /api/v2/projects/{id}/bom/json-data</span></a></td>
             <td><span class="highlight">JSON</span></td>
             <td>
-                Project BOM export - Receive in JSON format.<br><br>
+                Project BOM export - Received in JSON format.<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
                     <li><strong class="highlight-black">saveFlag</strong>: Choose whether to update the BOM based on the information at the time of API execution (default = Y)</li>
