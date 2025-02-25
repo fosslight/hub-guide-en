@@ -161,38 +161,6 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
-            <td><span class="highlight gray-text">(Deprecated) GET /api/v2/partners/{id}/file</span></td>
-            <td><span class="highlight gray-text">FILE</span></td>
-            <td>
-                <span class="gray-text">3rd Party BOM export - Download in file format.</span><br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black gray-text">(required) format</strong>: File format to extract</li>
-                    <li><strong class="highlight-black gray-text">(required) id</strong>: 3rd party ID of the target to query</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><span class="highlight gray-text">(Deprecated) GET ​/api​/v2​/partners​/{id}​/json-data</span></td>
-            <td><span class="highlight gray-text">JSON</span></td>
-            <td>
-                <span class="gray-text">3rd Party BOM export - Received in JSON format.</span><br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black gray-text">(required) id</strong>: 3rd party ID of the target</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><span class="highlight gray-text">(Deprecated) POST /api/v2/partners/{id}/watchers</span></td>
-            <td><span class="highlight gray-text">JSON</span></td>
-            <td>
-                <span class="gray-text">Add a watcher to the 3rd party.</span><br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black gray-text">(required) emailList</strong>: Email information of the watchers to be added</li>
-                    <li><strong class="highlight-black gray-text">(required) id</strong>: 3rd party ID of the target</li>
-                </ul>
-            </td>
-        </tr>
     </tbody>
 </table>
 
@@ -413,17 +381,6 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
-            <td><span class="highlight gray-text">(Deprecated) POST /api/v2/projects/{id}/watchers</span></td>
-            <td><span class="highlight gray-text">JSON</span></td>
-            <td>
-                <span class="gray-text">Add a watcher to the project</span><br><br>
-                <ul class="description-list gray-text">
-                    <li><strong class="highlight-black gray-text">(required) emailList</strong>: Email information of the watchers to be added</li>
-                    <li><strong class="highlight-black gray-text">(required) id</strong>: Target project ID</li>
-                </ul>
-            </td>
-        </tr>
     </tbody>
 </table>
 
@@ -526,27 +483,6 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target Self-Check project ID</li>
                     <li><strong class="highlight-black">resetFlag</strong>: Whether to reset existing information when uploading the file. N - Append to the existing OSS Table without resetting (default = Y)</li>
                     <li><strong class="highlight-black">sheetNames</strong>: If you want to update specific sheet names from the report file to upload, enter them here. If not entered, information will be fetched based on the default prefixes DEP, SRC, BIN. Multiple sheets can be entered separated by commas (,).</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><span class="highlight gray-text">(Deprecated) POST /api/v2/selfchecks/{id}/watchers</span></td>
-            <td><span class="highlight gray-text">-</span></td>
-            <td>
-                <span class="gray-text">Add a watcher to Self-Check.</span><br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black gray-text">(required) emailList</strong>:  Email information of the watcher to add</li>
-                    <li><strong class="highlight-black gray-text">(required) id</strong>: Target project ID</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td><span class="highlight gray-text">(Deprecated) GET /api/v2/selfchecks/{id}/export</span></td>
-            <td><span class="highlight gray-text">FILE</span></td>
-            <td>
-                <span class="gray-text">Download the result file exported from Self-Check.</span><br><br>
-                <ul class="description-list">
-                    <li><strong class="highlight-black gray-text">(required) id</strong>: Self-Check project ID to query</li>
                 </ul>
             </td>
         </tr>
