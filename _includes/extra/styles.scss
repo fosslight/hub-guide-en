@@ -341,3 +341,14 @@ table {
   display: block; 
   width: 100%; 
 }
+
+.left-bar-title {
+  color: #000000;
+  text-align: left;
+  padding: 2px; /* 패딩을 줄여서 높이를 줄임 */
+  border-left: 5px solid #E6E6E6; /* 두께를 6px로 증가 */
+  border-radius: 0 4px 4px 0;
+  display: block;
+  width: 100%;
+  margin: 40px 0 20px 0;
+}
