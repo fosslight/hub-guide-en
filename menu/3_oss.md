@@ -8,13 +8,16 @@ You can view registered OSS (Open Source Software) information and add, modify, 
 To see detailed information, click a cell in the OSS Name column of the OSS List. Deactivated Legacy OSS is displayed as a gray row.
 ```
 ## Open Source List
+{: .left-bar-title }
 ![OssList](images/2_oss_list.png)
 
 ### ID
+{: .specific-title}  
 - A number that identifies Open Source.
 - If multiple versions of Open Source are registered, '+' is displayed and the highest version is displayed. If you click the '+' button, you can see the other version of same Open Source 
 
 ### OSS Type
+{: .specific-title}  
 - **Multi**
     - The OSS contains source code of multiple licenses.
     - Only the licenses corresponding to the source code that you actually use for the project sholuld be included in the OSS report or Identification.
@@ -27,15 +30,18 @@ To see detailed information, click a cell in the OSS Name column of the OSS List
     - As the license is different according to the version, license differs by oss versions.
 
 ### OSS Name
+{: .specific-title}  
 - The OSS marked with 'Nick' has multiple names.    
     Ex) Nick name of "bison" is "Bison parser" and "GNU bison" all expressing the same OSS.  
         If you add GNU bison (nick name) on Identification, it is automatically changed to bison(OSS name).  
 - When searching, auto-completion is supported and a list of partially matching OSS names is displayed after inputting 3 characters. 
       
 ### Version
+{: .specific-title}  
 - It means the OSS version.
 
 ### License Name
+{: .specific-title}  
 - You can see the declared license of the OSS.
 - Multi License is indicated with <span style="color:red">AND</span> for all licenses included in the OSS.
 - Dual License allows you to choose from multiple licenses for the OSS and is indicated with <span style="color:red">OR</span>.
@@ -43,29 +49,37 @@ To see detailed information, click a cell in the OSS Name column of the OSS List
 
 
 ### License Type
+{: .specific-title}  
 - Please refer to the following page.
     - [License Type](https://fosslight.org/hub-guide/menu/2_license.html#license-type) 
 
 ### Obligation
+{: .specific-title}  
 You can find out the notice and source code disclosure obligations for each open source.
 - **Notice**: If the checkmark (![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to notify regarding copyright, license, or both.
 - **Source**: If the checkmark (![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to disclose the source code.
 
 ### Download Location
+{: .specific-title}  
 - The URL is displayed as a link. You can go to the site or download Open Source by clicking on it.
+- You can check the Purl information, which is a unique identifier for web resources.
 
 ### Homepage
+{: .specific-title}  
 - If an official Open Source site exists, it is displayed as a URL, and clicking on it will take you to the respective site.
 - When you hover over the URL with your mouse, you can see the detailed address.
 
 ### Description
+{: .specific-title}  
 - You can check the precautions when using the Open Source.
 
 ### Vulnerability
+{: .specific-title}  
 - When the OSS is found in the NVD database, it is displayed with the colored Vulnerability icon according to the severity of the vulnerability(CVE score).
 
 
-## (Admin Only) Add, Modify, Delete, Copy, Sync OSS 
+## (Admin Only) Add, Modify, Delete, Copy, Sync OSS
+{: .left-bar-title } 
 ### Add
 ![NEW_OSS](images/2_oss_add_new.PNG) 
 1. Click the **Add** button in the upper left of the OSS List.
@@ -76,12 +90,37 @@ You can find out the notice and source code disclosure obligations for each open
 3. Click the **Save** button at the upper right.
 
 ### OSS Details tab
+{: .specific-title}  
 Click the OSS Name in the OSS List.    
 The Editable option and the Save, Sync, Copy, and Delete buttons are displayed only if you are an Admin.  
-![OSS_DETAIL](images/2_oss_detail.PNG) 
+![OSS_DETAIL](images/2_oss_detail.png) 
 
 #### OSS Modify
 - Modify the information in the OSS Details tab and Click the **Save** button at the upper right.
+
+#### Vulnerability Info
+1. OSS Version Alias: Additional version information to be mapped when mapping CVE-ID.
+2. Include CPE: CPE information to be mapped when mapping CVE-ID.
+3. Exclude CPE: CPE information to be excluded when mapping CVE-ID.
+
+#### Detected License 
+1. Additional license information detected in OSS.
+For detailed information, please refer to the [Restriction](https://fosslight.org/hub-guide-en/menu/2_license.html#restriction) link.  
+    ![restriction_green](images/2_oss_green.png) : Level 1  
+    ![restriction_yellow](images/2_oss_yellow.png) : Level 2~3  
+    ![restriction_red](images/2_oss_red.png) : Level 4~5
+
+#### Summary Description
+1. You can check the precautions when using Open Source.
+
+#### Project
+1. You can check the project information where the OSS has been used.
+
+#### Restriction 
+1. Restrictions for each OSS are displayed with different icon colors based on the level, separate from the restrictions of the license.
+
+
+
 
 #### OSS Copy
 The OSS copy function is useful when adding different versions of the same OSS.
