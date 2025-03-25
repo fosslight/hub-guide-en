@@ -3,10 +3,11 @@ sort: 3
 published: true
 ---
 # Open Source
-```note
-You can view registered OSS (Open Source Software) information and add, modify, or delete OSS.
-To see detailed information, click a cell in the OSS Name column of the OSS List. Deactivated Legacy OSS is displayed as a gray row.
-```
+<div class="note">
+You can view registered OSS (Open Source Software) information and add, modify, or delete OSS.<br>
+To see detailed information, click a cell in the OSS Name column of the OSS List. Deactivated Legacy OSS is displayed as a gray row.<br>
+</div>
+
 ## Open Source List
 {: .left-bar-title }
 ![OssList](images/2_oss_list.png)
@@ -55,9 +56,9 @@ To see detailed information, click a cell in the OSS Name column of the OSS List
 
 ### Obligation
 {: .specific-title}  
-You can find out the notice and source code disclosure obligations for each open source.
-- **Notice**: If the checkmark (![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to notify regarding copyright, license, or both.
-- **Source**: If the checkmark (![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to disclose the source code.
+- You can find out the notice and source code disclosure obligations for each open source.
+    - **Notice**: If the checkmark (![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to notify regarding copyright, license, or both.
+    - **Source**: If the checkmark (![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to disclose the source code.
 
 ### Download Location
 {: .specific-title}  
@@ -77,59 +78,72 @@ You can find out the notice and source code disclosure obligations for each open
 {: .specific-title}  
 - When the OSS is found in the NVD database, it is displayed with the colored Vulnerability icon according to the severity of the vulnerability(CVE score).
 
-
-## (Admin Only) Add, Modify, Delete, Copy, Sync OSS
+## OSS Details
 {: .left-bar-title } 
-### Add
-![NEW_OSS](images/2_oss_add_new.PNG) 
-1. Click the **Add** button in the upper left of the OSS List.
-2. In the "New_Opensource" tab, enter the information of the new OSS.
-    - OSS Name and Nick Name cannot be duplicated.
-    - Summary Description : Fill in information about the OSS.
-    - Attribution : Fill in the phrase that must be included in issued OSS Notice.
-3. Click the **Save** button at the upper right.
-
-### OSS Details tab
-{: .specific-title}  
 Click the OSS Name in the OSS List.    
 The Editable option and the Save, Sync, Copy, and Delete buttons are displayed only if you are an Admin.  
-![OSS_DETAIL](images/2_oss_detail.png) 
+![OSS_DETAIL](images/2_oss_user_detail.png) 
 
-#### OSS Modify
-- Modify the information in the OSS Details tab and Click the **Save** button at the upper right.
-
-#### Vulnerability Info
+### Vulnerability Info
+{: .specific-title} 
 1. OSS Version Alias: Additional version information to be mapped when mapping CVE-ID.
 2. Include CPE: CPE information to be mapped when mapping CVE-ID.
 3. Exclude CPE: CPE information to be excluded when mapping CVE-ID.
 
-#### Detected License 
-1. Additional license information detected in OSS.
+### Detected License
+{: .specific-title} 
+- Additional license information detected in OSS.
+
+### Restriction
+{: .specific-title}  
+- Restrictions for each OSS are displayed with different icon colors based on the level, separate from the restrictions of the license.
 For detailed information, please refer to the [Restriction](https://fosslight.org/hub-guide-en/menu/2_license.html#restriction) link.  
     ![restriction_green](images/2_oss_green.png) : Level 1  
     ![restriction_yellow](images/2_oss_yellow.png) : Level 2~3  
     ![restriction_red](images/2_oss_red.png) : Level 4~5
 
-#### Summary Description
-1. You can check the precautions when using Open Source.
+### Summary Description
+{: .specific-title} 
+- You can check the precautions when using Open Source.
 
-#### Project
-1. You can check the project information where the OSS has been used.
+### Important Notes 
+{: .specific-title}
+- You can check the important considerations when using OSS. 
 
-#### Restriction 
-1. Restrictions for each OSS are displayed with different icon colors based on the level, separate from the restrictions of the license.
+### Attribution 
+{: .specific-title}
+- You can check the content that is included additionally when issuing an OSS Notice.
+
+## (Admin Only) Add, Modify, Delete, Copy, Sync OSS
+{: .left-bar-title } 
+<details>
+<summary>OSS Details(Admin)</summary>  
+<img src="images/2_oss_detail.png" alt="NEW_OSS" style="max-width: 100%; height: auto;">
+</details>
+
+### Add
+{: .specific-title}
+{: .specific-title}
+1. Click the **Add** button in the upper left of the OSS List.
+2. In the "New_Opensource" tab, enter the information of the new OSS.
+    - OSS Name and Nick Name cannot be duplicated.
+3. Click the **Save** button at the upper right.
 
 
-
+### OSS Modify
+{: .specific-title}
+- Modify the information in the OSS Details tab and Click the **Save** button at the upper right.
 
 #### OSS Copy
-The OSS copy function is useful when adding different versions of the same OSS.
-1. Click the **Copy** button at the upper right.
-2. The "New_Opensource" tab appears with the same OSS information.
-3. At this time, "_Copied" is appended to the OSS Name.
-4. After editing the information, click the **Save** button at the upper right to register OSS.
+{: .specific-title}
+- The OSS copy function is useful when adding different versions of the same OSS.
+    1. Click the **Copy** button at the upper right.
+    2. The "New_Opensource" tab appears with the same OSS information.
+    3. At this time, "_Copied" is appended to the OSS Name.
+    4. After editing the information, click the **Save** button at the upper right to register OSS.
 
-#### OSS Delete
+### OSS Delete
+{: .specific-title}
 1. In the OSS Details tab, fill in the reason for deletion in the Comment column.
 2. Click the **Delete** button at the upper right.
     - 📢 If the relevant OSS is included in the project where the identification step is confirmed, a window for selecting another OSS to be merged will pop up when clicking the Delete button.
@@ -137,15 +151,17 @@ The OSS copy function is useful when adding different versions of the same OSS.
         - If you select the OSS to be merged, name and nicknames of the OSS to be deleted will be add as nicknames of the OSS to be merged. 
 
 
-#### Update information for each OSS version at once
-If multiple versions are registered in OSS, information for each version is updated at once.
-Click the **Sync** button at the upper right.
+### Update information for each OSS version at once
+{: .specific-title}
+- If multiple versions are registered in OSS, information for each version is updated at once. Click the **Sync** button at the upper right.
 ![OSS_SYNC](images/2_oss_sync.PNG)  
-- (1) Select the OSS version to be modified.
-     - Versions that already have the same OSS information are grayed out and cannot be selected.
-- (2) Select the OSS information to be modified. Information is updated only for checked items.
-     - The information displayed is the OSS information of the corresponding version of the row selected in (1).
-- (3) Comment field.
-     - When you click OK, the comment entered in the OSS version to be modified selected in (1) is added.
+    1. Select the OSS version to be modified.
+        - Versions that already have the same OSS information are grayed out and cannot be selected.
+    2. Select the OSS information to be modified. Information is updated only for checked items.
+        - The information displayed is the OSS information of the corresponding version of the row selected in (1).
+    3. Comment field.
+        - When you click OK, the comment entered in the OSS version to be modified selected in (1) is added.
 
-
+### Project
+{: .specific-title}
+- You can check the project information where the OSS has been used.
