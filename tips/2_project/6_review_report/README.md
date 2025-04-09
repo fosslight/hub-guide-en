@@ -3,8 +3,14 @@ sort: 6
 published: true
 ---
 
-# Review Report  
+# Review Report 
+<div class="note">
+The Review Report can be used to verify open source compliance and helps efficiently manage risks by checking OSS components and identifying and resolving security vulnerabilities before product release.
+</div>
+<br>
+
 The Review Report is issued based on the BOM details upon confirmation of the project's identification.
+- The Review Report is generated based on data from the FOSSLight DB. Therefore, to ensure an accurate report, the OSS and license information recorded in the database must be correct.  
 
 ## Review Report Details  
 {: .left-bar-title}  
