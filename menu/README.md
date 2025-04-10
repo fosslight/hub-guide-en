@@ -28,8 +28,8 @@ Check whether there is a vulnerability in Open Source and related information (C
 ## [Self-Check](6_self-check.md)
 Create a Self-Check and check OSS information.
 
-## [Configuration](8_configuration.md)
-*(Admin Only)* Change system settings.
+## [Compliance Status](11.compliance_status.md)
+*(LGE Only)* Check Open Source Compliance for distributed Software or Models.
 
 ## [System](9_system.md)
 *(Admin Only)* Check system log and change data for settings.
