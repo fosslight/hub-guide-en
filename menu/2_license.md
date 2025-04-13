@@ -4,8 +4,8 @@ published: true
 ---
 # License
 <div class="note">
-º You can view registered license information and add, modify, or delete licenses.<br>
-º You can check detailed information by clicking a cell in the License Name Column of the License List.
+º You can check the registered license information, and by clicking on the License Name, you can view the detailed information for that specific license.<br>
+º (Admin Only) You can add, modify, or delete a license.
 </div>
 
 ## License List
@@ -39,6 +39,7 @@ published: true
 
 ### Restriction
 {: .specific-title} 
+Restriction details were based on the [OSORI](https://osori-db.github.io/en/docs/guide/) project.
 <style>
     .centered-table td:nth-child(3), .centered-table td:nth-child(4) {
         text-align: center;
@@ -287,7 +288,7 @@ You can find out the notice and source code disclosure obligations for each lice
 {: .left-bar-title }
 ### Add
 {: .specific-title}
-![NEW_OSS](images/3_lic_add.PNG){: .styled-image}
+![NEW_OSS](images/3_lic_add.PNG){: .styled-image width="80%"}
 1. Click the Add button in the upper left of the License List.
 2. At the "New_License" tab, enter the information of the new OSS.
     - **License Name** and **Nick Name** cannot be duplicated.
