@@ -5,7 +5,7 @@ published: true
 
 # Security Mail(Vulnearbility)
 <div class="note">
-You can customize and save the columns displayed in the list view for each individual user.
+You can enable or disable the receipt of Security Mail (Vulnerability).  
 </div>
 
 ### Security Mail(Vulnearbility) Setting
