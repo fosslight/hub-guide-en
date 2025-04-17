@@ -8,7 +8,7 @@ published: true
 
 ## Warning Messages
 {: .left-bar-title }
-Described OSS, version and license will be compared with OSS information that are already registered on OSC system and related information will be displayed.   
+Described OSS, version and license will be compared with OSS information that are already registered on FOSSLight Hub and related information will be displayed.   
 
 | Message                 | Meaning |
 |-------------------------|-----|
@@ -31,7 +31,7 @@ Described OSS, version and license will be compared with OSS information that ar
 
 ## Obligations/restrictions according to the use of OSS
 {: .left-bar-title }
- Details can be checked in the [**License List**](2_license.md).
+ Details can be checked in the [**License List**](../../menu/2_license.md).
 - **Notice Column**: If the checkmark(![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to notify regarding copyright, license, or both.  
 - **Source Column**: If the checkmark(![ObligationCheck](images/check_icon.png)) is marked, it indicates an obligation to disclose the source code.  
 - **Question Mark Icon** (<img src="images/2_self_check_unclear_icon.png" width="20" height="20" />) in the Notice/Source Column:  

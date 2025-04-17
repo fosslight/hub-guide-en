@@ -36,7 +36,7 @@ You can create a Self-Check project and add OSS list you wish to check one by on
 3. Click the Save button(<img src="images/save_button.png" width="20" height="20" />).  
 
 
-### (LGE Only) Loading the FOSSLight Scanner Service analysis results by entering the URL.
+### (Enterprise Only) Loading the FOSSLight Scanner Service analysis results by entering the URL.
 {: .specific-title}
 **FOSSLight Hub's Self-check is integrated with [FOSSLight Scanner Service](http://fs.lge.com/).** 
 1. Create a Self-check project.  
