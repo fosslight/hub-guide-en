@@ -23,12 +23,12 @@ This guide page describes the basic usage and tutorial of FOSSLight Hub and adva
 - [3rd Party](menu/5_third-party.md)
 - [Self-Check](menu/6_self-check.md)
 - [Vulnerability](menu/7_vulnerability.md)
-- [Configuration](menu/8_configuration.md)
+- [(LGE Only)Compliance Status](menu/11.compliance_status.md)
 - [System](menu/9_system.md)
 
 ### Basic Tutorial Using FOSSLight Hub
-- [Project Tutorial](tutorial/1_project.md) : Register project and execute process sequentially 
-- [Self-check Tutorial](tutorial/2_self_check.md) : Simple check of Open Source information with Self-check
+- [Project Tutorial](tutorial/1_project/README.md) : Register project and execute process sequentially 
+- [Self-check Tutorial](tutorial/2_self_check/README.md) : Simple check of Open Source information with Self-check
 
 ### FOSSLight Hub Advanced features
 - [Development documentation](advanced/1_developer.md)
