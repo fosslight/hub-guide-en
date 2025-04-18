@@ -7,7 +7,7 @@ title: 2.Identification
 
 # Identification 
 <div class="note">
-Fill in the results of the Open Source Software analysis for the Project to release and receive a review from the OSC Team.
+Fill in the results of the Open Source Software analysis for the Project to release and receive a review from the OSPO.
 </div>
 
 {% include list.liquid all=true %}

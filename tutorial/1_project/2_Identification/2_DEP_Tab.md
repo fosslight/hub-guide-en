@@ -27,7 +27,7 @@ You can choose from the following methods to fill in the result of Dependency An
 2.Click Upload button and then upload FOSSLight Report  Report file.  
 <img src="images/2_dep_upload.png" alt="select" class="styled-image">
 3. In the Select Sheet pop-up, select the sheet name in which the OSS list of the Dependency analysis results is written.  
-<img src="images/2_dep_file_select.png" alt="select" class="styled-image_nofloat" style="width: 30%; height: auto;">
+<img src="images/2_dep_file_select.png" alt="select" class="styled-image">
 
 
 ### Project Search 
@@ -36,7 +36,7 @@ You can choose from the following methods to fill in the result of Dependency An
 2. Search project to load.  
 3. After selecting the project to load DEP tab from the result, click Load button.  
 4. Select one of the following buttons.  
-<img src="images/2_dep_search_option.png" alt="select" class="styled-image_nofloat" style="width: 50%; height: auto;">
+<img src="images/2_dep_search_option.png" alt="select" class="styled-image">
     - Reset & Load : Initialize DEP tab and then load the DEP tab of the imported project to the OSS Table.  
     - Load & Append : Append DEP tab of the imported project to the OSS Table.  
     - Cancel  
