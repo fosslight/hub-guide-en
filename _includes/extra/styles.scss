@@ -431,6 +431,9 @@ table {
     font-size: 0.85rem; /* 폰트 크기 설정 */
     color: inherit; /* 부모의 색상 상속 */
     padding: 1px; /* 셀 안의 여백 조정 */
+    line-height: 1.4;         /* 줄 간격 줄이기 (기본은 보통 1.5~1.6) */
+    margin-top: 2px;          /* 요소 위 간격 살짝 */
+    margin-bottom: 2px;       /* 요소 아래 간격도 살짝 */
 }
 
 

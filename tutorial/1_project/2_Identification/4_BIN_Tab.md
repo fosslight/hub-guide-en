@@ -17,7 +17,7 @@ Fill in the result of Binary Analysis.
 
 ## How to fill in the result of Binary Analysis
 {: .left-bar-title }
-You can choose from the following methods to write the result of Binary Analysis.
+You can choose from the following methods to write the result of Binary Analysis, which can be modified by referring to the [How to Use the OSS Table](https://fosslight.org/hub-guide-en/tips/1_common/1_oss_table).
 
 ### Fill in OSS List in the browser
 {: .specific-title}  
@@ -26,7 +26,7 @@ You can choose from the following methods to write the result of Binary Analysis
 ### Upload Analysis Result 
 {: .specific-title}
 1. Select 'Upload Analysis Result'.  
-2. Click Upload button and then upload related files.  
+2. Click Upload button and then upload FOSSLight Report file.  
 <img src="images/4_bin_upload.png" alt="select" class="styled-image">
 3. In the Select Sheet pop-up, select the sheet name in which the OSS list of the Binary analysis results is written. 
 <img src="images/4_bin_file_select.png" alt="select" class="styled-image_nofloat" style="width: 30%; height: auto;">

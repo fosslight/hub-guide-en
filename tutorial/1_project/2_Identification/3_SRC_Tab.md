@@ -16,7 +16,8 @@ Fill in the result of Source Code Analysis.
 
 ## How to fill in the result of Source Code Analysis
 {: .left-bar-title }  
-You can choose from the following methods to fill in the result of Source Code Analysis.
+You can choose from the following methods to fill in the result of Source Code Analysis, which can be modified by referring to the [How to Use the OSS Table](https://fosslight.org/hub-guide-en/tips/1_common/1_oss_table).
+
 
 ### Fill in OSS List in the browser
 {: .specific-title}  
@@ -26,7 +27,7 @@ You can choose from the following methods to fill in the result of Source Code A
 ### Upload Analysis Result 
 {: .specific-title}
 1. Select 'Upload Analysis Result'.  
-2. Click Upload button and then upload OSS Report file.  
+2. Click Upload button and then upload FOSSLight Report file.  
 <img src="images/3_src_upload.png" alt="select" class="styled-image">
 3.  In the Select Sheet pop-up, select the sheet name in which the OSS list of the SRC analysis results is written.  
 <img src="images/3_src_file_select.png" alt="select" class="styled-image_nofloat" style="width: 30%; height: auto;">

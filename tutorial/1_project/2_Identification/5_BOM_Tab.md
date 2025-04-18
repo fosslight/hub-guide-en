@@ -32,16 +32,20 @@ Merge the OSS list written in 3rd Party, SRC, and BIN tabs and request to review
 {: .left-bar-title }
 Each row's OSS Name and OSS Version is merged from 3rd Party, SRC, BIN.  
 However, if the OSS Name is-, it is not merged.
-- Reference : Tab where the corresponding OSS Name and OSS Version are written.
-- Obligation
-    - Notify : Copyright and License Notice Obligations.
-    - Source : Source Code Disclosure.
-- Restriction: When the **R** icon is displayed, there are restrictions on the license.  
-- admin check: The following exceptions apply to admin checked items.  
+- **Reference** : Tab where the corresponding OSS Name and OSS Version are written.
+- **Obligation**
+    - **Notify** : Copyright and License Notice Obligations.
+    - **Source** : Source Code Disclosure.
+- **Restriction**: When the **R** icon is displayed, there are restrictions on the license.  
+- **admin check**: The following exceptions apply to admin checked items.  
     - Obligation changed by admin is applied instead of Obligation corresponding to the license of the row.  
     - Licenses not included in OSS Name and OSS Version can also be written.  
     - OSS Name can be written as nickname.  
     - For OSS Name and OSS Version, information written in the relevant row is included in the OSS Notice instead of the copyright text, download location, and homepage information stored in the OSC system.  
+
+## Changed BOM Data at the Time of Confirmation
+{: .left-bar-title }
+Once the Identification is confirmed, the download location, homepage, and copyright information in the BOM tab will be updated to the values stored in the OSS DB, and a report generated based on this information can be downloaded.
 
 ## Export
 {: .left-bar-title }

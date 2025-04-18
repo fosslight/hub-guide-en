@@ -4,11 +4,11 @@ published: true
 ---
 # Project
 <div class="note">
-The process required for the development and distribution of software that includes open source software is carried out sequentially.<br><br>
-    1. <strong>Identification</strong>: OSS Report Registration <br>
-    2. <strong>Approval</strong>: OSS Report Review <br>
-    3. <strong>Package Verification</strong>: Collecting Packages and Generating OSS Notice
-
+The process required for the development and distribution of software that includes open source software is carried out sequentially.<br>
+For detailed information, please refer to the <a href="https://fosslight.org/hub-guide-en/tutorial/1_project"><strong>Project tutorial.</strong></a><br>
+    1. <a href="https://fosslight.org/hub-guide-en/tutorial/1_project/2_Identification"><strong>Identification</strong></a> : Open Source analysis results (FOSSLight Report) are prepared and submitted for review to the OSPO.<br>
+    2. <a href="https://fosslight.org/hub-guide-en/tutorial/1_project/3_packaging"><strong>Packaging</strong></a> : Collect the source code to be disclosed(OSS Package).<br>
+    3. <a href="https://fosslight.org/hub-guide/tutorial/1_project/4_distribution"><strong>Distribution</strong></a> : The OSS Notice and OSS Package are registered on the distribution site.
 </div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IUrQyj3s-Ps" title="FOSSLight Hub - 프로젝트 생성" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -64,35 +64,6 @@ You can search for a project, check the overall information of the project, and 
 
 ### 7. Security
 {: .specific-title}  
-<div class="note">
-In the Security tab, you can check and manage the status of actions for each CVE ID for OSS with a vulnerability score above the threshold based on the BOM tab in the Identification stage.<br>
-    • The threshold for the Vulnerability Score can be set in Code Management > 760 (Security Vulnerability Score).
-</div>
-
-![prj](images/4_project_sec_list.PNG){: .styled-image}
-- It displays the Vulnerability information for the entire open source list included in the Identification stage (except the ones that 'Exclude' is checked).
-    - (<img src="images/4_project_security_need_to_resolve.PNG" width="120" height="25" />) : If the vulnerability score is above the threshold
-    - (<img src="images/4_project_security_na.PNG" width="120" height="25" />) : If the vulnerability score is below the threshold
-
-
-#### Columns
-{: .under-bar-title}
-- **OSS Name, OSS version**
-    - The OSS information entered in the BOM tab of the Identification stage is automatically displayed.
-- **CVE ID, CVSS Score, Published Date**
-    - The CVE ID and the corresponding CVE ID's CVSS Score and published date information are automatically displayed.
-- **Vulnerability Resolution**
-    - The default value is set to Unresolved, and it can be changed to Fixed when the security vulnerability is resolved.
-
-#### If OSS version is not entered
-{: .under-bar-title}
-- In the Security tab, it is difficult to accurately verify vulnerabilities for CVE IDs without an OSS version, so the entire list of CVE IDs is not displayed.
-- If the following popup screen appears when entering the tab, you can view the accurate list of security vulnerability CVE IDs in the Security tab after entering the correct version of the corresponding open source in the Identification tab and saving the BOM tab.    
-![prj](images/4_project_sec_popup.PNG){: .styled-image}
-
-#### Reflecting Vulnerability Resolution in the Identification Stage
-{: .under-bar-title}
-- When checking the vulnerability score in the Identification stage tab, you can see the excluded max score for CVE IDs whose vulnerability resolution value has been changed to 'Fixed' in the Security tab.
-- When clicking the Vulnerability Icon in the Identification stage tab, you can see that the 'Fixed' CVE IDs are deactivated in the entire CVE ID list window for the corresponding OSS name and version, as shown below.
-![fixed](images/4_project_security_fixed.png){: .styled-image}
-<br>
+It displays the Vulnerability information for the entire open source list included in the Identification stage (except the ones that 'Exclude' is checked).  
+- (<img src="images/4_project_security_need_to_resolve.PNG" width="120" height="25" />) : If the vulnerability score is above the threshold.  
+- (<img src="images/4_project_security_na.PNG" width="120" height="25" />) : If the vulnerability score is below the threshold.  
