@@ -61,4 +61,4 @@ You can extract the contents of all tabs through the Export button.
 | Download location                | D                     |
 | Homepage                         | H                     |
 | Source Path                      | S                     |
-| Binary Patj                      | B                     |
+| Binary Path                      | B                     |
