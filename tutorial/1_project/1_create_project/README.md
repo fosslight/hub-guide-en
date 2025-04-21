@@ -20,7 +20,7 @@ Create a project for the software being distributed.
 2. Enter the project-related information in the **New_Project** tab.
 ![prj_add_information](images/1_project_add_information.png){: .styled-image}
 
-3. Click the **Save**(<img src="images/save_button.PNG" width="20" height="20" />) button at the top right corner to finalize your entries.  
+3. Click the **Save**(<img src="images/floppy-disk-solid.png" width="16" height="20" />) button at the top right corner to finalize your entries.  
 <br>
 
 ### Project Information
@@ -55,7 +55,7 @@ This page is for entering basic information about the project.
             <td><strong class="highlight_table">Permission</strong></td>
             <td>Set project visibility.<br>
                 <ul class="description-list">
-                    <li>Choose 'Creator & Watcher' for limited visibility, or 'Everyone' for full visibility.</li>
+                    <li>Choose 'Creator & Editor' for limited visibility, or 'Everyone' for full visibility.</li>
                 </ul>
             </td>
         </tr>
@@ -130,10 +130,10 @@ This page is for entering basic information about the project.
             <td>Enter any supplementary information required for compliance.</td>
         </tr>
         <tr>
-            <td><strong class="highlight_table">Watcher</strong></td>
+            <td><strong class="highlight_table">Editor</strong></td>
             <td>Add users who want to share the project's information and status.<br>
                 <ul class="description-list">
-                    <li>Users added as a Watcher have the same viewing and editing permissions as the Creator, and receive project-related emails from the system.</li>
+                    <li>Users added as a Editor have the same viewing and editing permissions as the Creator, and receive project-related emails from the system.</li>
                     <li>However, accounts added with AD ID that are not registered in the FOSSLight Hub will only receive the initial account registration email, not project-related emails.</li>
                 </ul>
             </td>
@@ -148,10 +148,11 @@ This page is for entering basic information about the project.
 
 #### Share, Copy, Delete, Save, and etc.
 {: .specific-title}  
-- **Share**: Shares the project via the generated URL.  
-- **Copy**: Creates a new project by duplicating the existing one.  
-- **Delete**: Deletes the project.  
-- **Save**: To save any modifications, ‘Save’ button should be clicked.
+For more details, please refer to [Common Features of the Detail Screen](https://fosslight.org/hub-guide-en/tips/1_common/3_project_tab_bar).  
+- **Share**( <img src="images/share-nodes-solid.png" width="16" height="20" /> ): Shares the project via the generated URL.  
+- **Copy**( <img src="images/copy-regular.png" width="16" height="20" /> ): Creates a new project by duplicating the existing one.  
+- **Delete**( <img src="images/trash_can.png" width="16" height="20" /> ): Deletes the project.  
+- **Save**( <img src="images/floppy-disk-solid.png" width="16" height="20" /> ): To save any modifications, ‘Save’ button should be clicked.
 - **Drop**: Changes the project's status to "Drop"; click the Open button to continue processing.  
 - **Open**: Appears when the status is "Drop"; clicking it changes the status to "Progress."  
 - **Reopen**: Changes the status of a "Complete" project back to "Progress" for reprocessing.  

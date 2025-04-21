@@ -6,11 +6,7 @@ published: true
 # 3rd Party Tab
 <div class="note">
 Load the 3rd Party Project confirmed in the 3rd Party List menu.
-</div>
-
-<div class="youtube-container">
-<iframe src="https://www.youtube.com/embed/IIOsmWupkn4" title="3rd Party Software 등록" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+</div>  
 
 ## 3rd Party Process
 {: .left-bar-title }

@@ -18,7 +18,7 @@ Merge the OSS list written in 3rd Party, SRC, and BIN tabs and request to review
 1. Click the 'Merge And Save' button.
     - Merge the OSS list written in 3rd Party, SRC, BIN tabs.  
 2. [**Check Warning message**](https://fosslight.org/hub-guide/tips/1_common/5_warning_message)  
-3. Request to review by clicking the 'Request Review' button. 
+3. Request to review by clicking the 'Request' button. 
     - However, if there is a red Warning Message, you cannot request a review.  
 
 ### (Admin only) Review Process  
@@ -60,7 +60,5 @@ You can extract the contents of all tabs through the Export button.
 | License                          | L                     |
 | Download location                | D                     |
 | Homepage                         | H                     |
-| Source Name or Path             | S                     |
-| Binary Name                      | B                     |
-| Source Code Path                 | S                     |
-| Binary Name or Source Path       | B                     |
+| Source Path                      | S                     |
+| Binary Patj                      | B                     |
