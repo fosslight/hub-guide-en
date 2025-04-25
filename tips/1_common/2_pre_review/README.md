@@ -4,10 +4,56 @@ published: true
 ---
 
 # Reviewing Open Source by Download Location (Pre-Review)
+<div class="note">
+º Using the Pre-Review button, you can retrieve Open Source information or License information stored in the system based on the Download Location.<br>
+º It can be used for Project and 3rd Party Identification, as well as for Self-Check.<br>
+<img src="../../images/common/pre_review/pre_review.png" />
+</div>
 
-Using the Pre-Review button, you can retrieve Open Source information or License information 
-stored in the system based on the Download Location.
-![PreReview](../../images/common/pre_review/pre_review.png)
+## Check the OSS Name
+{: .left-bar-title }
+<div class="note">
+It can suggest the OSS name based on the specified download location.
+</div>
+
+#### How to check the OSS Name
+{: .under-bar-title}
+1. Click on Pre-Review > Open Source.    
+2. Select the row you want to change to the ‘Registered OSS Name (to be changed)' value.   
+3. Click ‘Change OSS Name'. The changed Open Source name will be reflected in the OSS Table.   
+<div style="margin-left: 20px;">
+    <img src="../../images/common/pre_review/pre_review_opensource.png" alt="PreReview_oss" class="styled-image" />
+</div>
+
+#### Pre-Review Table Detailed Features
+{: .under-bar-title}
+- If the specified download location is redirected, a recommended OSS Name (Registered OSS Name) will be generated based on the redirect URL, and you can check the redirect URL information at the bottom.
+  <div style="margin-left: 20px;">
+    <img src="../../images/common/pre_review/pre_review_redirect_url.png" alt="PreReview direct url" class="styled-image"/>
+  </div>
+- If the download location is inaccessible, a warning message <span style="color:red">Invalid download location.</span> will be displayed in ‘Registered OSS name (to be changed)'.  
+  <div style="margin-left: 20px;">
+    <img src="../../images/common/pre_review/pre_review_redirect_url.png" alt="PreReview direct url" class="styled-image" />
+  </div>
+- Clicking on the recommended OSS Name will show detailed information about that OSS.<br><br> 
+- If a row is displayed in gray, it means that more than one OSS was found for the same download location. You can click the cell of the Registered OSS Name to select the OSS Name you want to change.  
+  <div style="margin-left: 20px;">
+    <img src="../../images/common/pre_review/pre_review_multi_recommand.png" alt="PreReview multi recommand" class="styled-image" />
+  </div>
+- Changes made by clicking ‘Change OSS Name' or ‘Change License' will be immediately reflected in the OSS Table and recorded in the ‘Comment'. You can check the change history through the ‘Comment'.  
 
 
-{% include list.liquid all=true %}
+## Check License
+{: .left-bar-title }
+<div class="note">
+You can check the declared licenses based on Download Location, OSS Name, and OSS Version.  
+</div><br>
+
+#### How to check the License
+{: .under-bar-title}  
+1. Click on Pre-Review > License.  
+2. Select the row you want to change to the ‘License (to be changed)' license.  
+3. Click ‘Change License'. The changed license will be reflected in the OSS Table.  
+<div style="margin-left: 20px;">
+    <img src="../../images/common/pre_review/pre_review_license.png" alt="PreReview License" class="styled-image"/>
+</div>
