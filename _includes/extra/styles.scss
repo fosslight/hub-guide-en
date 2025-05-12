@@ -502,3 +502,48 @@ table {
   margin: 0;
   list-style-type: disc;
 }
+
+.oss-warning-table {
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; // 열 너비 고정을 위해 추가
+    font-family: Arial, sans-serif;
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px 10px; // 원래보다 간결한 여백
+      text-align: left;
+      vertical-align: top;
+      background-color: white;
+      word-break: keep-all;    // ★ 단어 기준 줄바꿈
+      white-space: normal; 
+    }
+
+    th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      text-align: center;
+    }
+    // 2번째 컬럼(Warning message) 너비 고정
+    th.warning-col {
+      width: 250px;
+    }
+    
+     // 커스텀 도트가 붙는 줄 정의
+    .dot-line {
+      position: relative;
+      padding-left: 1em;
+
+      &::before {
+        content: "●";
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: #000; // 도트 색상
+        font-size: 0.75em;
+        line-height: 1.4;
+      }
+    }
+  }
+}

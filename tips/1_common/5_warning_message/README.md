@@ -4,25 +4,282 @@ published: true
 ---
 
 # OSS Table Warning Message
-You can identify issues that need to be reviewed through the Warning Message in the OSS Table.
+You can identify issues that need to be reviewed through the Warning Message in the OSS Table.  
+- **Meaning of Warning Messages by Color**  
+    - <span style="color:red"> Red </span>: Requires correction; review request or confirmation is not possible. Review and modify as necessary.  
+    - <span style="color:blue"> Blue </span>: Review request and confirmation are possible, but further review is required. Please check carefully.  
+    - <span style="color:grey"> Gray </span>: Informational message; no specific action is required.  
 
-## Meaning of Warning Messages by Color
-- <span style="color:red"> Red </span>: Requires correction; review request or confirmation is not possible. Review and modify as necessary.
-- <span style="color:blue"> Blue </span>: Review request and confirmation are possible, but further review is required. Please check carefully.
-- <span style="color:grey"> Gray </span>: Informational message; no specific action is required.
 
 ## Review Items According to Warning Messages
+{: .left-bar-title }
 
-| Message  | Description |
-| ------------- | ------------- |
-|**This field is required**| This field requires input. |
-|**Unconfirmed open source**| This is a new OSS that has not been registered. |
-|**Unconfirmed version**| This is a new version that has not been registered. |
-|**Unconfirmed license**| This is a new license that has not been registered. |
-|**Dual license: Select a license**| It is marked as Dual License, but all licenses are being used. <br>Please select only the licenses you intend to use. |
-|**Specify OSS Name or put 1 license in a row**| The OSS Name is either "-" or blank while multiple licenses are written in a single row. <br>If the OSS Name is "-" or blank, please separate the licenses into different rows. |
-|**Formatting error**| Line break characters are included. If multiple lines are needed, please add more rows. |
-|**Not the same as property**| The entered URL differs from the URL registered for the corresponding OSS in FOSSLight Hub. |
+### Common
+{: .specific-title }
+<body>
+  <div class="oss-warning-table">
+    <table border="1" cellspacing="0" cellpadding="5">
+      <thead>
+        <tr>
+          <th>Column</th>
+          <th>Warning message</th>
+          <th>Description</th>
+          <th>Things to review</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>OSS Name, License</td>
+          <td><span style="color:red">Required</span></td>
+          <td><ul><li>Required field, so you must enter a value.</li></ul></td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Source Name or Path</td>
+          <td><span style="color:blue">Format Warning</span></td>
+          <td><ul><li>File format is not correct.</li></ul></td>
+          <td><ul><li>Make sure the path or file is entered correctly.</li></ul></td>
+        </tr>
+        <tr>
+          <td>OSS Name</td>
+          <td><span style="color:blue">New open source</span></td>
+          <td><ul><li>New OSS that is not registered in the FOSSLight Hub.</li></ul></td>
+          <td>
+            <ul>
+              <li>If OSS List of the FOSSLight Hub has the same OSS but different name, change OSS Name to the name registered in the FOSSLight Hub.</li>
+              <li>However, if there is no OSS in the FOSSLight Hub, no correction is necessary. (In this case, the <strong>Download location and Homepage column</strong> must be filled in.)</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>OSS Name</td>
+          <td><span style="color:blue">Deactivated</span></td>
+          <td><ul><li>This is a legacy OSS registered in the FOSSLight Hub but deactivated.</li></ul></td>
+          <td>
+            <ul>
+              <li>Please fill in the <strong>Download location</strong> of the OSS used.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><span style="color:red">Required OSS Name</span></td>
+          <td><ul><li>You should enter the OSS name.</li></ul></td>
+          <td>If the license contains source disclosure obligation, clear information for the OSS is required. Check the OSS and fill in the OSS Name.</td>
+        </tr>
+        <tr>
+          <td>OSS Version</td>
+          <td><span style="color:blue">New version</span></td>
+          <td>
+            <ul>
+              <li>New Version that is not registered in the FOSSLight Hub.</li>
+            </ul>
+          </td>
+          <td>
+            <ul>
+              <li>Check if you can download the source code for that version from Download Location.</li>
+              <li>
+                In the following cases, leave the version blank.
+                <ul>
+                  <li>If the version is not officially distributed. (e.g., unspecified)</li>
+                  <li>In the case of OSS where the version is not separately managed.</li>
+                </ul>
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>License</td>
+          <td><span style="color:blue">Declared : [License of OSS]</span></td>
+          <td><ul><li>OSS is registered with another license in the FOSSLight Hub, or a license type other than Permissive is missing among the OSS licenses registered in the FOSSLight Hub.</li></ul></td>
+          <td>
+            <ul>
+              <li>Check whether a written license is included or an unwritten license is not included.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>License</td>
+          <td><span style="color:blue">New license</span></td>
+          <td><ul><li>New License that is not registered in the FOSSLight Hub.</li></ul></td>
+          <td><ul><li>We recommend that you request a license review in advance through CLM.</li></ul></td>
+        </tr>
+        <tr>
+          <td>License</td>
+          <td><span style="color:blue">Recommended : [License of OSS]</span></td>
+          <td><ul><li>It is a dual license and the license other than the license generated by auto-completion is written.</li></ul></td>
+          <td>
+            <ul>
+              <li>To select a more permissive license, consider changing to the license displayed in recommended.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>License</td>
+          <td><span style="color:red">Dual : Put one license</span></td>
+          <td><ul><li>Although it is a dual license, both licenses are written as if both are used.</li></ul></td>
+          <td><ul><li>In case of Dual License, you can choose a permissive license. Please fill in only the selected licenses.</li></ul></td>
+        </tr>
+        <tr>
+          <td>License</td>
+          <td><span style="color:red">Put OSS name or one license</span></td>
+          <td><ul><li>Although the OSS Name is - or blank, multiple licenses are written in one row.</li></ul></td>
+          <td><ul><li>If the OSS Name is - or blank, please separate the rows for each license.</li></ul></td>
+        </tr>
+        <tr>
+          <td>Homepage</td>
+          <td><span style="color:blue">The address should be started with www or http:// or https://</span></td>
+          <td><ul><li>Homepage format is not correct.</li></ul></td>
+          <td><ul><li>Make sure the Homepage is entered correctly. Write with addresses starting with www, http://, or https://.</li></ul></td>
+        </tr>
+        <tr>
+          <td>OSS Version, License</td>
+          <td><span style="color:red">Format error</span></td>
+          <td><ul><li>Contains line separator characters.</li></ul></td>
+          <td>
+            <ul>
+              <li>Please make sure that it does not include a line separator character.</li>
+              <li>If you want to write multiple lines, please add Row.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Download location, Homepage</td>
+          <td><span style="color:blue">Different from DB</span></td>
+          <td><ul><li>The URL you entered is different from the URL registered in the FOSSLight Hub.</li></ul></td>
+          <td>
+            <ul>
+              <li>Please review whether it is the same OSS registered in the FOSSLight Hub.</li>
+              <li>In case of other OSS, please separate OSS Name from those registered in the FOSSLight Hub.</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
 
+### BIN, BIN(Android)  
+{: .specific-title }
 
-{% include list.liquid all=true %}
+<body>
+  <div class="oss-warning-table">
+    <table border="1" cellspacing="0" cellpadding="5">
+      <thead>
+        <tr>
+          <th>Column</th>
+          <th class="warning-col">Warning message</th>
+          <th colspan="2">Description</th>
+          <th>Things to review</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="14">Binary Name</td>
+          <td><span style="color:blue">Same: [OSS Name] [OSS Version] / [License]</span></td>
+          <td>If OSS Name, License is different.</td>
+          <td rowspan="4">OSS information is displayed for the same binary stored in Binary DB.</td>
+          <td rowspan="4">
+            <ul>
+              <li>After checking the information about same binary stored in Binary DB, supplement OSS Name / Version, License information if necessary.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><span style="color:blue">Same : / [License]</span></td>
+          <td>If only the License is different.</td>
+        </tr>
+        <tr>
+          <td><span style="color:blue">Same : [OSS Name] [OSS Version]</span></td>
+          <td>If only OSS Name is different</td>
+        </tr>
+        <tr>
+          <td><span style="color:grey">Same : [OSS Name] [OSS Version]</span></td>
+          <td>Only when the OSS Version is different or the license is the same and the license type is Proprietary or Proprietary Free.</td>
+        </tr>
+        <tr>
+          <td><span style="color:blue">Similar(TLSH distance) : [OSS Name] [OSS Version] / [License]</span></td>
+          <td>If OSS Name, License is different.</td>
+          <td rowspan="4">OSS information is displayed for similar binaries stored in Binary DB. (The parenthesis shows the TLSH distance value.)</td>
+          <td rowspan="4">
+            <ul>
+              <li>After checking the information about similar binary stored in Binary DB, correct OSS Name / Version, License information if necessary.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><span style="color:blue">Similar(TLSH distance) : / [License]</span></td>
+          <td>If only the License is different.</td>
+        </tr>
+        <tr>
+          <td><span style="color:blue">Similar(TLSH distance) : [OSS Name] [OSS Version]</span></td>
+          <td>If only OSS Name is different.</td>
+        </tr>
+        <tr>
+          <td><span style="color:grey">Similar(TLSH distance) : [OSS Name] [OSS Version]</span></td>
+          <td>Only when the OSS Version is different or the license is the same and the license type is Proprietary or Proprietary Free.</td>
+        </tr>
+        <tr>
+          <td><span style="color:grey">Modified(TLSH distance) : [OSS Name] [OSS Version] / [License]</span></td>
+          <td>If OSS Name, License is different.</td>
+          <td rowspan="3">OSS information is displayed (gray) for binary with the same name but less similarity (TLSH distance> 120) in Binary DB. (The parenthesis displays the TLSH distance value.)</td>
+          <td rowspan="3">
+            <ul>
+              <li>After checking the information about the binary with little similarity stored in Binary DB, correct OSS Name / Version, License information if necessary.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><span style="color:grey">Modified(TLSH distance) : / [License]</span></td>
+          <td>If only the License is different.</td>
+        </tr>
+        <tr>
+          <td><span style="color:grey">Modified(TLSH distance) : [OSS Name] [OSS Version]</span></td>
+          <td>If only OSS Name or OSS Version is different.</td>
+        </tr>
+        <tr>
+          <td><span style="color:grey">Matched</span></td>
+          <td>In case of same or similar binary.</td>
+          <td rowspan="2">In the binary DB, data with the same Binary Name, OSS Name, OSS Version, and License exists.</td>
+          <td rowspan="2">-</td>
+        </tr>
+        <tr>
+          <td><span style="color:grey">Modified(TLSH distance)</span></td>
+          <td>In case of binary with the same name but less similarity</td>
+        </tr>
+        <tr>
+          <td><span style="color:grey">New</span></td>
+          <td>There is no binary with the same name in Binary DB.</td>
+          <td>-</td>
+          <td>
+            <ul>
+              <li>Be careful when inputting information because it is a new binary that has never been registered in Binary DB.</li>
+            </ul>
+          </td>
+        </tr>
+        <!-- Notice -->
+        <tr>
+          <td rowspan="2">Notice</td>
+          <td><span style="color:blue">NOTICE should be "ok" in case OSS is used</span></td>
+          <td>The binary must notify the copyright notice and license, but NOTICE.html does not contain the value written in the Binary Name column.</td>
+          <td>-</td>
+          <td>
+            <ul>
+              <li>You should add the value written in Binary Name column and License text to NOTICE.html.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td><span style="color:blue">Found binary in NOTICE.html</span></td>
+          <td>The binary does not need to notify the copyright notice and license, but NOTICE.html contains a value written in the Binary Name column.</td>
+          <td>-</td>
+          <td>
+            <ul>
+              <li>You need to make sure that the NOTICE.html does not contain any notices that should not be noticed such as Other proprietary license (= Not an open source license).</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
