@@ -114,7 +114,7 @@ The header of the OSS Table, there is a filter for searching. You can use this f
             <td>does not end with</td>
         </tr>
         <tr>
-            <td>! z~</td>
+            <td>!~</td>
             <td>does not contain</td>
         </tr>
     </tbody>
