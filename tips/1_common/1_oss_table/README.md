@@ -106,7 +106,7 @@ The header of the OSS Table, there is a filter for searching. You can use this f
             <td>does not begin with</td>
         </tr>
         <tr>
-            <td>!</td>
+            <td>|</td>
             <td>end with</td>
         </tr>
         <tr>
