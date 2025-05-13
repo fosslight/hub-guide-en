@@ -36,12 +36,13 @@ published: true
 
 **Bulk Edit** 
  - Click the <img src="../../images/common/oss_table_buttons/bulk_edit.png" width="12" height="16" /> button to update all selected rows with the same contents.
-    - After selecting the item, enter the content you want to change and click the "Change" button.  
+    - After selecting the items from the checkboxes, enter the content you want to change and click the "Change" button.  
+    - After selecting the items from the checkboxes, click the "Delete" button to remove all content of the selected items from the OSS Table.
         ![BulkEditDetail](../../images/common/oss_table_buttons/bulk_edit_detail.png){: .styled-image}  
 
 **Export**
 - Click the <img src="../../images/common/oss_table_buttons/download.png" width="12" height="16" /> button to export the OSS Table contents in the selected format.
-    - BOM Tab : You can download the FOSSLight Report and in various formats for SBOM management.  
+    - BOM Tab : You can download the FOSSLight Report and in various formats for the SBOM standard.  
     ![ExportListBOM](../../images/common/oss_table_buttons/export_popup_2.png){: .styled-image}    
     - Tab other than BOM" : You can download the FOSSLight Report.   
     ![ExportListOthers](../../images/common/oss_table_buttons/export_popup_1.png){: .styled-image}<br><br><br><br>  
@@ -70,7 +71,7 @@ If the Open Source is registered in the system, you can automatically retrieve t
 
 ## OSS Table Search
 {: .left-bar-title }
-Beneath the header of the OSS Table, there is a filter for searching. You can use this filter to search for specific values within each column.  
+The header of the OSS Table, there is a filter for searching. You can use this filter to search for specific values within each column.  
 ![OSSTableSearch](../../images/common/oss_table_functions/oss_table_search.png)
 - The Filter is composed as follows:  
     - Search Input Field(![ExportListBOM](../../images/common/oss_table_buttons/search_input.png))  
