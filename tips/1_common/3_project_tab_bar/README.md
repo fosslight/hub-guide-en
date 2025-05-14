@@ -6,6 +6,8 @@ published: true
 # Common Features of the Detail Screen
 In each menu detail screen, there are buttons on the right side of the tab bar(<img src="../../images/common/information_view_button/common_icon.png" width="90" height="25" alt="CommonIcon" />) that allows you to control the detail screen. The buttons provided may vary depending on the features of each menu.  
 - **Main Menu** 
+    - License (admin only)
+    - Open Source (admin only) 
     - Project Information
     - Project Identification
     - 3rd Party Information 
@@ -16,10 +18,10 @@ In each menu detail screen, there are buttons on the right side of the tab bar(<
 ## Information Sharing (Share URL)   
 {: .left-bar-title }
 - Information Sharing Button : <img src="../../images/common/information_view_button/share-nodes-solid.png" width="14" height="18" alt="ShareIcon" />  
-- Desription 
+- Description  
     - You can share information about the page that is currently displayed on your screen. 
     - When you do not have view permission, you can check the overview of the item using the Share URL.
-    - You need to log in to view the screen shared via the Share URL.  
+    - You need to log in to view the link shared via the Share URL.  
 
 - Sharing Example
     1. Click the 'Share Button' in Project > Project Information.  
@@ -31,7 +33,7 @@ In each menu detail screen, there are buttons on the right side of the tab bar(<
 ## Copy 
 {: .left-bar-title }
 - Copy Button : <img src="../../images/common/information_view_button/copy-regular.png" width="14" height="18" alt="CopyIcon" />  
-- Desription
+- Description  
     - You can copy the page that is currently displayed on your screen.    
     - When you click the 'Copy Button', a new tab will be created with the content of the existing page copied.  
     - After modifying the details and saving, the copied content will be saved.  
@@ -50,7 +52,7 @@ In each menu detail screen, there are buttons on the right side of the tab bar(<
 ## Delete   
 {: .left-bar-title }  
 - Delete Button : <img src="../../images/common/oss_table_buttons/trash_can.png" width="14" height="18" alt="DeleteIcon" />   
-- Desription  
+- Description    
     - You can delete the page that is currently displayed on your screen.  
     - If you do not have edit permissions or if the item cannot be deleted (e.g., when the project is in a complete status), the delete button will not be visible.  
 <br><br><br>
@@ -58,7 +60,7 @@ In each menu detail screen, there are buttons on the right side of the tab bar(<
 ## Save    
 {: .left-bar-title }  
 - Save button: <img src="../../images/common/information_view_button/floppy-disk-solid.png" width="14" height="18" alt="SaveIcon" />  
-- Desription  
+- Description    
     - You can save the page that is currently displayed on your screen. 
     - If you do not have edit permissions or if the item cannot be modified, the save button will not be displayed.  
 <br><br><br>
@@ -67,7 +69,7 @@ In each menu detail screen, there are buttons on the right side of the tab bar(<
 ## Reset  
 {: .left-bar-title }  
 - Reset Button : <img src="../../images/common/information_view_button/rotate-left-solid.png" width="14" height="18" alt="ResetIcon" />  
-- Desription  
+- Description    
     - You can reset the page that is currently displayed on your screen.
     - This button is only displayed on pages where analysis information is entered. You can find it in the Identification of the Project, 3rd Party SW, and Self-Check menus.  
 <br><br><br>
@@ -76,5 +78,5 @@ In each menu detail screen, there are buttons on the right side of the tab bar(<
 ## Sync    
 {: .left-bar-title }  
 - Sync Button : <img src="../../images/common/information_view_button/rotate-solid.png" width="14" height="18" alt="SyncIcon" />  
-- Desription
+- Description  
     - This feature is only available on the Open Source screen. For detailed instructions, refer to [Open source Sync Guide](../../../menu/3_oss.md#update-information-for-each-oss-version-at-once).

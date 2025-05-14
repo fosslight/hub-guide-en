@@ -4,7 +4,7 @@ published: true
 ---
 
 # Comment
-On the right side of the detailed screen of each menu, you can find the Comment View for communication between the reviewer and the user, as well as for history management. 
+On the right side of the detailed screen of each menu, you can find the Comment for communication between the reviewer and the user, as well as for history management. 
 ![CommentView](../../images/common/comment/comment_view.png){: .styled-image}  
 - **Main Menu** 
     - License
@@ -22,7 +22,7 @@ On the right side of the detailed screen of each menu, you can find the Comment 
 {: .left-bar-title }  
 1. Click the 'Add Button' ![AddComment](../../images/common/comment/btn_add_comment.png).  
 2. Enter the content in the comment popup.  
-    - **Save & Send Comment** : After the content is saved, it will be sent to both the reviewer and the user's email.  
+    - **Save & Send Comment** : After the content is saved, it will be sent to both the reviewer and the user(who has permission to create and modify projects)'s via email.  
     - **Save draft** : A temporary comment will be saved. When you click the Add Button again, a comment window will appear with the previously written content.  
     <img src="../../images/common/comment/comment_edit_popup.png" width="400" height="360" alt="EditPopup" class="styled-image" />  
 <br><br><br> 

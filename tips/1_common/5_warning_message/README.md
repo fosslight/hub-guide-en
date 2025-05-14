@@ -35,7 +35,7 @@ You can identify issues that need to be reviewed through the Warning Message in 
           <td>-</td>
         </tr>
         <tr>
-          <td>Source Name or Path</td>
+          <td>Source Path</td>
           <td><span style="color:blue">Format Warning</span></td>
           <td><ul><li>File format is not correct.</li></ul></td>
           <td><ul><li>Make sure the path or file is entered correctly.</li></ul></td>
@@ -62,8 +62,8 @@ You can identify issues that need to be reviewed through the Warning Message in 
           </td>
         </tr>
         <tr>
-          <td></td>
-          <td><span style="color:red">Required OSS Name</span></td>
+          <td>OSS Name</td>
+          <td><span style="color:blue">Required OSS Name</span></td>
           <td><ul><li>You should enter the OSS name.</li></ul></td>
           <td>If the license contains source disclosure obligation, clear information for the OSS is required. Check the OSS and fill in the OSS Name.</td>
         </tr>
@@ -159,7 +159,7 @@ You can identify issues that need to be reviewed through the Warning Message in 
   </div>
 </body>
 
-### BIN, BIN(Android)  
+### BIN, BIN(Android) Tab
 {: .specific-title }
 
 <body>
@@ -265,7 +265,7 @@ You can identify issues that need to be reviewed through the Warning Message in 
           <td>-</td>
           <td>
             <ul>
-              <li>You should add the value written in Binary Name column and License text to NOTICE.html.</li>
+              <li>You should add the used Binary Name and its License text for that Binary to the NOTICE.html file.</li>
             </ul>
           </td>
         </tr>
