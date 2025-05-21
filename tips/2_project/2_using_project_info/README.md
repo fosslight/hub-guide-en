@@ -28,7 +28,10 @@ published: true
     <img src="../../images/project/project_copy/project_copy_3.png" alt="ProjectCopy_3" class="styled-image">  
     If the project's identification has been confirmed, 'Status' selection options will be available for the copied project.   
     <img src="../../images/project/project_copy/project_copy_4.png" alt="ProjectCopy_4" class="styled-image"> 
-    4. The copied project will appear in the 'Project List'.   
+    - Identification Progress: Select this if the Open Source used has changed and needs to proceed from the Identification stage.    
+    - Identification Confirm: Select this if packaging files or notices need to be modified.    
+    - Packaging Confirm: Select this if there are no changes from the existing project.  
+    4. The copied project will appear in the 'Project List'.     
 <br><br><br>
 
 ## Search Projects Containing a Specific Open Source  
