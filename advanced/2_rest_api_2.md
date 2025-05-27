@@ -11,7 +11,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
 <div style="border: 1px solid #d3d3d3; border-radius: 5px; padding: 10px; margin: 20px 0;">
     :sparkles: Refer to the link below for API operation and return value.
     <p style="margin-left: 25px;">
-        - For Demo service: <a href="https://demo.fosslight.org/swagger-ui/index.html" target="_blank">https://demo.fosslight.org/swagger-ui/index.html</a> (integration server : <a href="https://demo.fosslight.org/" target="_blank">https://demo.fosslight.org/</a>)
+        - For Demo service: <a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="https://demo.fosslight.org/" target="_blank">https://demo.fosslight.org/</a>)<br>
+        - For FOSSLight Hub(LGE Only) : <a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="http://osc.lge.com" target="_blank">http://osc.lge.com</a>) <br>
+        - For FOSSLight Hub Dev(LGE Only) : <a href="http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="http://osc-dev.lge.com" target="_blank">http://osc-dev.lge.com</a>)  
     </p>
 </div>
 
