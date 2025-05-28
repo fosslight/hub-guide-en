@@ -3,7 +3,7 @@ sort: 7
 published: true
 ---
 
-# Adding Project & 3rd Party Links 
+# Project & 3rd Party Link  
 - You can add links that connect to projects and 3rd parties.  
 - When you click the link, it will open a new window with the "Share URL" link.    
 <br><br>
