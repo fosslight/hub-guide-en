@@ -92,24 +92,20 @@ Check changes in OSS vulnerability data.
 
 ![server](images/9_system_server.png){: .styled-image}  
 
-### Authentication using LDAP  
-{: .specific-title }  
-FOSSLight Hub supports user password authentication using LDAP via JNDI, in environments that support Active Directory or other LDAP servers.  
-- **Provider URL**: Set the LDAP server information in the format ldap://<AD_SERVER_IP>:<LDAP_PORT>. (javax.naming.Context.PROVIDER_URL)
+- **Authentication using LDAP**    
+    - FOSSLight Hub supports user password authentication using LDAP via JNDI, in environments that support Active Directory or other LDAP servers.  
+        - **Provider URL**: Set the LDAP server information in the format ldap://<AD_SERVER_IP>:<LDAP_PORT>. (javax.naming.Context.PROVIDER_URL)
 
-### Notice Setting  
-{: .specific-title }  
-- **Notice Type**: Set the type of OSS notice that can be issued.
+- **Notice Setting**      
+    - **Notice Type**: Set the type of OSS notice that can be issued.  
 
-### SMTP Setting  
-{: .specific-title }  
-- **Mail Server**: SMTP host (e.g., smtp.gmail.com)  
-- **Email Address**: Sender email address (e.g., no-reply@fosslight.org)  
-- **Port**: SMTP port number (e.g., 25 or 587)  
-- **Encoding**: Default is UTF-8 (change only if necessary)  
-- **Username**: SMTP username (usually same as the sender email)  
-- **Password**: SMTP password (stored in encrypted form; if blank, the existing password will not be changed)
+- **SMTP Setting**   
+    - **Mail Server**: SMTP host (e.g., smtp.gmail.com)    
+    - **Email Address**: Sender email address (e.g., no-reply@fosslight.org)    
+    - **Port**: SMTP port number (e.g., 25 or 587)    
+    - **Encoding**: Default is UTF-8 (change only if necessary)    
+    - **Username**: SMTP username (usually same as the sender email)    
+    - **Password**: SMTP password (stored in encrypted form; if blank, the existing password will not be changed)  
 
-### Workspace Path Setting  
-{: .specific-title }  
-- **Root Path**: Set the top-level workspace path for upload/download file storage.  
+- **Workspace Path Setting**   
+    - **Root Path**: Set the top-level workspace path for upload/download file storage.  
