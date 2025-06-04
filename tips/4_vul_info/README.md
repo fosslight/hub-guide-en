@@ -29,7 +29,7 @@ It provides information on collecting vulnerability data, notifications, and how
 - If the OSS Name is '-', no Vulnerability will be displayed.
 <br><br><br>
 
-## Security Mail (Vulnerability)  
+## Security Mail(Vulnerability)  
 {: .left-bar-title }  
 You can enable or disable the receipt of Security Mail (Vulnerability).  
 
