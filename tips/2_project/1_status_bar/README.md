@@ -34,7 +34,7 @@ published: true
   <img src="../../images/project/status_bar/status_reopen_popup.png" width="400px" height="300px" class="styled-image">  
 <br><br><br>
 
-## Drop & Open  
+## Drop & Reopen  
 {: .left-bar-title }
 
 ### Drop  
@@ -45,7 +45,7 @@ published: true
   2. Enter the reason for dropping the project and click OK.  
   <img src="../../images/project/status_bar/status_drop_reason.png" width="400px" height="300px" class="styled-image">  
 
-### Open  
+### Reopen  
 {: .specific-title }  
 - If the Project Status is Drop, but you need to resume the OSC Process, you can reopen the project.  
   1. In the Project Information tab, click the <img src="../../images/project/status_bar/status_reopen_icon2.png" width="50px" height="20px"> button at the top right.  
