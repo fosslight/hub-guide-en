@@ -10,11 +10,13 @@ You can check how to create projects for each use case.
 ## Derived Model Project  
 {: .left-bar-title }  
 For derivative model projects that use similar software to an existing model,  
-you can efficiently carry out the OSC Process by [copying the completed project](https://fosslight.org/hub-guide-en/tips/2_project/2_using_project_info/#project-copy) of the previous model.
+you can efficiently carry out the OSC Process by [copying the completed project](https://fosslight.org/hub-guide-en/tips/2_project/2_using_project_info/#project-copy) of the previous model.  
+<br><br><br>
 
 ## Extending the Base Model with Additional Open Source   
 {: .specific-title }  
 - When copying the project, select **Identification Progress** to copy the Open Source list from the base model project. Then, enter the additional Open Source in the Identification tab.  
+<br><br><br>  
 
 ## New Project with the Same OSS List as Existing Project   
 {: .specific-title }  
@@ -41,6 +43,7 @@ When OSS Package and OSS Notice are delivered to the customer, and at the custom
 - Project creation options  
     - Distribution Type : B2B   
     - Distribution Site : opensource.lge.com  
+<br><br><br>
 
 ## When the Product is Distributed Under the Customer's Name  
 {: .specific-title }      
