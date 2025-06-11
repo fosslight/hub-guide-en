@@ -1,55 +1,64 @@
 # REST API v2
 To call the functions of FOSSLight, you can use the REST API.
+<br><br>
 
 
-## How to start
+## How to start  
+{: .left-bar-title }  
 To call the REST API, you need to issue a **TOKEN**. Please follow the steps below.
 1. Log in with your **Admin account**
 2. **In the System > User Management** tab, you can issue a **Token** for each **User**.
 
-## REST API List
-<div style="border: 1px solid #d3d3d3; border-radius: 5px; padding: 10px; margin: 20px 0;">
-    :sparkles: Refer to the link below for API operation and return value.
-    <p style="margin-left: 25px;">
-        - For Demo service: <a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="https://demo.fosslight.org/" target="_blank">https://demo.fosslight.org/</a>)<br>
-        - For FOSSLight Hub(LGE Only) : <a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="http://osc.lge.com" target="_blank">http://osc.lge.com</a>) <br>
-        - For FOSSLight Hub Dev(LGE Only) : <a href="http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="http://osc-dev.lge.com" target="_blank">http://osc-dev.lge.com</a>)  
-    </p>
-</div>
+## REST API List  
+{: .left-bar-title } 
+Refer to the link below for API operation and return value.  
+- For Demo service: <a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="https://demo.fosslight.org/" target="_blank">https://demo.fosslight.org/</a>)<br>
+- For FOSSLight Hub(LGE Only) : <a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="http://osc.lge.com" target="_blank">http://osc.lge.com</a>) <br>
+- For FOSSLight Hub Dev(LGE Only) : <a href="http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="http://osc-dev.lge.com" target="_blank">http://osc-dev.lge.com</a>)  
+   
+### 0. Header  
+{: .specific-title }    
+This is a feature provided to make authentication easier when using Swagger UI. If you are conducting tests with Curl or other API testing tools, you need to include the token information in the header for each API.<br>  
 
-<h2 class="specific-title" id="header">0. Header</h2>
+<table>
+    <tr>
+        <th style="font-weight: bold; padding: 10px;">Key</th>
+        <th style="font-weight: bold; padding: 10px;">Required</th>
+        <th style="font-weight: bold; padding: 10px;">Type</th>
+        <th style="font-weight: bold; padding: 10px;">Value</th>
+    </tr>
+    <tr>
+        <td style="padding: 10px;">Authorization</td>
+        <td style="padding: 10px; text-align: center;">O</td>
+        <td style="padding: 10px;">String</td>
+        <td style="padding: 10px;">Issued token information</td>
+    </tr>
+</table>  
 
-| Key            | Required | Type   | Value                     |
-|----------------|----------|--------|---------------------------|
-| Authorization  | O        | String | Issued token information  |
+- **How to Enter Token When Using Swagger UI**  
+    - Click the Authorize button.  
+    ![OpenAPI](images/rest_api_authorize.png){: style="width:500px; height:150px;" .styled-image}  
+    -  After entering the token information in the Value field of the popup, click the Authorize button.  
+    ![Authorize](images/rest_api_authorize_detail.png){:  style="width:500px; height:250px;" .styled-image}   
 
 
-##### How to Enter Token When Using Swagger UI
-<div style="border: 1px solid #d3d3d3; border-radius: 5px; padding: 10px; margin: 20px 0; font-size: x-small;">
-    ℹ️ This is a feature provided to make authentication easier when using Swagger UI. If you are conducting tests with Curl or other API testing tools, you need to include the token information in the header for each API.
-</div>
-<div style="margin-left: 40px; font-size: small;">
-    <span>• Click the Authorize button.</span><br>
-    <img src="images/rest_api_authorize.png" alt="Authorize button" style="max-width: 60%; height: auto; margin: 5px 0; border: 1px solid #d3d3d3; border-radius: 5px;"><br>
-    <span>• After entering the token information in the Value field of the popup, click the Authorize button.</span><br>
-    <img src="images/rest_api_authorize_detail.png" alt="Entering the token." style="max-width: 60%; height: auto; margin: 5px 0; border: 1px solid #d3d3d3; border-radius: 5px;">
-</div>
 
 
-<h2 class="specific-title" id="oss-license-info">1. Check OSS & License information</h2>
+### 1. Check OSS & License information  
+{: .specific-title }   
 
 <table>
     <thead>
-        <tr>
-            <th scope="col">API</th>
-            <th scope="col" style="text-align: center; white-space: nowrap;">Response fo</th>
-            <th scope="col" style="text-align: center;">Description</th>
+        <tr style="background-color: #F0F0F0; color: black; font-weight: bold;">
+            <th scope="col" style="width: 250px; padding: 5px;">API</th>
+            <th scope="col" style="width: 80px; text-align: center; white-space: nowrap; padding: 5px;">Response<br>format</th>
+            <th scope="col" style="width: 700px; text-align: center; padding: 5px;">Description</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/getLicenseInfoUsingGET_1"><span class="highlight">GET /api/v2/license</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query the license information.<br><br>
                 <ul class="description-list">
@@ -60,9 +69,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/getOssInfoUsingGET_1"><span class="highlight">GET /api/v2/oss</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query Open Source information.<br><br>
                 <ul class="description-list">
@@ -76,9 +85,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>  
+        <tr style="background-color: white;"> 
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/registerOssUsingPOST_1"><span class="highlight">POST /api/v2/oss</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 <span style="color: red;">(Admin only)</span> Register Open Source.<br><br>
                 <ul class="description-list">
@@ -86,9 +95,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/refineOssDownloadLocationUsingGET_1"><span class="highlight">GET /api/v2/refine-download-location</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 <span style="color: red;">(Admin only)</span> Refine OSS information.<br><br>
                 <ul class="description-list">
@@ -104,19 +113,21 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
     </tbody>
 </table>
 
-<h2 class="specific-title" id="3rd-party-info"> 2. Check 3rd Party information</h2>
+### 2. Check 3rd Party information  
+{: .specific-title }  
+
 <table>
     <thead>
-        <tr>
-            <th scope="col">API</th>
-            <th scope="col" style="text-align: center; white-space: nowrap;">Response Format</th>
-            <th scope="col" style="text-align: center;">Description</th>
+        <tr style="background-color: #F0F0F0; color: black; font-weight: bold;">
+            <th scope="col" style="width: 250px; padding: 5px;">API</th>
+            <th scope="col" style="width: 80px; text-align: center; white-space: nowrap; padding: 5px;">Response<br>format</th>
+            <th scope="col" style="width: 700px; text-align: center; padding: 5px;">Description</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/2.%203rd%20Party/getPartnersUsingGET"><span class="highlight">GET /api/v2/partners</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query 3rd Party information.<br><br>
                 <ul class="description-list">
@@ -131,9 +142,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/2.%203rd%20Party/get3rdDownloadUsingGET"><span class="highlight">GET /api/v2/partners/{id}/bom/file</span></a></td>
-            <td><span class="highlight">FILE</span></td>
+            <td style="text-align: center;"><span class="highlight">FILE</span></td>
             <td>
                 3rd party BOM export - Download in file format.<br><br>
                 <ul class="description-list">
@@ -142,9 +153,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/2.%203rd%20Party/get3rdAsJsonUsingGET"><span class="highlight">GET ​/api​/v2​/partners​/{id}​/bom/json-data</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 3rd party BOM export - Received in JSON format.<br><br>
                 <ul class="description-list">
@@ -152,9 +163,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/2.%203rd%20Party/addPrjEditorUsingPOST"><span class="highlight">POST /api/v2/partners/{id}/editors</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Add an editor to the 3rd party.<br><br>
                 <ul class="description-list">
@@ -167,19 +178,21 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
 </table>
 
 
-<h2 class="specific-title" id="project-info"> 3. Check project information, upload OSS Report/Packaging, export/comparison of BOM</h2>
+### 3. Check project information, upload OSS Report/Packaging, export/comparison of BOM  
+{: .specific-title }  
+
 <table>
     <thead>
-        <tr>
-            <th scope="col">API</th>
-            <th scope="col" style="text-align: center; white-space: nowrap;">Response Format</th>
-            <th scope="col" style="text-align: center;">Description</th>
+        <tr style="background-color: #F0F0F0; color: black; font-weight: bold;">
+            <th scope="col" style="width: 250px; padding: 5px;">API</th>
+            <th scope="col" style="width: 80px; text-align: center; white-space: nowrap; padding: 5px;">Response<br>format</th>
+            <th scope="col" style="width: 700px; text-align: center; padding: 5px;">Description</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/selectProjectListUsingGET_1"><span class="highlight">GET /api/v2/projects</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Retrieve information about the Project including the following items:<br><br>
                 <ul class="description-list">
@@ -197,9 +210,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/createProjectUsingPOST"><span class="highlight">POST /api/v2/projects</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 API for Project Creation. The generated project ID will be returned.<br><br>
                 <ul class="description-list">
@@ -219,9 +232,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/selectModelListUsingGET_1"><span class="highlight">GET /api/v2/projects/models</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                  Query model information for the Project.<br><br>
                 <ul class="description-list">
@@ -229,9 +242,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/deleteProjectUsingDELETE"><span class="highlight">DELETE /api/v2/projects/{id}</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Delete project (Only projects that have not been distributed can be deleted).<br><br>
                 <ul class="description-list">
@@ -239,9 +252,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjBomCompareUsingGET_1"><span class="highlight">GET /api/v2/projects/{id}/bom/compare-with/{compareId}</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Project BOM Compare.<br><br>
                 <ul class="description-list">
@@ -250,9 +263,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjBomDownloadUsingGET"><span class="highlight">GET /api/v2/projects/{id}/bom/file</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Project BOM export - Download in file format.<br><br>
                 <ul class="description-list">
@@ -262,9 +275,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+       <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjBomAsJsonUsingGET"><span class="highlight">GET /api/v2/projects/{id}/bom/json-data</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Project BOM export - Received in JSON format.<br><br>
                 <ul class="description-list">
@@ -273,9 +286,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/addPrjEditorUsingPOST_1"><span class="highlight">POST /api/v2/projects/{id}/editors</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Add an editor to the project.<br><br>
                 <ul class="description-list">
@@ -284,9 +297,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/updateModelListUsingPOST_1"><span class="highlight">POST /api/v2/projects/{id}/models</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Update the project's Model information through a list of model information strings.<br>
                 (Note: This will only add models; they will not be distributed. If distribution is needed after adding model information, please go to the Distribution tab and proceed with distribution.)<br><br>
@@ -296,9 +309,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/updateModelListUploadFileUsingPOST_1"><span class="highlight">POST ​/api​/v2​/projects​/{id}​/models​/upload</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Update the project's Model information using a Model List Excel file.<br>
                 (Note: This will only add models; they will not be distributed. If distribution is needed after adding model information, please go to the Distribution tab and proceed with distribution.)<br><br>
@@ -309,9 +322,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 <img src="images/Model_list_excel.png" alt="Model List Excel File" style="max-width: 100%; height: auto;">
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getProjectNoticeUsingGET"><span class="highlight">GET /api/v2/projects/{id}/notice</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Notice for receiving files for the project ID<br><br>
                 <ul class="description-list">
@@ -319,9 +332,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/ossUploadPackageUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/packages</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Upload a package file to the project.<br><br>
                 <ul class="description-list">
@@ -331,9 +344,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjSecurityExportJsonUsingGET_1"><span class="highlight">GET /api/v2/projects/{id}/security/json-data</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query security vulnerability information detected in the project in JSON format<br><br>
                 <ul class="description-list">
@@ -341,9 +354,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/ossLoadUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/oss-load</span></a></td>
-            <td><span class="highlight">-</span></td>
+            <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Load open-source information reviewed in previous projects into the project (Only projects with identification confirmed can be loaded).<br><br>
                 <ul class="description-list">
@@ -357,9 +370,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/ossReportAllUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/reports</span></a></td>
-            <td><span class="highlight">-</span></td>
+            <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Upload an open-source analyzed report file to the project.<br><br>
                 <ul class="description-list">
@@ -372,13 +385,13 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/identificationResetUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/reset</span></a></td>
-            <td><span class="highlight">-</span></td>
+            <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Reset the tab selected in Project > Identification.<br><br>
                 <ul class="description-list">
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: arget project ID</li>
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> tab_name</strong>: Target tab name</li>
                 </ul>
             </td>
@@ -387,19 +400,21 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
 </table>
 
 
-<h2 class="specific-title" id="Vul-info"> 4. Check Vulnerability information</h2>
+### 4. Check Vulnerability information  
+{: .specific-title }  
+
 <table>
     <thead>
-        <tr>
-            <th scope="col">API</th>
-            <th scope="col" style="text-align: center; white-space: nowrap;">Response Format</th>
-            <th scope="col" style="text-align: center;">Description</th>
+        <tr style="background-color: #F0F0F0; color: black; font-weight: bold;">
+            <th scope="col" style="width: 250px; padding: 5px;">API</th>
+            <th scope="col" style="width: 80px; text-align: center; white-space: nowrap; padding: 5px;">Response<br>format</th>
+            <th scope="col" style="width: 700px; text-align: center; padding: 5px;">Description</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/4.%20Vulnerability/getVulnerabilityMaxDataUsingGET_1"><span class="highlight">GET /api/v2/max-vulnerabilities</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Check the maximum score and CVE ID by OSS Name and Version.<br><br>
                 <ul class="description-list">
@@ -408,9 +423,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/4.%20Vulnerability/getVulnerabilityDataUsingGET_4"><span class="highlight">GET /api/v2/vulnerabilities</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query the CVE ID, CVSS Score, CVE ID Link, and OSS Information (OSS Name, OSS Version and Nickname) by OSS Name and Version or CVE ID.<br><br>
                 <ul class="description-list">
@@ -423,19 +438,21 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
     </tbody>
 </table>
 
-<h2 class="specific-title" id="self-check-info"> 5. Create Self-Check and register OSS Report</h2>
+### 5. Create Self-Check and register OSS Report  
+{: .specific-title }  
+
 <table>
     <thead>
-        <tr>
-            <th scope="col">API</th>
-            <th scope="col" style="text-align: center; white-space: nowrap;">Response Format</th>
-            <th scope="col" style="text-align: center;">Description</th>
+        <tr style="background-color: #F0F0F0; color: black; font-weight: bold;">
+            <th scope="col" style="width: 250px; padding: 5px;">API</th>
+            <th scope="col" style="width: 80px; text-align: center; white-space: nowrap; padding: 5px;">Response<br>format</th>
+            <th scope="col" style="width: 700px; text-align: center; padding: 5px;">Description</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/createSelfCheckUsingPOST"><span class="highlight">POST /api/v2/selfchecks</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Create a Self-Check Project and receive the generated Self-Check ID.<br><br>
                 <ul class="description-list">
@@ -444,9 +461,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/getSelfcheckUsingGET"><span class="highlight">GET /api/v2/selfchecks/{id}</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query the Self-Check project.<br><br>
                 <ul class="description-list">
@@ -454,9 +471,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-       <tr>
+       <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/selfCheckBomDownloadUsingGET"><span class="highlight">GET /api/v2/selfchecks/{id}/bom/file</span></a></td>
-            <td><span class="highlight">FILE</span></td>
+            <td style="text-align: center;"><span class="highlight">FILE</span></td>
             <td>
                 Download the result file exported from Self-Check.<br><br>
                 <ul class="description-list">
@@ -464,9 +481,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/addPrjEditorUsingPOST_2"><span class="highlight">POST /api/v2/selfchecks/{id}/editors</span></a></td>
-            <td><span class="highlight">-</span></td>
+            <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Add editors to Self-Check.<br><br>
                 <ul class="description-list">
@@ -475,9 +492,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/ossReportSelfCheckUsingPOST_1"><span class="highlight">POST /api/v2/selfchecks/{id}/report</span></a></td>
-            <td><span class="highlight">-</span></td>
+            <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Upload the analyzed open source report file to Self-Check.<br><br>
                 <ul class="description-list">
@@ -491,19 +508,21 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
     </tbody>
 </table>
 
-<h2 class="specific-title" id="api-info"> 6. Check the value of the code used when using API</h2>
+### 6. Check the value of the code used when using API  
+{: .specific-title }  
+
 <table>
     <thead>
-        <tr>
-            <th scope="col">API</th>
-            <th scope="col" style="text-align: center; white-space: nowrap;">Response Format</th>
-            <th scope="col" style="text-align: center;">Description</th>
+        <tr style="background-color: #F0F0F0; color: black; font-weight: bold;">
+            <th scope="col" style="width: 250px; padding: 5px;">API</th>
+            <th scope="col" style="width: 80px; text-align: center; white-space: nowrap; padding: 5px;">Response<br>format</th>
+            <th scope="col" style="width: 700px; text-align: center; padding: 5px;">Description</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/6.%20Code%20v2/getVulnerabilityDataUsingGET_3"><span class="highlight">GET /api/v2/codes</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query the list of values for the following parameters to be used when creating a project and querying 3rd Party in Self-Check.<br><br>
                 <ul class="description-list">
@@ -525,19 +544,21 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
 </table>
 
 
-<h2 class="specific-title" id="binary-db-info"> 7. Check Binary DB</h2>
+### 7. Check Binary DB  
+{: .specific-title }  
+
 <table>
     <thead>
-        <tr>
-            <th scope="col">API</th>
-            <th scope="col" style="text-align: center; white-space: nowrap;">Response Format</th>
-            <th scope="col" style="text-align: center;">Description</th>
+        <tr style="background-color: #F0F0F0; color: black; font-weight: bold;">
+            <th scope="col" style="width: 250px; padding: 5px;">API</th>
+            <th scope="col" style="width: 80px; text-align: center; white-space: nowrap; padding: 5px;">Response<br>format</th>
+            <th scope="col" style="width: 700px; text-align: center; padding: 5px;">Description</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr style="background-color: white;">
             <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/7.%20Binary/getBinaryInfoUsingGET_1"><span class="highlight">GET /api/v2/binaries</span></a></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query based on the following information from the Binary DB.<br><br>
                 <ul class="description-list">
@@ -556,19 +577,21 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
 </table>
 
 
-<h2 class="specific-title" id="compliance-info"> 8. Compliance Status</h2>
+### 8. Compliance Status  
+{: .specific-title }  
+
 <table>
     <thead>
-        <tr>
-            <th scope="col">API</th>
-            <th scope="col" style="text-align: center; white-space: nowrap;">Response Format</th>
-            <th scope="col" style="text-align: center;">Description</th>
+        <tr style="background-color: #F0F0F0; color: black; font-weight: bold;">
+            <th scope="col" style="width: 250px; padding: 5px;">API</th>
+            <th scope="col" style="width: 80px; text-align: center; white-space: nowrap; padding: 5px;">Response<br>format</th>
+            <th scope="col" style="width: 700px; text-align: center; padding: 5px;">Description</th>
         </tr>
     </thead>
     <tbody>
-       <tr>
+       <tr style="background-color: white;">
             <td><span class="highlight"><span style="color: red;">(enterprise only)</span>POST /api/v2/compliance/3rdparty-status</span></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query 3rd Party Status using the 3rd Party creation date and Division.<br><br>
                 <ul class="description-list">
@@ -578,9 +601,9 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
                 </ul>
             </td>
         </tr>
-        <tr>
+        <tr style="background-color: white;">
             <td><span class="highlight"><span style="color: red;">(enterprise only)</span>POST /api/v2/compliance/product-status</span></td>
-            <td><span class="highlight">JSON</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query Product Status using the Project creation date, Model release date, and Division.<br><br>
                 <ul class="description-list">
@@ -597,5 +620,6 @@ To call the REST API, you need to issue a **TOKEN**. Please follow the steps bel
 </table>
 
 
-## Error code
+## Error code  
+{: .left-bar-title } 
 In case of an error, an HTTP Response Code other than 2xx will be returned.
