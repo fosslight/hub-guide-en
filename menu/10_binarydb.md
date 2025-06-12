@@ -8,11 +8,11 @@ Once a base model’s binary has been analyzed, its information can be saved in 
 
 ## How to Automate Binary Analysis
 {: .left-bar-title }  
-- After uploading the **binary analysis result (FOSSLight Report)** and clicking the Save button, the FOSSLight Hub compares it with the Binary DB and automatically fills in OSS Name, License, and other information for identical or similar binaries.  
+- After uploading the **binary analysis result (FOSSLight Report)** and clicking the Save button, the FOSSLight Hub compares it with the Binary DB and automatically fills in OSS Name, OSS Version, License, and other information for identical or similar binaries.  
     - Applicable menus 
         - **Project > Identification > [BIN](https://fosslight.org/hub-guide-en/tutorial/1_project/2_Identification/4_BIN_Tab.html), BIN(Android\|Yocto) tab** 
         - **3rd Party > Identification > 3rd party tab**
-    - When using FOSSLight Binary Scanner version [above v4.1.30](https://github.com/fosslight/fosslight_binary_scanner/), TLSH and checksum values can be found in the Binary Sheet of the FOSSLight Report, so there is no need to attach the binary.txt file.    
+    - To accumulate the Binary DB, it is recommended to use version 4.1.30 or later of the [FOSSLight Binary Scanner](https://github.com/fosslight/fosslight_binary_scanner/).   
  ![binarytxt](images/11_upload_binary_txt.PNG){: .styled-image}<br>  
 
 - Below the Binary Name field, a warning message will appear indicating whether the binary is identical or similar to a binary that exists in the Binary DB.    
@@ -28,7 +28,7 @@ Once a base model’s binary has been analyzed, its information can be saved in 
 
 ## Data Insertion into Binary DB
 {: .left-bar-title } 
-- During the 'Confirm' step of the Identification in 3rd Party or Project, binary information listed in Identification > BIN, BIN(Android\|Yocto), or 3rd Party is inserted into the Binary DB.  
+- During the 'Confirm' step of the Identification in 3rd Party or Project, binary information listed in Identification > BIN, BIN(Android\|Yocto), or 3rd Party is inserted into the Binary DB, but this applies only when using version 4.1.30 or later of the [FOSSLight Binary Scanner](https://github.com/fosslight/fosslight_binary_scanner/).  
 <div style="margin-left: 50px; margin-top: -15px;">
   <details style="margin-top: 0px;">
     <summary style="font-weight: bold; color: #0056b3;">Details of Data Insertion</summary>
@@ -39,10 +39,8 @@ Once a base model’s binary has been analyzed, its information can be saved in 
     </ul>
   </details>
 </div>
-
-- This only works when a binary analysis result (binary.txt or result.txt) has been uploaded.  
-(Applicable only for FOSSLight Binary Scanner version 4.1.30 or below)   
-- If the binary is identical but the OSS information is different, the existing information is deleted and replaced with the new information.  
+ 
+- If the binary is identical but the OSS information is different, the existing information is deleted and replaced with the new information.   
 - If the binary is similar, the existing OSS information is retained, and the new OSS information is additionally updated.  
 <div style="margin-left: 50px; margin-top: -15px;">
     <details style="margin-top: 0px;">
