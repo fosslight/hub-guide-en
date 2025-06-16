@@ -38,27 +38,18 @@ published: true
     - Simple Text  
         - Same as Simple HTML, but in text file format.  
         - Example: [OSS Notice Simple Text](../../oss_notice_format/simple_OSSNotice-4022_Sample%20Project_2021_20211230211012.txt)
-    - SPDX(SpreadSheet)  
-        - Outputs the OSS Notice in SPDX spreadsheet format.  
-        - Example: [OSS Notice SPDX (SpreadSheet)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.xls)
-    - SPDX(RDF)  
-        - Outputs the OSS Notice in SPDX RDF format.  
-        - Example: [OSS Notice SPDX (RDF)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.rdf)
-    - SPDX(TAG)  
-        - Outputs the OSS Notice in SPDX TAG format.  
-        - Example: [OSS Notice SPDX (TAG)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.tag)
-    - SPDX(JSON)  
-        - Outputs the OSS Notice in SPDX JSON format.  
-        - Example: [OSS Notice SPDX (JSON)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.json)
-    - SPDX(YAML)  
-        - Outputs the OSS Notice in SPDX YAML format.  
-        - Example: [OSS Notice SPDX (YAML)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.yaml)
-    - CycloneDX(JSON)  
-        - Outputs the OSS Notice in CycloneDX JSON format.  
-        - Example: [OSS Notice CycloneDX (JSON)](../../oss_notice_format/CycloneDX-testproject.json)
-    - CycloneDX(XML)  
-        - Outputs the OSS Notice in CycloneDX XML format.  
-        - Example: [OSS Notice CycloneDX (XML)](../../oss_notice_format/CycloneDX-testproject.xml)
+    - SPDX(fileformat)  
+        - Outputs the OSS Notice in various file formats supported by SPDX. 
+        - Example: 
+            - [OSS Notice SPDX (SpreadSheet)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.xls)
+            - [OSS Notice SPDX (RDF)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.rdf)
+            - [OSS Notice SPDX (TAG)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.tag) 
+            - [OSS Notice SPDX (JSON)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.json)
+            - [OSS Notice SPDX (YAML)](../../oss_notice_format/SPDXRdf-SampleProject-2021_20211230.yaml)
+    - CycloneDX(fileformat)  
+        - Outputs the OSS Notice in various file formats supported by CycloneDX.   
+            - [OSS Notice CycloneDX (JSON)](../../oss_notice_format/CycloneDX-testproject.json)  
+            - [OSS Notice CycloneDX (XML)](../../oss_notice_format/CycloneDX-testproject.xml)  
 <br><br><br>
 
 ## How to Issue in a Different Format
