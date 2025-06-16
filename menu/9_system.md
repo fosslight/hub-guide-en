@@ -98,14 +98,9 @@ Check changes in OSS vulnerability data.
 
 - **Notice Setting**      
     - **Notice Type**: Set the type of OSS notice that can be issued.  
-
-- **SMTP Setting**   
-    - **Mail Server**: SMTP host (e.g., smtp.gmail.com)    
-    - **Email Address**: Sender email address (e.g., no-reply@fosslight.org)    
-    - **Port**: SMTP port number (e.g., 25 or 587)    
-    - **Encoding**: Default is UTF-8 (change only if necessary)    
-    - **Username**: SMTP username (usually same as the sender email)    
-    - **Password**: SMTP password (stored in encrypted form; if blank, the existing password will not be changed)  
-
+- **External Analysis Setting**  
+    - In the Self-Check menu, configure the information for the FOSSLight Scanner Service that will be linked when analyzing the source code via the Upload URL.  
+        - FL Scanner URL : Enter the URL of the FOSSLight Scanner Service server to be linked for analysis.  
+        - Admin Token : Enter the token of an account with admin privileges. This token value must be the same as the one set in the FOSSLight Scanner Service.  
 - **Workspace Path Setting**   
     - **Root Path**: Set the top-level workspace path for upload/download file storage.  
