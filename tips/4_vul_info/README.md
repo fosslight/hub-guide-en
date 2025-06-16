@@ -10,13 +10,17 @@ It provides information on collecting vulnerability data, notifications, and how
 ## Vulnerability Data Collection  
 {: .left-bar-title }  
 - Vulnerability data is downloaded daily from the [NVD Data Feed](https://nvd.nist.gov/vuln/data-feeds) and stored in the FOSSLight Hub.
-- The Vulnerability Score in the FOSSLight Hub is primarily based on the CVSS v3 Base Score, and if the v3 Score is not available, the CVSS v2 Base Score is used instead.  
+- The Vulnerability Score in FOSSLight Hub is primarily based on the CVSS v4.0 Base Score. It is collected according to the following priority order.  
+    1. CVSS v4.0
+    2. CVSS v3.1
+    3. CVSS v3.0
+    4. CVSS v2.0  
 <br><br><br>  
 
 ## Vulnerability Notification  
 {: .left-bar-title }  
-- An alert email will be sent when a Vulnerability Score that exceeds the threshold is registered for the first time, or when a Vulnerability Score changes from above the threshold to below it.
-    - If an OSS that meets the above conditions is included in the BOM of a Project with confirmed Identification, the Vulnerability Score change will be sent to the Project's Creator, Edit Permission, and Reviewer.  
+- An alert email is sent when a CVE ID with a CVSS score of 7.0 or higher is detected, or when the maximum CVSS score of an OSS changes from 7.0 or higher to less than 7.0.  
+    - If an OSS that meets the above conditions is included in the BOM of a Project with confirmed Identification, the Vulnerability Score change will be sent to the Project's Creator, Users with edit permissions, and Reviewer.  
     - If you no longer wish to receive alert emails, you can [change the Security Mail (Vulnerability) setting to Disable in Project Information](https://fosslight.org/hub-guide-en/tips/4_vul_info/#security-mailvulnerability).  
 <br><br><br>  
 
