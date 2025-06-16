@@ -102,5 +102,3 @@ Check changes in OSS vulnerability data.
     - In the Self-Check menu, configure the information for the FOSSLight Scanner Service that will be linked when analyzing the source code via the Upload URL.  
         - FL Scanner URL : Enter the URL of the FOSSLight Scanner Service server to be linked for analysis.  
         - Admin Token : Enter the token of an account with admin privileges. This token value must be the same as the one set in the FOSSLight Scanner Service.  
-- **Workspace Path Setting**   
-    - **Root Path**: Set the top-level workspace path for upload/download file storage.  
