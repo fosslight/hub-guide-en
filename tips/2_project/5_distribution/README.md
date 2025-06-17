@@ -24,7 +24,7 @@ This guide is used when you need to make minor changes to a completed OSS packag
    ![DistPackagingDelete](../../images/project/distribution/dist_packaging_delete.png){: .styled-image }  
 3. Click the Upload button to upload the updated OSS Package file. Once 'Updated' appears and the upload is confirmed, click the Start to Verify button.  
    ![DistPackagingStartVerify](../../images/project/distribution/dist_packaging_start_verify.png){: .styled-image }  
-4. If the verification is successful, the button will change to Completed as shown below.  
+4. If the verification is successful, the button will change to Complete as shown below.  
    ![DistPackagingComplete](../../images/project/distribution/dist_packaging_complete.png){: .styled-image }  
    - If verification fails, a popup will appear asking if you want to retry.  
    - If it continues to fail, check whether the uploaded file matches the Path information set in the Packaging tab.  
