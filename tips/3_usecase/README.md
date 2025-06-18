@@ -60,13 +60,15 @@ When OSS Package and OSS Notice are delivered to the customer, but at the custom
 
 ## Internal Transfer / Preceding Development / Internal Use Project  
 {: .left-bar-title }  
-For Internal Transfer / Preceding Development / Internal Use Project, the OSC Process is completed without distribution or OSS Notice issuance. If OSS Notice is needed, select the 'OSS Notice' option from the Project Information.   
+For Internal Transfer / Preceding Development / Internal Use Project, the OSC Process is completed without distribution or OSS Notice issuance.  
 - Project creation options  
     - Distribution Type  
     ![DistTypeInCompany](../images/usecase/dist_type/distribution_type.png){: .styled-image }  
         - Transfer-in-house (Internal Transfer) : When OSS list and OSS package must be delivered to other department  
         - Preceding (Preceding Development) : For early-stage development where distribution may occur later  
         - In-house only (In-house Use) : For use strictly within the company  
+    - OSS Notice
+        - When the distribution type corresponds to the condition described above, the OSS Notice is automatically set to N/A. 	If OSS Notice is needed, select the OSS Notice option manually.  
 - OSC Process  
     - If OSS **with** source code disclosure obligations is used  
         - Carry out up to the **Packaging stage**.  
@@ -111,7 +113,7 @@ For projects consisting only of software received from a 3rd party, you can carr
 
 <br><br><br>  
 
-## (LGE Only) Android & Yocto Platform Projects  
+## (Enterprise Only) Android & Yocto Platform Projects  
 {: .left-bar-title }  
 When the platform itself generates OSS Notice, you need to create a project for reviewing the platform-generated OSS Notice.
 - Fosslight Hub supported platforms : Android, Yocto    

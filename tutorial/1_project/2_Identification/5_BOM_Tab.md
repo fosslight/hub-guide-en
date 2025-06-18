@@ -4,22 +4,26 @@ published: true
 ---
 
 # BOM Tab
-<div class="note">
-Merge the OSS list written in 3rd Party, SRC, and BIN tabs and request to review.  
-</div>
+Merge the OSS list written in 3rd Party, DEP, SRC, and BIN tabs and request to review.  
+
 
 ## How to request a review
-{: .left-bar-title }
+{: .left-bar-title }  
+
+### YouTube Guide  
+{: .specific-title} 
 <div class="youtube-container">
     <iframe src="https://www.youtube.com/embed/ErqmgN-YgD0" title="BOM 탭(SBOM 다운로드)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-![prj](images/5_bom_tap.png){: .styled-image}
+### Process for requesting a review    
+{: .specific-title}  
 1. Click the 'Merge And Save' button.
     - Merge the OSS list written in 3rd Party, SRC, BIN tabs.  
 2. [**Check Warning message**](https://fosslight.org/hub-guide/tips/1_common/5_warning_message)  
 3. Request to review by clicking the 'Request' button. 
     - However, if there is a red Warning Message, you cannot request a review.  
+![prj](images/5_bom_tap.png){: .styled-image}   
 
 ### (Admin only) Review Process  
 {: .specific-title} 
