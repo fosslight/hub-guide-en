@@ -590,7 +590,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
     </thead>
     <tbody>
        <tr style="background-color: white;">
-            <td><span class="highlight"><span style="color: red;">(enterprise only)</span>POST /api/v2/compliance/3rdparty-status</span></td>
+            <td><span class="highlight"><span style="color: red;">(LGE only)</span>POST /api/v2/compliance/3rdparty-status</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query 3rd Party Status using the 3rd Party creation date and Division.<br><br>
@@ -602,7 +602,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><span class="highlight"><span style="color: red;">(enterprise only)</span>POST /api/v2/compliance/product-status</span></td>
+            <td><span class="highlight"><span style="color: red;">(LGE only)</span>POST /api/v2/compliance/product-status</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query Product Status using the Project creation date, Model release date, and Division.<br><br>
