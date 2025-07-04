@@ -200,6 +200,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
                     <li><strong class="highlight-black">creator</strong>: Query based on the information of the person who created it</li>
                     <li><strong class="highlight-black">division</strong>: Query based on division information</li>
                     <li><strong class="highlight-black">modelName</strong>: Query based on the model name</li>
+                    <li><strong class="highlight-black">modelNameExactYn</strong>: Set to true to retrieve only projects that exactly match the input model name</li>
                     <li><strong class="highlight-black">prjIdList</strong>: Query based on project ID. Multiple IDs can be input in list form</li>
                     <li><strong class="highlight-black">prjName</strong>: Query based on the project name</li>
                     <li><strong class="highlight-black">prjNameExactYn</strong>: Set to true to retrieve only projects that exactly match the input project name</li>
@@ -345,6 +346,30 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
+            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/setSecurityMailUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/security-mail</span></a></td>
+            <td style="text-align: center;"><span class="highlight">-</span></td>
+            <td>
+                Update whether to receive Vulnerability emails for the project.<br><br>
+                <ul class="description-list">
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> secMailYn</strong>: Security Enable (Y: Enable, N: Disable)</li>
+                    <li><strong class="highlight-black">secMailDesc</strong>: Reason for setting to Disable (required when secMailYn is N)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr style="background-color: white;">
+            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/addSecurityPersonUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/security-person</span></a></td>
+            <td style="text-align: center;"><span class="highlight">-</span></td>
+            <td>
+                <br> Update the recipients of security emails from FOSSLight Hub with creatorand editors. <br>
+                (LGE Only) Update the assignee of issues created in PSMS.<br><br>
+                <ul class="description-list">
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> userId</strong>: User ID (Only registered user in FOSSLight Hub)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr style="background-color: white;">
             <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjSecurityExportJsonUsingGET_1"><span class="highlight">GET /api/v2/projects/{id}/security/json-data</span></a></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
@@ -377,6 +402,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
                 Upload an open-source analyzed report file to the project.<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black">ossReport</strong>: Report file to be uploaded</li>
+                    <li><strong class="highlight-black">bomSave</strong>: Save BOM tab </li>
                     <li><strong class="highlight-black">comment</strong>: User comment</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
                     <li><strong class="highlight-black">resetFlag</strong>: Whether to reset existing entered information when uploading the file (default = Y). N - Append while maintaining existing OSS Table entries</li>
