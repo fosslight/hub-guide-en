@@ -402,8 +402,8 @@ This is a feature provided to make authentication easier when using Swagger UI. 
                 Upload an open-source analyzed report file to the project.<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black">ossReport</strong>: Report file to be uploaded</li>
-                    <li><strong class="highlight-black">bomSave</strong>: Save BOM tab </li>
                     <li><strong class="highlight-black">comment</strong>: User comment</li>
+                    <li><strong class="highlight-black">bomSave</strong>: Save BOM tab </li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
                     <li><strong class="highlight-black">resetFlag</strong>: Whether to reset existing entered information when uploading the file (default = Y). N - Append while maintaining existing OSS Table entries</li>
                     <li><strong class="highlight-black">sheetNames</strong>: If you want to update specific sheet names from the uploaded report file, input here. If not entered, information will be loaded based on the default prefixes DEP, SRC, BIN. Multiple sheets can be entered, separated by commas.</li>
