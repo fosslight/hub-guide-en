@@ -81,7 +81,7 @@ To see detailed information, click a cell in the OSS Name column of the OSS List
 ## OSS Details
 {: .left-bar-title } 
 Click the OSS Name in the OSS List.    
-The Editable option and the Save, Sync, Copy, and Delete buttons are displayed only if you are an Admin.  
+The Editable option and the Share, Save, Sync, Copy, and Delete buttons are displayed only if you are an Admin.  
 ![OSS_DETAIL](images/2_oss_user_detail.png) 
 
 ### Vulnerability Info
