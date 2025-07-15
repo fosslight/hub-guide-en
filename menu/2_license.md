@@ -310,3 +310,7 @@ You can find out the notice and source code disclosure obligations for each lice
 1. In the License List, click the license name you want to delete.
 2. In the License Details tab, enter the reason for deletion in the Comment field.
 3. Click the Delete button at the top right.
+
+### Share
+{: .specific-title}
+1. Shares License via the generated URL.

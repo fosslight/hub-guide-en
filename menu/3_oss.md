@@ -134,6 +134,10 @@ For detailed information, please refer to the [Restriction](https://fosslight.or
 {: .specific-title}
 - Modify the information in the OSS Details tab and Click the **Save** button at the upper right.
 
+### OSS Share
+{: .specific-title}
+- Shares OSS via the generated URL.
+
 #### OSS Copy
 {: .specific-title}
 - The OSS copy function is useful when adding different versions of the same OSS.
