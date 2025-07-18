@@ -42,7 +42,10 @@ OSS Notice is automatically generated based on the Identification > BOM tab.
     - You can choose to issue an OSS Notice without any modifications.  
 - Request to generate a modified OSS Notice. (Select this only in exceptional cases.)  
     - You can modify the format or contents of the OSS Notice.  
-    - You can append files to the OSS Notice to add more information.  
+        - Append: Add content to the OSS Notice.
+            - Editor: Manually enter the content to be added.
+            - File Upload: Upload a file containing the content to be added.
+        - The OSS Notice file format can be found at [Types of OSS Notices](../../../tips/2_project/4_oss_notice/).
 
 ## Requesting Review
 {: .left-bar-title } 
