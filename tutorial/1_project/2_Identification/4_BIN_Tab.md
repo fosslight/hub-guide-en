@@ -10,7 +10,7 @@ Fill in the result of Binary Analysis.
 
 ## BIN Tab Process
 {: .left-bar-title }
-- For projects that perform binary analysis: Fill in the result of binary analysis → [**Check Warning message**](https://fosslight.org/hub-guide-en/tips/1_common/5_warning_message) → Save
+- For projects that perform binary analysis: Fill in the result of binary analysis.([Use the FOSSLight Binary Scanner](https://fosslight.org/fosslight-guide-en/scanner/4_binary.html))  → [**Check Warning message**](https://fosslight.org/hub-guide-en/tips/1_common/5_warning_message) → Save
 - For projects that do not perform binary analysis: Check Not Applicable → Save
     - Select only for project that does not perform binary analysis.
 

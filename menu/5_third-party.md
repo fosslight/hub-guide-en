@@ -31,7 +31,7 @@ published: true
     |**3rd Party Software Name**|Enter the name of the software received from the 3rd party.|
     |**3rd Party Software Version**|Enter the version of the software received from the 3rd party.<br>(Identical versions for the same software cannot be duplicated.)|
     |**Delivery Form**|Select the form of the received software. (Source Code Form, Binary Form)|
-    |**View Permission**|Everyone: All users can view the information of the 3rd Party SW. <br>Creator/Watcher: Only the Watcher and Creator can view the 3rd Party SW; others cannot.|
+    |**View Permission**|Everyone: All users can view the information of the 3rd Party SW. <br>Creator/Editor: Only the Creator and Editor can view the 3rd Party SW; others cannot.|
     |**OSS Checklist (Open Source List)**| Upload the pre-prepared 3rd Party OSS Checklist. (When uploading, select 'Open Source Software List' as the sheet to apply.)|
      |**Related Documents**|(Optional) Upload the relevant documents provided by the 3rd Party.|
     |**Description**|(Optional) Enter additional information for Open Source Compliance, if applicable.|

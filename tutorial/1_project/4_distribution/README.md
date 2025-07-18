@@ -24,5 +24,5 @@ When Distribution is performed, the OSS notice and OSS package are registered on
 {: .left-bar-title }
 - Distribution can only be performed by users with **Admin rights** since it involves public disclosures.  
 - For **LG Electronics**, Admin accounts are granted only to OSC representatives for the division/research lab.  
-    - If the Project Creator is not the OSC representative, please add the organization's OSC representative to the Project > Watcher section and request them to proceed with the Distribution stage.  
+    - If the Project Creator is not the OSC representative, please add the organization's OSC representative to the Project > Edit Permission section and request them to proceed with the Distribution stage.  
  

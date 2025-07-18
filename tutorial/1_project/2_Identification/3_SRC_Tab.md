@@ -10,7 +10,7 @@ Fill in the result of Source Code Analysis.
 
 ## SRC Tab Process
 {: .left-bar-title }
-- For projects that perform Source Code Analysis : Fill in the result of Source Code Analysis. → [**Check Warning message**](https://fosslight.org/hub-guide-en/tips/1_common/5_warning_message) → Save
+- For projects that perform Source Code Analysis : Fill in the result of Source Code Analysis.([Use the FOSSLight Source Scanner](https://fosslight.org/fosslight-guide-en/scanner/2_source.html)) → [**Check Warning message**](https://fosslight.org/hub-guide-en/tips/1_common/5_warning_message) → Save
 - For projects that do not perform Source Code Analysis : Check Not Applicable → Save  
     - Select only for Model/Software that does not perform Source Code Analysis. (ex - If only the binaries received from the 3rd party are installed and distributed on the product.)  
 

@@ -10,7 +10,7 @@ Fill in the result of Dependency analysis.
 
 ## DEP Tab Process
 {: .left-bar-title }
-- For projects that perform Dependency Analysis : Fill in the result of Dependency Analysis. → [**Check Warning message**](https://fosslight.org/hub-guide-en/tips/1_common/5_warning_message) → Save
+- For projects that perform Dependency Analysis : Fill in the result of Dependency Analysis.([Use the FOSSLight Dependency Scanner](https://fosslight.org/fosslight-guide-en/scanner/3_dependency.html)) → [**Check Warning message**](https://fosslight.org/hub-guide-en/tips/1_common/5_warning_message) → Save
 - For projects that do not perform Dependency Analysis (Ex. If a project that has not been developed or used through the package manager.) : Check Not Applicable → Save
 
 ## How to fill in the result of Dependency Analysis

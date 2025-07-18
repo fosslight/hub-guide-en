@@ -17,7 +17,7 @@ published: true
  
 ### <a name="comment"></a> Adding Comments
 {: .under-bar-title} 
-- You can leave a comment on the project and send that comment via email to the Reviewer, Watcher, and Creator.
+- You can leave a comment on the project and send that comment via email to the Reviewer, Users granted Edit Permission, and Creator.
 - For detailed guidance, please refer to [Tips > Common > Comment](../../tips/1_common/4_comment).
 
 ### <a name="warning"></a> OSS Table's Warning message 
