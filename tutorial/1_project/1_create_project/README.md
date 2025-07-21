@@ -87,7 +87,7 @@ This page is for entering basic information about the project.
                 <ul class="description-list">
                     <li>Only users registered in FOSSLight Hub are eligible for designation.</li>
                     <li>The designated person is assigned as the Assignee for security-related Jira issues and receives related emails from FOSSLight Hub.</li>
-                    <li>If no security responsible person is designated, the Creator of the issue is assigned by default.</li>
+                    <li>If no security responsible person is designated, the Creator of the project is assigned by default.</li>
                 </ul>
             </td>
         </tr>
