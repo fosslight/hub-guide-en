@@ -7,21 +7,24 @@ title: 1.Create a project
 # Create a Project
 Create a project for the software being distributed.
 
+## YouTube Guide
+{: .left-bar-title}  
 <div class="youtube-container">
 <iframe src="https://www.youtube.com/embed/IUrQyj3s-Ps" title="FOSSLight Hub - 프로젝트 생성" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br><br><br>
 
 ## How to create a project 
 {: .left-bar-title }
 
-1. Click the **Add** button in the **Project List**.
-![prj_add](images/1_project_add.png){: .styled-image}
+1. Click the **Add** button in the **Project List**.  
+<img src="images/1_project_add.png" alt="prj_add" width="700" height="300">  
 
 2. Enter the project-related information in the **New_Project** tab.
 ![prj_add_information](images/1_project_add_information.png){: .styled-image}
 
 3. Click the **Save**(<img src="images/floppy-disk-solid.png" width="16" height="20" />) button at the top right corner to finalize your entries.  
-<br>
+<br><br>
 
 ### Project Information
 {: .specific-title}
@@ -52,18 +55,19 @@ This page is for entering basic information about the project.
             </td>
         </tr>
         <tr>
-            <td><strong class="highlight_table">Permission</strong></td>
-            <td>Set project visibility.<br>
+            <td><strong class="highlight_table">Priority</strong></td>
+            <td>Select the priority level for the OSS notice issuance request.<br>
                 <ul class="description-list">
-                    <li>Choose 'Creator & Editor' for limited visibility, or 'Everyone' for full visibility.</li>
+                    <li>The default is P2, and you can choose according to urgency (P0 > P1 > P2).</li>
+                    <li>Frequent selection of P0 may lead to the organization being subject to OSC process assessments.</li>
                 </ul>
             </td>
         </tr>
         <tr>
-            <td><strong class="highlight_table">Operating System</strong></td>
-            <td>Select the operating system.<br>
+            <td><strong class="highlight_table">View Permission</strong></td>
+            <td>Set project visibility.<br>
                 <ul class="description-list">
-                    <li>If there are no available options, select 'Input Manually' and enter it.</li>
+                    <li>Choose 'Creator & Editor' for limited visibility, or 'Everyone' for full visibility.</li>
                 </ul>
             </td>
         </tr>
@@ -78,6 +82,24 @@ This page is for entering basic information about the project.
             </td>
         </tr>
         <tr>
+            <td><strong class="highlight_table">Security Responsible Person</strong></td>
+            <td>A specific security responsible person can be designated.<br>
+                <ul class="description-list">
+                    <li>Only users registered in FOSSLight Hub are eligible for designation.</li>
+                    <li>The designated person is assigned as the Assignee for security-related Jira issues and receives related emails from FOSSLight Hub.</li>
+                    <li>If no security responsible person is designated, the Creator of the issue is assigned by default.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><strong class="highlight_table">Operating System</strong></td>
+            <td>Select the operating system.<br>
+                <ul class="description-list">
+                    <li>If there are no available options, select 'Input Manually' and enter it.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
             <td><strong class="highlight_table">Distribution Type</strong></td>
             <td>Select one of the following distribution types.<br>
                 <ul class="description-list">
@@ -85,6 +107,7 @@ This page is for entering basic information about the project.
                     <li><strong>Transfer in-house</strong>: Transferring to other organization within the company.</li>
                     <li><strong>B2B</strong>: Providing to another company.</li>
                     <li><strong>Preceding Software / In-house only</strong>: Preliminary development or not intended for external distribution.</li>
+                    <li><strong>Self-Check</strong>: Intended for internal review and pre-verification, not for distribution.</li>
                 </ul>
             </td>
         </tr>
@@ -113,15 +136,6 @@ This page is for entering basic information about the project.
             </td>
         </tr>
         <tr>
-            <td><strong class="highlight_table">Priority</strong></td>
-            <td>Select the priority level for the OSS notice issuance request.<br>
-                <ul class="description-list">
-                    <li>The default is P2, and you can choose according to urgency (P0 > P1 > P2).</li>
-                    <li>Frequent selection of P0 may lead to the organization being subject to OSC process assessments.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
             <td><strong class="highlight_table">Model Information</strong></td>
             <td>Enter the model information corresponding to the project, including the release date.</td>
         </tr>
@@ -130,7 +144,7 @@ This page is for entering basic information about the project.
             <td>Enter any supplementary information required for compliance.</td>
         </tr>
         <tr>
-            <td><strong class="highlight_table">Editor</strong></td>
+            <td><strong class="highlight_table">Edit Permission</strong></td>
             <td>Add users who want to share the project's information and status.<br>
                 <ul class="description-list">
                     <li>Users added as a Editor have the same viewing and editing permissions as the Creator, and receive project-related emails from the system.</li>
