@@ -1,66 +1,213 @@
-# FOSSLight Report
 
-```note
-This is a template used by FOSSLight and FOSSLight Scanner, and is a document written to understand the open source status included in each project.
-```
+# FOSSLight Report  
+- FOSSLight Report is a template used by FOSSLight Hub and FOSSLight Scanner to identify the usage status of Open Source per project, and is also referred to as an 'OSS Report'.  
+- Version 3.3: [Fosslight_Report.xlsx](https://github.com/fosslight/fosslight/raw/main/src/main/resources/template/ProjectReport.xlsx)
 
-## Form
-
-v2.0 : [fosslight_report.xlsx](https://github.com/fosslight/fosslight/raw/main/src/main/resources/template/ProjectReport.xlsx)
-
-## Description by Sheet
+## Sheet Structure 
+{: .left-bar-title }  
 
 ### Project Info Sheet
-![info](./images/project_info.png)
-- About the report  
-   Write the creator, division and date of creation.
+{: .specific-title}  
+- Fill in the project information.  
+<img src="images/project_info.png" width="450" height="400" alt="project_info"/>  
 
-- About the project  
-   Provide information about the development project.
-
-- About OSC Process  
-   Provide information about the OSC process.
-
-### 3rd Party Sheet
-If your project includes software from 3rd party, you should obtain OSS checklist from 3rd party and check what open sources are used. (Refer to [3rd Party OSS Checklist](https://github.com/fosslight/fosslight/raw/main/src/main/resources/static/sample/FOSSLight-OSS-Checklist-for-3rdParty_Eng_1.0.xlsx))         
-The OSS Checklist obtained should be registered in the [3rd Party](../menu/5_third-party.md) menu of the FOSSLight and collected in the 3rd Party tab.     
-If you export the FOSSLight report from the FOSSLight, the contents registered in the 3rd Party tab will be filled in the "3rd party" sheet. Therefore, do not fill in the "3rd party" sheet manually.       
-
-![info](./images/3rd_party.png)
-
+### 3rd Party Sheet  
+{: .specific-title}   
+- If the project includes software provided by a 3rd party, obtain the OSS Checklist from the 3rd party to identify what Open Sources are used. (Reference: [3rd Party OSS Checklist](https://raw.githubusercontent.com/fosslight/fosslight/develop/src/main/resources/static/sample/LGE-OSS-Checklist-for-3rdParty_Eng_2.0.xlsx))     
+- The identified Open Source information is registered in the [3rd Party](../menu/5_third-party.md) menu of FOSSLight Hub and is collected in the Project > Identification > [3rd Party tab](../tutorial/1_project/2_Identification/1_3rd_Party_Tab.md).
+- When the FOSSLight Report is exported from FOSSLight Hub > Project > Identification, the information registered in the 3rd Party tab is automatically filled in the "3rd party" sheet. Therefore, do not manually fill in the "3rd party" sheet.      
+![3rd_Party](./images/3rd_party.png)  
 
 ### DEP Sheet
-Update the result of dependency analysis.
-- If you use [FOSSLight Dependency Scanner](https://github.com/fosslight/fosslight_dependency_scanner), you can automatically generate the result of dependency analysis.
-
+{: .specific-title}
+- Upload the Dependency analysis results.  
+![Dependency](./images/dependency.png)  
+   - [FOSSLight Dependency Scanner](https://fosslight.org/fosslight-guide-en/scanner/3_dependency.html) can be used to automatically generate "DEP" sheet.  
 
 ### SRC Sheet
-Write open source information included by source code.   
-
-![info](./images/src.png)
-- The License Text in the Open Source file used is present, but if the Open Source name or the origin is unclear, put a hyphen ("-") in the OSS Name field.
-- If multiple licenses are applied to a single open source, write them by comma-separated by license.
-- Note. If you use [FOSSLight Source Scanner](https://github.com/fosslight/fosslight_source_scanner), you can automatically generate "SRC" sheet.
-
+{: .specific-title}
+- Fill in the Open Source information included per Source Code.   
+![src](./images/src.png)  
+   - [FOSSLight Source Scanner](https://fosslight.org/fosslight-guide-en/scanner/2_source.html) can be used to automatically generate the "SRC" sheet.   
 
 ### BIN Sheet
-Write open source information included by binary.     
+{: .specific-title}
+- Fill in the Open Source information included per Binary.   
+![bin](./images/bin.png) 
+   - [FOSSLight Binary Scanner](https://fosslight.org/fosslight-guide-en/scanner/4_binary.html) can be used to automatically generate the "BIN" sheet.  
 
-![info](./images/bin.png)
-- The license text in the open source file used to create the binary exists, but if the open source name or origin is unclear, put a hyphen ("-") in the OSS Name field.
-- If multiple licenses are applied to a single open source, write them by comma-separated by license.
-
-
+### BIN(Android) Sheet
+{: .specific-title}
+- Fill in the Open Source information for Android Platform Project and Yocto Project.  
+![bin_android](./images/bin_android.png) 
+   - [FOSSLight Android Scanner](https://fosslight.org/fosslight-guide-en/scanner/6_android.html) and [FOSSLight Yocto Scanner](https://fosslight.org/fosslight-guide-en/scanner/5_yocto.html) can be used to automatically generate the "BIN(Android)" or "BIN(Yocto)" sheets.
+   - For Android Platform and Yocto-based models (such as phones and TVs), the DEP, SRC, and BIN sheets do not need to be filled in.  
 
 ### BOM Sheet
-The "BOM" (Bill of Materials) sheet is a sheet to show the contents of the open sources listed in the FOSSLight Report. Do not write this sheet.     
-      
-The "BOM" sheet is automatically filled in the FOSSLight Report downloaded from the FOSSLight.
-
-![info](./images/bom.png)
-
+{: .specific-title}
+- BOM (Bill of Materials) is generated by collecting the Open Source information from each sheet in the FOSSLight Report.  
+- As the BOM is automatically filled in when exporting the FOSSLight Report from the Project in FOSSLight Hub, manual editing is not necessary.   
+![bom](./images/bom.png)  
 
 
+## Sheet Content Creation
+{: .left-bar-title }  
+Although the sheet is automatically generated using the FOSSLight Scanner, any missing or inaccurate information must be manually reviewed and supplemented.  
+
+### Common Requirements
+{: .specific-title}  
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr>
+      <th style="padding: 12px;">Column Name</th>
+      <th style="padding: 12px;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 12px;">OSS Name</td>
+      <td style="padding: 12px;">
+         • Fill in the OSS Name based on the name specified on the website from which the Open Source was downloaded.<br>
+         • Utilize the <a href="../tips/1_common/2_pre_review/">Pre-Review</a> feature to identify the OSS Name through download location information.<br>
+         • If the license text exists but the Open Source name or origin is unclear, fill in the OSS Name with a hyphen ("-").<br>
+         <div style="margin-left: 20px;">
+            – Fill in all other information such as License and Copyright.<br>
+            – This applies only if the license is Permissive. For Copyleft licenses like GPL or LGPL, accurately confirm the OSS Name and origin to determine the scope of source code disclosure.
+         </div>
+         • If no Open Source was used, fill in a hyphen ("-") in the OSS Name field.
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;">OSS Version</td>
+      <td style="padding: 12px;">• Fill in the version of the Open Source used.</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;">License</td>
+      <td style="padding: 12px;">
+        • If multiple licenses apply to a single Open Source, separate them with commas (",").<br> 
+        • If no Open Source was used, fill in "LGE Proprietary License", or "Other Proprietary License" if developed by a third party.  
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;">Download Location</td>
+      <td style="padding: 12px;">• Fill in the URL where the Open Source of the specified OSS version can be downloaded.</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;">Homepage</td>
+      <td style="padding: 12px;">• Fill in the official website URL of the Open Source project.</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;">Copyright Text</td>
+      <td style="padding: 12px;">• Fill in the copyright information of the Open Source.</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;">License Text</td>
+      <td style="padding: 12px;">• If the OSS license is not registered in FOSSLight Hub, fill in a link to the original license text or the license text itself.</td>
+    </tr>
+    <tr>
+      <td style="padding: 12px;">Exclude</td>
+      <td style="padding: 12px;">• Check this box if the Open Source is not included in the software(including products) to be distributed.</td>
+    </tr>
+  </tbody>
+</table>
 
 
+### Sheet-Specific Content Creation  
+{: .specific-title}
 
+#### Project Info Sheet
+   - **About the Report**: Fill in the author/department and date of creation.
+   - **About the Project**: Fill in the information about the development project.
+<details style="margin-left: 60px;">
+  <summary>Detailed Content Creation</summary>
+  <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%; margin-top: 10px;">
+    <thead>
+      <tr>
+        <th style="padding: 12px;">Item</th>
+        <th style="padding: 12px;">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 12px;">Project Name</td>
+        <td style="padding: 12px;">
+          • Fill in the name of the project. If the model name and project name are the same, use the model name.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 12px;">Project Version</td>
+        <td style="padding: 12px;">
+          • Fill in the version of the project. Leave blank if there is no version information.  
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 12px;">Operating System</td>
+        <td style="padding: 12px;">
+          • Select the operating system of the project (e.g., Android 7.0, webOS 3.0, Linux 3.4, iOS Application).
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 12px;">Distribution Type</td>
+        <td style="padding: 12px;">
+          • Choose the distribution type of the project.
+          <div style="margin-left: 20px;">
+            • General Model: For general B2C models<br>
+            • Transfer in-house: For internal transfers<br>
+            • B2B: For B2B models<br>
+            • Preceding Software: For pre-development without planned distribution<br>
+            • Self-Check: For internal review and pre-verification, not for external distribution
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 12px;">Network Service Only?</td>
+        <td style="padding: 12px;">
+          • If the project is a network service (e.g., Web Service), select 'Yes'.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+   - **About OSC Process**: Fill in the information about the Open Source Compliance(OSC) process.
+
+<details style="margin-left: 60px;">
+  <summary>Detailed Content Creation</summary>
+  <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse; width: 100%;">
+    <thead>
+      <tr>
+        <th style="padding: 12px;">Item</th>
+        <th style="padding: 12px;">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 12px;">Distribution Site</td>
+        <td style="padding: 12px;">
+          • Select the open source distribution site where the OSS Notice will be registered.
+          (Reference: <a href="https://opensource.lge.com" target="_blank">LG Open Source Site</a>)<br>
+          • Mark as "N/A" if not distributed through a distribution site.
+        </td>
+      </tr>
+      <tr>
+        <td style="padding: 12px;">OSS Notice</td>
+        <td style="padding: 12px;">
+          • Select the type of OSS Notice.
+          (Reference: <a href="../tips/2_project/4_oss_notice/" target="_blank">OSS Notice</a>)<br>
+          • Generally, select "General".<br>
+          • If the OSS notice is generated automatically on the project's development platform, select "Platform-generated".  
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</details>
+
+#### BIN Sheet
+- If multiple Open Sources are used in one Binary, add separate rows for each Open Source.
+- **Source or Binary Path**: Specify the path to the source code or binary, depending on the delivery form (Source Code or Binary).
+
+#### BIN (Android) Sheet
+- **Source Path**: Fill in the source code path of the Binary. If verification is difficult, provide the reason in the **Comment** column.
+- **NOTICE**: Follow the results from the [FOSSLight Android Scanner](https://fosslight.org/fosslight-guide/scanner/6_android.html) (result.txt) without manual modifications.
+- If multiple Open Sources are used in one Binary, add separate rows for each Open Source.
