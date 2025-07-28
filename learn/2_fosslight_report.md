@@ -13,7 +13,7 @@
 
 ### 3rd Party Sheet  
 {: .specific-title}   
-- If the project includes software provided by a 3rd party, obtain the OSS Checklist from the 3rd party to identify what Open Sources are used. (Reference: [3rd Party OSS Checklist](https://raw.githubusercontent.com/fosslight/fosslight/develop/src/main/resources/static/sample/LGE-OSS-Checklist-for-3rdParty_Eng_2.0.xlsx))     
+- If the project includes software provided by a 3rd party, obtain the OSS Checklist from the 3rd party to identify what Open Sources are used.  
 - The identified Open Source information is registered in the [3rd Party](../menu/5_third-party.md) menu of FOSSLight Hub and is collected in the Project > Identification > [3rd Party tab](../tutorial/1_project/2_Identification/1_3rd_Party_Tab.md).
 - When the FOSSLight Report is exported from FOSSLight Hub > Project > Identification, the information registered in the 3rd Party tab is automatically filled in the "3rd party" sheet. Therefore, do not manually fill in the "3rd party" sheet.      
 ![3rd_Party](./images/3rd_party.png)  
@@ -52,7 +52,8 @@
 
 ## Sheet Content Creation
 {: .left-bar-title }  
-Although the sheet is automatically generated using the FOSSLight Scanner, any missing or inaccurate information must be manually reviewed and supplemented.  
+By using [FOSSLight Scanner](https://fosslight.org/fosslight-guide/scanner/), DEP, SRC, and BIN sheets can be automatically generated at the same time. However, you must manually check and supplement any missing or inaccurate information.  
+  
 
 ### Common Requirements
 {: .specific-title}  
@@ -70,10 +71,10 @@ Although the sheet is automatically generated using the FOSSLight Scanner, any m
       <td style="padding: 12px;">
          • Fill in the OSS Name based on the name specified on the website from which the Open Source was downloaded.<br>
          • Utilize the <a href="../tips/1_common/2_pre_review/">Pre-Review</a> feature to identify the OSS Name through download location information.<br>
-         • If the license text exists but the Open Source name or origin is unclear, fill in the OSS Name with a hyphen ("-").<br>
+         • If the License text exists but the Open Source name or origin is unclear, fill in the OSS Name with a hyphen ("-").<br>
          <div style="margin-left: 20px;">
             – Fill in all other information such as License and Copyright.<br>
-            – This applies only if the license is Permissive. For Copyleft licenses like GPL or LGPL, accurately confirm the OSS Name and origin to determine the scope of source code disclosure.
+            – This applies only if the License is Permissive. For Copyleft Licenses like GPL or LGPL, accurately confirm the OSS Name and origin to determine the scope of source code disclosure.
          </div>
          • If no Open Source was used, fill in a hyphen ("-") in the OSS Name field.
       </td>
@@ -85,7 +86,7 @@ Although the sheet is automatically generated using the FOSSLight Scanner, any m
     <tr>
       <td style="padding: 12px;">License</td>
       <td style="padding: 12px;">
-        • If multiple licenses apply to a single Open Source, separate them with commas (",").<br> 
+        • If multiple Licenses apply to a single Open Source, separate them with commas (",").<br> 
         • If no Open Source was used, fill in "LGE Proprietary License", or "Other Proprietary License" if developed by a third party.  
       </td>
     </tr>
@@ -103,7 +104,7 @@ Although the sheet is automatically generated using the FOSSLight Scanner, any m
     </tr>
     <tr>
       <td style="padding: 12px;">License Text</td>
-      <td style="padding: 12px;">• If the OSS license is not registered in FOSSLight Hub, fill in a link to the original license text or the license text itself.</td>
+      <td style="padding: 12px;">• If the License is not registered in FOSSLight Hub, fill in a link to the original License text or the License text itself.</td>
     </tr>
     <tr>
       <td style="padding: 12px;">Exclude</td>
