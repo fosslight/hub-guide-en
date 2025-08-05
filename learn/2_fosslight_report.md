@@ -210,5 +210,5 @@ By using [FOSSLight Scanner](https://fosslight.org/fosslight-guide/scanner/), DE
 
 #### BIN (Android) Sheet
 - **Source Path**: Fill in the source code path of the Binary. If verification is difficult, provide the reason in the **Comment** column.
-- **NOTICE**: Follow the results from the [FOSSLight Android Scanner](https://fosslight.org/fosslight-guide/scanner/6_android.html) (result.txt) without manual modifications.
+- **NOTICE**: Follow the results from the [FOSSLight Android Scanner](https://fosslight.org/fosslight-guide/scanner/6_android.html) without manual modifications.
 - If multiple Open Sources are used in one Binary, add separate rows for each Open Source.
