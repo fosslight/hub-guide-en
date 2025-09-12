@@ -5,9 +5,20 @@ To call the functions of FOSSLight, you can use the REST API.
 
 ## How to start  
 {: .left-bar-title }  
-To call the REST API, you need to issue a **TOKEN**. Please follow the steps below.
-1. Log in with your **Admin account**
-2. **In the System > User Management** tab, you can issue a **Token** for each **User**.
+To call the REST API, **Token** mush be issued in advance.  
+**Token** can only be issued by an Admin account, so general users must request **Token** issuance from the Admin before using the REST API.  
+
+### Admin
+{: .specific-title }    
+1. Log in with the **Admin account**.  
+2. **In the System > User Management** tab, you can issue a **Token** for each User.  
+
+### General User
+{: .specific-title }  
+1. Request **Token** issuance from the Admin.  
+2. Once issued, the **Token** can be viewed in [User Settings](https://fosslight.org/hub-guide-en/tips/5_etc/1_user_settings.html).  
+
+<br><br><br>
 
 ## REST API List  
 {: .left-bar-title } 
@@ -644,7 +655,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
         </tr>
     </tbody>
 </table>
-
+<br><br><br>  
 
 ## Error code  
 {: .left-bar-title } 
