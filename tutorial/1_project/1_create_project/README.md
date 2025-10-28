@@ -106,7 +106,8 @@ This page is for entering basic information about the project.
                     <li><strong>General Model</strong>: Distributing general model, software, or applications.</li>
                     <li><strong>Transfer in-house</strong>: Transferring to other organization within the company.</li>
                     <li><strong>B2B</strong>: Providing to another company.</li>
-                    <li><strong>Preceding Software / In-house only</strong>: Preliminary development or not intended for external distribution.</li>
+                    <li><strong>Preceding</strong>: Preliminary development with potential for distribution.</li>
+                    <li><strong>In-house only</strong>: For internally used software with no distribution plans.</li>
                     <li><strong>Self-Check</strong>: Intended for internal review and pre-verification, not for distribution.</li>
                 </ul>
             </td>
