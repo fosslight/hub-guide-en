@@ -42,9 +42,9 @@ published: true
 
 **Export**
 - Click the <img src="../../images/common/oss_table_buttons/download.png" width="12" height="16" /> button to export the OSS Table contents in the selected format.
-    - BOM Tab : You can download the FOSSLight Report and in various formats for the SBOM standard.  
+    - SBOM Tab : You can download the FOSSLight Report and in various formats for the SBOM standard.  
     ![ExportListBOM](../../images/common/oss_table_buttons/export_popup_2.png){: .styled-image}    
-    - Tab other than BOM" : You can download the FOSSLight Report.   
+    - Tab other than SBOM" : You can download the FOSSLight Report.   
     ![ExportListOthers](../../images/common/oss_table_buttons/export_popup_1.png){: .styled-image}<br><br><br><br>  
 
 ## Modify OSS Table Cell
