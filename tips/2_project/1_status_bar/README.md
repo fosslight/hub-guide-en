@@ -16,7 +16,7 @@ published: true
 ## Self-Reject  
 {: .left-bar-title }  
 - If the Project Status is <img src="../../images/project/status_bar/status_request_icon.png" width="60px" height="20px"> and changes are needed in the Identification or Packaging stages, you can change the Project Status.  
-  1. In the Identification (BOM) or Packaging step, click the <img src="../../images/project/status_bar/status_reject_icon.png" width="50px" height="20px"> button at the top right.  
+  1. In the Identification (SBOM) or Packaging step, click the <img src="../../images/project/status_bar/status_reject_icon.png" width="50px" height="20px"> button at the top right.  
   <img src="../../images/project/status_bar/status_identification_reject.png" width="600px" height="150px" class="styled-image">  
   <img src="../../images/project/status_bar/status_packaging_reject.png" width="600px" height="150px" class="styled-image">  
   2. Enter the reason for the changes and click OK. The Project Status will be changed to <img src="../../images/project/status_bar/status_progress_icon.png" width="60px" height="20px">.  
