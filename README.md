@@ -12,9 +12,6 @@ This guide page describes the basic usage and tutorial of FOSSLight Hub and adva
 
 ## Contents
 
-### FOSSLight Hub Getting started
-- [Quick Start](started/1_install.md)
-
 ### FOSSLight Hub Menu
 - [Sign in / Account registration](menu/1_sign.md)
 - [OSS(Open Source Software)](menu/3_oss.md)
