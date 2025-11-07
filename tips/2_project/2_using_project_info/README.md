@@ -5,15 +5,15 @@ published: true
 
 # How to Use Project
 
-## BOM Compare
+## SBOM Compare
 {: .left-bar-title }  
-- This function allows you to compare the BOM of two projects to check the OSS components that have been added, changed, or deleted between projects.  
-- **How to Use BOM Compare**  
+- This function allows you to compare the SBOM of two projects to check the OSS components that have been added, changed, or deleted between projects.  
+- **How to Use SBOM Compare**  
     1. Select two projects to compare from the 'Project list'.    
-    2. Click the 'BOM Compare' button.    
-   <img src="../../images/project/bom_compare/bom_compare_how.png" width="700px" height="250px" alt="BOMCompare" class="styled-image">  
-    3. In the BOM comparison tab, you can check the differences between the before and after projects.    
-   <img src="../../images/project/bom_compare/bom_compare_result.png" width="700px" height="300px" alt="BOMCompareResult" class="styled-image">  
+    2. Click the 'SBOM Compare' button.    
+   <img src="../../images/project/bom_compare/bom_compare_how.png" width="700px" height="250px" alt="SBOMCompare" class="styled-image">  
+    3. In the SBOM comparison tab, you can check the differences between the before and after projects.    
+   <img src="../../images/project/bom_compare/bom_compare_result.png" width="700px" height="300px" alt="SBOMCompareResult" class="styled-image">  
 <br><br><br>
 
 ## Project Copy   
