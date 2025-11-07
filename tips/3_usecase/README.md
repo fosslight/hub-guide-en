@@ -19,7 +19,7 @@ you can efficiently carry out the OSC Process by [copying the completed project]
 
 ### New Project with the Same OSS List as Existing Project   
 {: .specific-title }  
-You can use [BOM Compare](https://fosslight.org/hub-guide-en/tips/2_project/2_using_project_info/#bom-compare) to check whether the final OSS list is the same.<br>
+You can use [SBOM Compare](https://fosslight.org/hub-guide-en/tips/2_project/2_using_project_info/#sbom-compare) to check whether the final OSS list is the same.<br>
 - **When both OSS List and source code to be disclosed are the same**  
   - After copying the project with Packaging Confirm, perform the Distribution or add Models in the Distribution of the existing project.     
 - **When OSS List is the same but source code to be disclosed is different**  
@@ -88,7 +88,7 @@ It refers to the development of software that provides functions or data to exte
     - If OSS with **Network Triggered license** is used : Proceed up to the **Distribution stage**.   
     - If OSS with **Network Triggered license** is not used : Proceed up to the **Identification stage**.   
 - How to check license restrictions 
-    - Access the Restriction column in Identification > BOM, or search in the License menu to check **Restriction (Network Triggered)**.
+    - Access the Restriction column in Identification > SBOM, or search in the License menu to check **Restriction (Network Triggered)**.
     **Example: AGPL-3.0:** <br/>
     ![AGPL-3.0Example](../images/usecase/dist_type/network_restriction.png){: .styled-image } 
 

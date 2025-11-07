@@ -35,7 +35,7 @@ In the Packaging tab, upload the OSS Package file and verify it.
 
 ## Notice tab
 {: .left-bar-title }
-OSS Notice is automatically generated based on the Identification > BOM tab.  
+OSS Notice is automatically generated based on the Identification > SBOM tab.  
 ![prj](images/3_project_packaging_notice.PNG){: .styled-image}
 
 - Request to generate a default OSS Notice. (Select this in most cases.)
