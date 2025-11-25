@@ -23,9 +23,9 @@ To call the REST API, **Token** mush be issued in advance.
 ## REST API List  
 {: .left-bar-title } 
 Refer to the link below for API operation and return value.  
-- For Demo service: <a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="https://demo.fosslight.org/" target="_blank">https://demo.fosslight.org/</a>)<br>
 - For FOSSLight Hub(LGE Only) : <a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="http://osc.lge.com" target="_blank">http://osc.lge.com</a>) <br>
-- For FOSSLight Hub Dev(LGE Only) : <a href="http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="http://osc-dev.lge.com" target="_blank">http://osc-dev.lge.com</a>)  
+- For FOSSLight Hub Dev(LGE Only) : <a href="http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2" target="_blank">http://osc-dev.lge.com/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="http://osc-dev.lge.com" target="_blank">http://osc-dev.lge.com</a>)<br>  
+- For Enterprise : <a href="https://enterprise.fosslight.org/swagger-ui/index.html?urls.primaryName=v2" target="_blank">https://enterprise.fosslight.org/swagger-ui/index.html?urls.primaryName=v2</a> (integration server : <a href="http://enterprise.fosslight.org" target="_blank">http://enterprise.fosslight.org</a>)<br> 
    
 ### 0. Header  
 {: .specific-title }    
@@ -68,7 +68,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/getLicenseInfoUsingGET_1"><span class="highlight">GET /api/v2/license</span></a></td>
+            <td><span class="highlight">GET /api/v2/license</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query the license information.<br><br>
@@ -81,7 +81,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/getOssInfoUsingGET_1"><span class="highlight">GET /api/v2/oss</span></a></td>
+            <td><span class="highlight">GET /api/v2/oss</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query Open Source information.<br><br>
@@ -97,7 +97,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;"> 
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/registerOssUsingPOST_1"><span class="highlight">POST /api/v2/oss</span></a></td>
+            <td><span class="highlight">POST /api/v2/oss</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 <span style="color: red;">(Admin only)</span> Register Open Source.<br><br>
@@ -107,7 +107,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/1.%20OSS%20&%20License/refineOssDownloadLocationUsingGET_1"><span class="highlight">GET /api/v2/refine-download-location</span></a></td>
+            <td><span class="highlight">GET /api/v2/refine-download-location</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 <span style="color: red;">(Admin only)</span> Refine OSS information.<br><br>
@@ -137,7 +137,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/2.%203rd%20Party/getPartnersUsingGET"><span class="highlight">GET /api/v2/partners</span></a></td>
+            <td><span class="highlight">GET /api/v2/partners</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query 3rd Party information.<br><br>
@@ -154,7 +154,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/2.%203rd%20Party/get3rdDownloadUsingGET"><span class="highlight">GET /api/v2/partners/{id}/bom/file</span></a></td>
+            <td><span class="highlight">GET /api/v2/partners/{id}/bom/file</span></td>
             <td style="text-align: center;"><span class="highlight">FILE</span></td>
             <td>
                 3rd party BOM export - Download in file format.<br><br>
@@ -165,7 +165,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/2.%203rd%20Party/get3rdAsJsonUsingGET"><span class="highlight">GET ​/api​/v2​/partners​/{id}​/bom/json-data</span></a></td>
+            <td><span class="highlight">GET ​/api​/v2​/partners​/{id}​/bom/json-data</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 3rd party BOM export - Received in JSON format.<br><br>
@@ -175,7 +175,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/2.%203rd%20Party/addPrjEditorUsingPOST"><span class="highlight">POST /api/v2/partners/{id}/editors</span></a></td>
+            <td><span class="highlight">POST /api/v2/partners/{id}/editors</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Add an editor to the 3rd party.<br><br>
@@ -202,7 +202,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/selectProjectListUsingGET_1"><span class="highlight">GET /api/v2/projects</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Retrieve information about the Project including the following items:<br><br>
@@ -223,7 +223,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/createProjectUsingPOST"><span class="highlight">POST /api/v2/projects</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 API for Project Creation. The generated project ID will be returned.<br><br>
@@ -245,7 +245,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/selectModelListUsingGET_1"><span class="highlight">GET /api/v2/projects/models</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects/models</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                  Query model information for the Project.<br><br>
@@ -255,7 +255,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/deleteProjectUsingDELETE"><span class="highlight">DELETE /api/v2/projects/{id}</span></a></td>
+            <td><span class="highlight">DELETE /api/v2/projects/{id}</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Delete project (Only projects that have not been distributed can be deleted).<br><br>
@@ -265,7 +265,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjBomCompareUsingGET_1"><span class="highlight">GET /api/v2/projects/{id}/bom/compare-with/{compareId}</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/bom/compare-with/{compareId}</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Project BOM Compare.<br><br>
@@ -276,7 +276,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjBomDownloadUsingGET"><span class="highlight">GET /api/v2/projects/{id}/bom/file</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/bom/file</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Project BOM export - Download in file format.<br><br>
@@ -288,7 +288,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
        <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjBomAsJsonUsingGET"><span class="highlight">GET /api/v2/projects/{id}/bom/json-data</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/bom/json-data</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Project BOM export - Received in JSON format.<br><br>
@@ -299,7 +299,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/addPrjEditorUsingPOST_1"><span class="highlight">POST /api/v2/projects/{id}/editors</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/editors</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Add an editor to the project.<br><br>
@@ -310,7 +310,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/updateModelListUsingPOST_1"><span class="highlight">POST /api/v2/projects/{id}/models</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/models</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Update the project's Model information through a list of model information strings.<br>
@@ -322,7 +322,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/updateModelListUploadFileUsingPOST_1"><span class="highlight">POST ​/api​/v2​/projects​/{id}​/models​/upload</span></a></td>
+            <td><span class="highlight">POST ​/api​/v2​/projects​/{id}​/models​/upload</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Update the project's Model information using a Model List Excel file.<br>
@@ -335,7 +335,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getProjectNoticeUsingGET"><span class="highlight">GET /api/v2/projects/{id}/notice</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/notice</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Notice for receiving files for the project ID<br><br>
@@ -345,7 +345,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/ossUploadPackageUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/packages</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/packages</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Upload a package file to the project.<br><br>
@@ -357,7 +357,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/setSecurityMailUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/security-mail</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/security-mail</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Update whether to receive Vulnerability emails for the project.<br><br>
@@ -369,7 +369,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/addSecurityPersonUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/security-person</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/security-person</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 <br> Update the recipients of security emails from FOSSLight Hub with creatorand editors. <br>
@@ -381,7 +381,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://osc.lge.com/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/getPrjSecurityExportJsonUsingGET_1"><span class="highlight">GET /api/v2/projects/{id}/security/json-data</span></a></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/security/json-data</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query security vulnerability information detected in the project in JSON format<br><br>
@@ -391,7 +391,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/ossLoadUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/oss-load</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/oss-load</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Load open-source information reviewed in previous projects into the project (Only projects with identification confirmed can be loaded).<br><br>
@@ -407,7 +407,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/ossReportAllUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/reports</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/reports</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Upload an open-source analyzed report file to the project.<br><br>
@@ -423,7 +423,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/3.%20Project/identificationResetUsingPOST"><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/reset</span></a></td>
+            <td><span class="highlight">POST /api/v2/projects/{id}/{tab_name}/reset</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Reset the tab selected in Project > Identification.<br><br>
@@ -450,7 +450,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/4.%20Vulnerability/getVulnerabilityMaxDataUsingGET_1"><span class="highlight">GET /api/v2/max-vulnerabilities</span></a></td>
+            <td><span class="highlight">GET /api/v2/max-vulnerabilities</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Check the maximum score and CVE ID by OSS Name and Version.<br><br>
@@ -461,7 +461,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/4.%20Vulnerability/getVulnerabilityDataUsingGET_4"><span class="highlight">GET /api/v2/vulnerabilities</span></a></td>
+            <td><span class="highlight">GET /api/v2/vulnerabilities</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query the CVE ID, CVSS Score, CVE ID Link, and OSS Information (OSS Name, OSS Version and Nickname) by OSS Name and Version or CVE ID.<br><br>
@@ -488,7 +488,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/createSelfCheckUsingPOST"><span class="highlight">POST /api/v2/selfchecks</span></a></td>
+            <td><span class="highlight">POST /api/v2/selfchecks</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Create a Self-Check Project and receive the generated Self-Check ID.<br><br>
@@ -499,7 +499,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/getSelfcheckUsingGET"><span class="highlight">GET /api/v2/selfchecks/{id}</span></a></td>
+            <td><span class="highlight">GET /api/v2/selfchecks/{id}</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query the Self-Check project.<br><br>
@@ -509,7 +509,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
        <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/selfCheckBomDownloadUsingGET"><span class="highlight">GET /api/v2/selfchecks/{id}/bom/file</span></a></td>
+            <td><span class="highlight">GET /api/v2/selfchecks/{id}/bom/file</span></td>
             <td style="text-align: center;"><span class="highlight">FILE</span></td>
             <td>
                 Download the result file exported from Self-Check.<br><br>
@@ -519,7 +519,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/addPrjEditorUsingPOST_2"><span class="highlight">POST /api/v2/selfchecks/{id}/editors</span></a></td>
+            <td><span class="highlight">POST /api/v2/selfchecks/{id}/editors</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Add editors to Self-Check.<br><br>
@@ -530,7 +530,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/5.%20SelfCheck/ossReportSelfCheckUsingPOST_1"><span class="highlight">POST /api/v2/selfchecks/{id}/report</span></a></td>
+            <td><span class="highlight">POST /api/v2/selfchecks/{id}/report</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
                 Upload the analyzed open source report file to Self-Check.<br><br>
@@ -558,7 +558,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/6.%20Code%20v2/getVulnerabilityDataUsingGET_3"><span class="highlight">GET /api/v2/codes</span></a></td>
+            <td><span class="highlight">GET /api/v2/codes</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query the list of values for the following parameters to be used when creating a project and querying 3rd Party in Self-Check.<br><br>
@@ -594,7 +594,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
     </thead>
     <tbody>
         <tr style="background-color: white;">
-            <td><a href="https://demo.fosslight.org/swagger-ui/index.html?urls.primaryName=v2#/7.%20Binary/getBinaryInfoUsingGET_1"><span class="highlight">GET /api/v2/binaries</span></a></td>
+            <td><span class="highlight">GET /api/v2/binaries</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Query based on the following information from the Binary DB.<br><br>
