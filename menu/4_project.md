@@ -57,9 +57,11 @@ You can search for a project, check the overall information of the project, and 
 
 ### 6. Download
 {: .specific-title}  
-- (<img src="images/4_project_download_report_icon.PNG" width="20" height="25" />): You can download the list entered in Identification in the **FOSSLight Report**.
-- (<img src="images/4_project_download_file_icon.PNG" width="20" height="25" />): If the source code to be released is uploaded in Packaging, an icon will be displayed, and you can download **the OSS Package file**.
-- (<img src="images/4_project_download_notice_icon.PNG" width="20" height="25" />): When the Packaging stage is completed, an icon will be displayed, and you can download **the OSS Notice**.
+- (<img src="images/4_project_download_report_icon.PNG" width="20" height="25" />): You can download the list entered in Identification in the **FOSSLight Report**.  
+- (<img src="images/4_project_download_review_report_icon.PNG" width="20" height="25" />): You can download a **Review Report** from the Identification SBOM list when risks or important notes are detected in Open Source, License, or vulnerability reviews.      
+- (<img src="images/4_project_download_notice_icon.PNG" width="20" height="25" />): When the Packaging stage is completed, an icon will be displayed, and you can download **the OSS Notice**.  
+- (<img src="images/4_project_download_file_icon.PNG" width="20" height="25" />): If the source code to be released is uploaded in Packaging, an icon will be displayed, and you can download **the OSS Package file**.  
+
 
 
 ### 7. Security
