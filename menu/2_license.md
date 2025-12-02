@@ -288,7 +288,7 @@ You can find out the notice and source code disclosure obligations for each lice
 {: .left-bar-title }
 ### Add
 {: .specific-title}
-![NEW_OSS](images/3_lic_add.PNG){: .styled-image width="80%"}
+![NEW_OSS](images/3_lic_add.PNG){: .styled-image width="829" height="1118"}
 1. Click the Add button in the upper left of the License List.
 2. At the "New_License" tab, enter the information of the new OSS.
     - **License Name** and **Nick Name** cannot be duplicated.
