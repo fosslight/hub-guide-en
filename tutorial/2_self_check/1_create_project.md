@@ -36,11 +36,10 @@ You can create a Self-Check project and add OSS list you wish to check one by on
 3. Click the Save button(<img src="images/save_button.png" width="20" height="20" />).  
 
 
-### (Enterprise Only) Loading the FOSSLight Scanner Service analysis results by entering the URL.
+### (Enterprise Only) Loading the FOSSLight Scanner Service analysis results.
 {: .specific-title}
 **FOSSLight Hub's Self-check is integrated with [FOSSLight Scanner Service](http://fs.lge.com/).** 
-1. Create a Self-check project.  
-2. Select URL and enter the source link to be analyzed (a link that can be downloaded using wget or git clone) and click Send button.  
+Option 1. Select URL and enter the source link to be analyzed (a link that can be downloaded using wget or git clone) and click Send button.  
    ![selfcheck_add_oss_3](images/1_self_check_add_oss_url.png){: .styled-image}
-3. You can see that the project has been created on [FOSSLight Scanner Service](http://fs.lge.com/).  
-   ![selfcheck_fs_list](images/1_self_check_fs_list.png){: .styled-image}
+Option 2. Load the analysis result Report of the completed Project from [FOSSLight Scanner Service](http://fs.lge.com/).  
+   ![selfcheck_fs_list](images/1_self_check_add_prj_id.png){: .styled-image}
