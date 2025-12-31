@@ -29,7 +29,7 @@ This guide page describes the basic usage and tutorial of FOSSLight Hub and adva
 
 ### FOSSLight Hub Advanced features
 - [Development documentation](advanced/1_developer.md)
-- [REST API](advanced/2_rest_api.md)
+- [REST API](advanced/2_rest_api_2.md)
 - [Maintenance](advanced/3_maintenance.md)
 
 ### LEARN MORE
