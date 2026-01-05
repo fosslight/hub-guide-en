@@ -109,6 +109,7 @@ This page is for entering basic information about the project.
                     <li><strong>Preceding</strong>: Preliminary development with potential for distribution.</li>
                     <li><strong>In-house only</strong>: For internally used software with no distribution plans.</li>
                     <li><strong>Self-Check</strong>: Intended for internal review and pre-verification, not for distribution.</li>
+                    <li><strong>Contribution</strong>: Intended for Open Source release or contribution.</li>
                 </ul>
             </td>
         </tr>
