@@ -10,7 +10,7 @@ You can view and update your personal settings after logging in.
 
 1. **User Info**
     - User Name and Division can be modified. The configured Division will be used as the default value when creating a project in the 'Project' and '3rd Party' menus.  
-    - Password : Allows you to change your current password to a new one.  
+    - Password : To change your password, check the box on the left and enter a new password.   
     - Token : You can view the issued token information.
 2. **Default Language**
     - You can select a default language between Korean and English.
