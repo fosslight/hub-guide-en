@@ -21,5 +21,5 @@ Fill in the results of the Open Source Software analysis for the Project to rele
 ## (Enterprise Only) Identification Process for Platform-generated Project
 {: .left-bar-title }
 - BIN(Android), BIN(Yocto) Tab : Fill in each Tab → Request to review by clicking the Request button on each Tab.  
-    - BIN(Android) : Upload the result of [Android Binary Analysis](https://fosslight.org/fosslight-guide-en/scanner/6_android.html).  
-    - BIN(Yocto) : Upload the result of [Yocto Analysis](https://fosslight.org/fosslight-guide-en/scanner/5_yocto.html).  
+    - BIN(Android) : Upload the result of [Android Binary Analysis](https://fosslight.org/fosslight-guide-en/android/).  
+    - BIN(Yocto) : Upload the result of [Yocto Analysis](https://fosslight.org/fosslight-guide-en/yocto/).  
