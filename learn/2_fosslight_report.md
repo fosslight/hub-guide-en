@@ -22,7 +22,7 @@
 {: .specific-title}
 - Upload the Dependency analysis results.  
 ![Dependency](./images/dependency.png)  
-   - [FOSSLight Dependency Scanner](https://fosslight.org/fosslight-guide-en/scanner/3_dependency.html) can be used to automatically generate "DEP" sheet.  
+   - [FOSSLight Dependency Scanner](https://fosslight.org/fosslight-guide-en/scanner/1_dependency.html) can be used to automatically generate "DEP" sheet.  
 
 ### SRC Sheet
 {: .specific-title}
@@ -34,13 +34,13 @@
 {: .specific-title}
 - Fill in the Open Source information included per Binary.   
 ![bin](./images/bin.png) 
-   - [FOSSLight Binary Scanner](https://fosslight.org/fosslight-guide-en/scanner/4_binary.html) can be used to automatically generate the "BIN" sheet.  
+   - [FOSSLight Binary Scanner](https://fosslight.org/fosslight-guide-en/scanner/3_binary.html) can be used to automatically generate the "BIN" sheet.  
 
 ### BIN(Android) Sheet
 {: .specific-title}
 - Fill in the Open Source information for Android Platform Project and Yocto Project.  
 ![bin_android](./images/bin_android.png) 
-   - [FOSSLight Android Scanner](https://fosslight.org/fosslight-guide-en/scanner/6_android.html) and [FOSSLight Yocto Scanner](https://fosslight.org/fosslight-guide-en/scanner/5_yocto.html) can be used to automatically generate the "BIN(Android)" or "BIN(Yocto)" sheets.
+   - [FOSSLight Android Scanner](https://fosslight.org/fosslight-guide-en/android/) and [FOSSLight Yocto Scanner](https://fosslight.org/fosslight-guide-en/yocto/) can be used to automatically generate the "BIN(Android)" or "BIN(Yocto)" sheets.
    - For Android Platform and Yocto-based models (such as phones and TVs), the DEP, SRC, and BIN sheets do not need to be filled in.  
 
 ### SBOM Sheet
