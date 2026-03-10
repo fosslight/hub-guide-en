@@ -17,24 +17,27 @@
 - The identified Open Source information is registered in the [3rd Party](../menu/5_third-party.md) menu of FOSSLight Hub and is collected in the Project > Identification > [3rd Party tab](../tutorial/1_project/2_Identification/1_3rd_Party_Tab.md).
 - When the FOSSLight Report is exported from FOSSLight Hub > Project > Identification, the information registered in the 3rd Party tab is automatically filled in the "3rd party" sheet. Therefore, do not manually fill in the "3rd party" sheet.      
 ![3rd_Party](./images/3rd_party.png)  
+<br><br>
+
+> You can automatically generate the “DEP”, “SRC”, and “BIN” sheets by using the [FOSSLight Scanner](https://fosslight.org/fosslight-guide-en/scanner/).  
 
 ### DEP Sheet
 {: .specific-title}
 - Upload the Dependency analysis results.  
 ![Dependency](./images/dependency.png)  
-   - [FOSSLight Dependency Scanner](https://fosslight.org/fosslight-guide-en/scanner/1_dependency.html) can be used to automatically generate "DEP" sheet.  
+   
 
 ### SRC Sheet
 {: .specific-title}
 - Fill in the Open Source information included per Source Code.   
 ![src](./images/src.png)  
-   - [FOSSLight Source Scanner](https://fosslight.org/fosslight-guide-en/scanner/2_source.html) can be used to automatically generate the "SRC" sheet.   
+    
 
 ### BIN Sheet
 {: .specific-title}
 - Fill in the Open Source information included per Binary.   
 ![bin](./images/bin.png) 
-   - [FOSSLight Binary Scanner](https://fosslight.org/fosslight-guide-en/scanner/3_binary.html) can be used to automatically generate the "BIN" sheet.  
+ <br><br>  
 
 ### BIN(Android) Sheet
 {: .specific-title}
