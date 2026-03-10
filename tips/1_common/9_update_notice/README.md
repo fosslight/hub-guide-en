@@ -3,18 +3,18 @@ sort: 9
 published: true
 ---
 
-# Update Notification Email
+# Update Request Email
 
-## Target
+## Recipients
 {: .left-bar-title }
-- Projects, 3rd Parties, and Self-Checks that have not been updated in the past six months.
-- Only Projects and 3rd Parties with a Progress status are included.
+- Projects, 3rd Parties, and Self-Checks that have not been updated in the past six months
+- Only Projects and 3rd Parties with an In Progress status are included
 
 ## Sending Schedule
 {: .left-bar-title }
-- The email is sent on the 1st day of every month.
+- Sent on the 1st of every month
 
-## Mail Contents
+## Email Contents
 {: .left-bar-title }
 - Project
 <img src="../../images/common/update_notice/project.png" alt="select" class="styled-image">

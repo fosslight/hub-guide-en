@@ -17,7 +17,7 @@ Upload the analysis report or load a confirmed third-party or project.
 {: .left-bar-title }
 1. If there are already loaded items, click the + button in the upload area. (If you are uploading for the first time, screen 2 will be displayed.)
 <img src="images/1_upload_report1.png" alt="select" class="styled-image">
-2. Select the report file to upload
+2. After select 'Upload Analysis Result', click Upload button and then upload FOSSLight Report file.
 <img src="images/1_upload_report2.png" alt="select" class="styled-image">
 3. The list of sheets in the selected report file will appear on the left, and on the right, you can select the tab to which each sheet will be uploaded.
 Each sheet can be assigned to only one tab, and by default, sheets whose names start with the tab name are automatically selected.
@@ -31,7 +31,7 @@ Load a confirmed third-party or project.
 
 1. If there are already loaded items, click the + button in the upload area. (If you are loading for the first time, screen 2 will be displayed.)
 <img src="images/1_upload_report1.png" alt="select" class="styled-image">
-2. Search for the project or 3rd party you want to load.
+2. Search for the project or 3rd party you want to load by Project/3rd party Name or Id.
 <img src="images/1_project_search.png" alt="select" class="styled-image">
 <img src="images/1_3rd_search.png" alt="select" class="styled-image">
 3. The selected tab can only load data into the tab with the same name.(For example, if you select SRC, the data will be loaded only into the SRC tab and not into other tabs.)
