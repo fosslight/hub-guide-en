@@ -9,7 +9,7 @@ The Review Report can be used to verify open source compliance and helps efficie
 </div>
 <br>
 
-The Review Report is issued based on the BOM details upon confirmation of the project's identification.
+The Review Report is issued based on the SBOM details upon confirmation of the project's identification.
 - The Review Report is generated based on data from the FOSSLight DB. Therefore, to ensure an accurate report, the OSS and license information recorded in the database must be correct.  
 
 ## Review Report Details  
@@ -55,7 +55,7 @@ The Review Report is issued based on the BOM details upon confirmation of the pr
 
 ## Conditions for Review Report Generation  
 {: .left-bar-title}  
-Based on the BOM tab, the Review Report is generated if there is at least one applicable item in OSS Review (Summary Description), OSS Review (Important Notes), License Review, or Vulnerability Review.
+Based on the SBOM tab, the Review Report is generated if there is at least one applicable item in OSS Review (Summary Description), OSS Review (Important Notes), License Review, or Vulnerability Review.
 
 - OSS Review (Summary Description)  
     - OSS with Summary Description.  
