@@ -6,7 +6,7 @@ title: 5.Security Tab
 
 # Security Tab
 <div class="note">
-In the Security tab, you can check and manage the status of actions for each CVE ID for OSS with a vulnerability score above the threshold based on the BOM tab in the Identification stage. <br>
+In the Security tab, you can check and manage the status of actions for each CVE ID for OSS with a vulnerability score above the threshold based on the SBOM tab in the Identification stage. <br>
     • The threshold for the Vulnerability Score can be set in Code Management > 760 (Security Vulnerability Score).   
 </div>
 
@@ -15,7 +15,7 @@ In the Security tab, you can check and manage the status of actions for each CVE
 ## Column
 {: .left-bar-title }
 - **OSS Name, OSS version**
-    - The OSS information entered in the BOM tab of the Identification stage is automatically displayed.
+    - The OSS information entered in the SBOM tab of the Identification stage is automatically displayed.
 - **CVE ID, CVSS Score, Published Date**
     - The CVE ID and the corresponding CVE ID's CVSS Score and published date information are automatically displayed.
 - **Vulnerability Resolution**
@@ -24,7 +24,7 @@ In the Security tab, you can check and manage the status of actions for each CVE
 ### If OSS version is not entered
 {: .specific-title}
 - In the Security tab, it is difficult to accurately verify vulnerabilities for CVE IDs without an OSS version, so the entire list of CVE IDs is not displayed.  
-- If the following popup screen appears when entering the tab, you can view the accurate list of security vulnerability CVE IDs in the Security tab after entering the correct version of the corresponding open source in the Identification tab and saving the BOM tab.  
+- If the following popup screen appears when entering the tab, you can view the accurate list of security vulnerability CVE IDs in the Security tab after entering the correct version of the corresponding open source in the Identification tab and saving the SBOM tab.  
 ![prj](images/5_sec_popup.PNG){: .styled-image}  
 
 ### Reflecting Vulnerability Resolution in the Identification Stage
