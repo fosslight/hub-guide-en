@@ -19,7 +19,7 @@ It provides information on collecting vulnerability data, notifications, and how
 
 ## Vulnerability Notification  
 {: .left-bar-title #project-vul-notice-en } 
-- When a project’s Identification stage has been confirmed, if a CVE ID with a CVSS score equal to or higher than the threshold is detected among the OSS included in the BOM, or if the Max CVSS Score changes from above the threshold to below it, a Vulnerability Score Change notification email will be sent.    
+- When a project’s Identification stage has been confirmed, if a CVE ID with a CVSS score equal to or higher than the threshold is detected among the OSS included in the SBOM, or if the Max CVSS Score changes from above the threshold to below it, a Vulnerability Score Change notification email will be sent.    
     - Recipients of the notification email :  Project's Creator, Users with edit permissions, and Reviewer.  
     - If you no longer wish to receive notification emails, you can change the [Security Mail (Vulnerability) setting to Disable](#security-mail-en) in Project Information.
 <br><br><br>  
