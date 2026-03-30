@@ -154,10 +154,10 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><span class="highlight">GET /api/v2/partners/{id}/bom/file</span></td>
+            <td><span class="highlight">GET /api/v2/partners/{id}/sbom/file</span></td>
             <td style="text-align: center;"><span class="highlight">FILE</span></td>
             <td>
-                3rd party BOM export - Download in file format.<br><br>
+                3rd party SBOM export - Download in file format.<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> format</strong>: File format to extract</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 3rd party ID of the target to query</li>
@@ -165,10 +165,10 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><span class="highlight">GET ​/api​/v2​/partners​/{id}​/bom/json-data</span></td>
+            <td><span class="highlight">GET ​/api​/v2​/partners​/{id}​/sbom/json-data</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
-                3rd party BOM export - Received in JSON format.<br><br>
+                3rd party SBOM export - Received in JSON format.<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: 3rd party ID of the target</li>
                 </ul>
@@ -189,7 +189,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
 </table>
 
 
-### 3. Check project information, upload OSS Report/Packaging, export/comparison of BOM  
+### 3. Check project information, upload OSS Report/Packaging, export/comparison of SBOM  
 {: .specific-title }  
 
 <table>
@@ -265,10 +265,10 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><span class="highlight">GET /api/v2/projects/{id}/bom/compare-with/{compareId}</span></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/sbom/compare-with/{compareId}</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
-                Project BOM Compare.<br><br>
+                Project SBOM Compare.<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> compareId</strong>: Project ID to be compared</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Reference project ID</li>
@@ -276,25 +276,25 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><span class="highlight">GET /api/v2/projects/{id}/bom/file</span></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/sbom/file</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
-                Project BOM export - Download in file format.<br><br>
+                Project SBOM export - Download in file format.<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> format</strong>: File format to be extracted</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
-                    <li><strong class="highlight-black">saveFlag</strong>: Choose whether to update the BOM based on the information at the time of API execution (default = Y)</li>
+                    <li><strong class="highlight-black">saveFlag</strong>: Choose whether to update the SBOM based on the information at the time of API execution (default = Y)</li>
                 </ul>
             </td>
         </tr>
        <tr style="background-color: white;">
-            <td><span class="highlight">GET /api/v2/projects/{id}/bom/json-data</span></td>
+            <td><span class="highlight">GET /api/v2/projects/{id}/sbom/json-data</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
-                Project BOM export - Received in JSON format.<br><br>
+                Project SBOM export - Received in JSON format.<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
-                    <li><strong class="highlight-black">saveFlag</strong>: Choose whether to update the BOM based on the information at the time of API execution (default = Y)</li>
+                    <li><strong class="highlight-black">saveFlag</strong>: Choose whether to update the SBOM based on the information at the time of API execution (default = Y)</li>
                 </ul>
             </td>
         </tr>
@@ -414,7 +414,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
                 <ul class="description-list">
                     <li><strong class="highlight-black">ossReport</strong>: Report file to be uploaded</li>
                     <li><strong class="highlight-black">comment</strong>: User comment</li>
-                    <li><strong class="highlight-black">bomSave</strong>: Save BOM tab </li>
+                    <li><strong class="highlight-black">sbomSave</strong>: Save SBOM tab </li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
                     <li><strong class="highlight-black">resetFlag</strong>: Whether to reset existing entered information when uploading the file (default = Y). N - Append while maintaining existing OSS Table entries</li>
                     <li><strong class="highlight-black">sheetNames</strong>: If you want to update specific sheet names from the uploaded report file, input here. If not entered, information will be loaded based on the default prefixes DEP, SRC, BIN. Multiple sheets can be entered, separated by commas.</li>
@@ -509,7 +509,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
        <tr style="background-color: white;">
-            <td><span class="highlight">GET /api/v2/selfchecks/{id}/bom/file</span></td>
+            <td><span class="highlight">GET /api/v2/selfchecks/{id}/sbom/file</span></td>
             <td style="text-align: center;"><span class="highlight">FILE</span></td>
             <td>
                 Download the result file exported from Self-Check.<br><br>
