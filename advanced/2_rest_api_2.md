@@ -6,18 +6,7 @@ To call the functions of FOSSLight, you can use the REST API.
 ## How to start  
 {: .left-bar-title }  
 To call the REST API, **Token** mush be issued in advance.  
-**Token** can only be issued by an Admin account, so general users must request **Token** issuance from the Admin before using the REST API.  
-
-### Admin
-{: .specific-title }    
-1. Log in with the **Admin account**.  
-2. **In the System > User Management** tab, you can issue a **Token** for each User.  
-
-### General User
-{: .specific-title }  
-1. Request **Token** issuance from the Admin.  
-2. Once issued, the **Token** can be viewed in [User Settings](https://fosslight.org/hub-guide-en/tips/5_etc/1_user_settings.html).  
-
+**Token** can only be issued in [User Settings](https://fosslight.org/hub-guide-en/tips/5_etc/1_user_settings.html).
 <br><br><br>
 
 ## REST API List  
