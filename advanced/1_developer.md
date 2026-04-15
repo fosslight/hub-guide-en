@@ -160,3 +160,11 @@ docker-compose restart fosslight_web
 
 ### Download NVD Data
 Set to download NVD data from 2002 data only once for the first time after server setting. : [Download NVD Data](https://fosslight.org/hub-guide-en/advanced/3_maintenance.html#download-nvd-data-from-2002)
+
+
+### FOSSLight Binary Scanner Installation Guide
+
+To verify whether the OSS Packaging file uploaded during the Packaging stage contains binaries, installation of the **FOSSLight Binary Scanner** is required.
+
+1. Install the [FOSSLight Binary Scanner](https://fosslight.org/fosslight-guide-en/scanner/3_binary.html).
+2. In the **application.properties** file, set the value of **verify.fosslight.binary.scanner.path** to the installation path of the FOSSLight Binary Scanner.
