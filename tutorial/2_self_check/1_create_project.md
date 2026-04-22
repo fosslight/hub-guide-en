@@ -24,7 +24,7 @@ You can create a Self-Check project and add OSS list you wish to check one by on
 {: .specific-title}  
 1. Click the + button to add a row, fill in the OSS you want to check, and save.
 2. Fill in the information (OSS Name, OSS Version, License) in the added row. 
-    - When you enter the OSS Name and OSS Version, the information will be retrieved through [**OSS Information Auto-Fill**](https://fosslight.org/hub-guide-en/tips/1_common/1_oss_table/3_autofill_oss_info.html) if it is stored in the FOSSLight Hub.
+    - When you enter the OSS Name and OSS Version, the information will be retrieved through [**OSS Information Auto-Fill**](../../tips/1_common/1_oss_table/README.md) if it is stored in the FOSSLight Hub.
 
 
 ### Upload Analysis Result 

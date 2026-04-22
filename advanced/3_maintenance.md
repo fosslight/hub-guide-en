@@ -1,23 +1,30 @@
 # Maintenance
-```note
 A useful guide to operating the FOSSLight Hub.
-```
+
 
 ## DB backup and recovery
+{: .left-bar-title}
+
 ### 1. Backup 
-#### Option 1. Full DB backup    
+{: .specific-title}
+To prepare for FOSSLight upgrades or potential system failures, a database backup is performed.  
+
+#### Option 1. Full DB backup
+{: .under-bar-title}     
 mysqldump -u[id] -p[password] [database_name] > [backup_file_name].sql
 ```
 $ mysqldump -ufosslight -pfosslight fosslight > fosslight_backup.sql
 ```
 
 #### Option 2. DB backup for updating to the latest version of FOSSLight (data only)
+{: .under-bar-title} 
 1. Download DBMS. (Recommended DBMS: HeidiSQL https://github.com/HeidiSQL/HeidiSQL)
 2. After connecting to the DB, click 'Export database as SQL'.
 3. Extract data with DELETE + INSERT.
     ![config](./images/sql_backup.png)
 
 ### 2. Recovery
+{: .specific-title}
 1. Create a new empty DB to reflect the table structure according to the version and set the default values:
 
    [Developer Documentation - Download & Installation - 4. Create Database and Initial Data Registration](../advanced/1_developer.md#download--installation)
@@ -31,6 +38,7 @@ $ mysqldump -ufosslight -pfosslight fosslight > fosslight_backup.sql
     ```
 
 ## Upgrading the DB version
+{: .left-bar-title}
 How to upgrade DB version using [MyBatis Migrations](https://mybatis.org/migrations/migrate.html) (It is provided from the version that migrates from v1.5.0.)
 
 1. Modify DB connection information in migration/migration/environments/development.properties file.
@@ -134,6 +142,7 @@ How to upgrade DB version using [MyBatis Migrations](https://mybatis.org/migrati
 ✏️Note. For detailed commands, see [MyBatis Migrations](https://mybatis.org/migrations/migrate.html).
 
 ## Download NVD Data from 2002
+{: .left-bar-title}
 FOSSLight Hub downloads [NVD Data Feeds](https://nvd.nist.gov/vuln/data-feeds) provided from NVD(NATIONAL VULNERABILITY DATABASE) once a day and stores them in the database, and the stored NVD data is viewed in the [Vulnerability List](../menu/7_vulnerability.md).    
 At this time, when downloading NVD data from 2002 data, set as follows.      
 (If you set it only once for the first time, there is no need to set it additionally because the data will be accumulated afterwards.)           

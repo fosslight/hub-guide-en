@@ -14,7 +14,7 @@
 ### 3rd Party Sheet  
 {: .specific-title}   
 - If the project includes software provided by a 3rd party, obtain the OSS Checklist from the 3rd party to identify what Open Sources are used.  
-- The identified Open Source information is registered in the [3rd Party](../menu/5_third-party.md) menu of FOSSLight Hub and is collected in the Project > Identification > [3rd Party tab](../tutorial/1_project/2_Identification/1_3rd_Party_Tab.md).
+- The identified Open Source information is registered in the [3rd Party](../menu/5_third-party.md) menu of FOSSLight Hub and is collected in the Project > Identification > [3rd Party tab](../tutorial/1_project/2_Identification/1_3rd_DEP_SRC_BIN_Tab.md).
 - When the FOSSLight Report is exported from FOSSLight Hub > Project > Identification, the information registered in the 3rd Party tab is automatically filled in the "3rd party" sheet. Therefore, do not manually fill in the "3rd party" sheet.      
 ![3rd_Party](./images/3rd_party.png)  
 <br><br>

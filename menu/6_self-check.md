@@ -20,8 +20,7 @@ You can view the following information by creating a Self-Check Project and ente
 ## Procedure for using Self-Check 
 {: .left-bar-title}
 Self-Check can be done through the following procedure.  
-1. [Self-Check Project creation and OSS lists input](https://fosslight.org/hub-guide-en/tutorial/2_self_check/1_create_project.html)   
-2. [Check OSS and License information](https://fosslight.org/hub-guide-en/tutorial/2_self_check/2_verify_oss_license.html)  
-3. [Check Vulnerability information](https://fosslight.org/hub-guide-en/tutorial/2_self_check/3_verify_vulnerability.html)  
-4. [How to Check Open Source](https://fosslight.org/hub-guide-en/tips/1_common/2_pre_review/2_how_to_check_oss.html)  
-5. [How to Check Licenses](https://fosslight.org/hub-guide-en/tips/1_common/2_pre_review/1_how_to_check_license.html) 
+1. [Self-Check Project creation and OSS lists input](../tutorial/2_self_check/1_create_project.md) 
+2. [Check OSS and License information](../tutorial/2_self_check/2_verify_oss_license.md)  
+3. [Check Vulnerability information](../tutorial/2_self_check/3_verify_vulnerability.md) 
+4.[Reviewing Open Source by Download Location (Pre-Review)](../tips/1_common/2_pre_review/README.md)  

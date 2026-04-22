@@ -10,7 +10,7 @@ Once a base model’s binary has been analyzed, its information can be saved in 
 {: .left-bar-title }  
 - After uploading the **binary analysis result (FOSSLight Report)** and clicking the Save button, the FOSSLight Hub compares it with the Binary DB and automatically fills in OSS Name, OSS Version, License, and other information for identical or similar binaries.  
     - Applicable menus 
-        - **Project > Identification > [BIN](https://fosslight.org/hub-guide-en/tutorial/1_project/2_Identification/4_BIN_Tab.html), BIN(Android\|Yocto) tab** 
+        - **Project > Identification > [BIN](../tutorial/1_project/2_Identification/1_3rd_DEP_SRC_BIN_Tab.md), BIN(Android\|Yocto) tab** 
         - **3rd Party > Identification > 3rd party tab**
     - To accumulate the Binary DB, it is recommended to use version 4.1.30 or later of the [FOSSLight Binary Scanner](https://github.com/fosslight/fosslight_binary_scanner/).   
  ![binarytxt](images/11_upload_binary_txt.PNG){: .styled-image}<br>  
