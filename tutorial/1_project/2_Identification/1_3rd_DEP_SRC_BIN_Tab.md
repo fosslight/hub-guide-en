@@ -21,7 +21,8 @@ Click the + button at the top-left of the OSS Table to fill OSS information.
 {: .left-bar-title }
 1. Click the + button in the upload area. (First time: go to step 2.)
 <img src="images/1_upload_report1.png" alt="select" class="styled-image">
-2. Select 'Upload Analysis Result', then click the Upload button to upload the FOSSLight Report file.
+2. Select 'Upload Analysis Result', then click the Upload button to upload the FOSSLight Report file.  
+Reports in Excel, SPDX, and CycloneDX formats can be uploaded.
 <img src="images/1_upload_report2.png" alt="select" class="styled-image">
 3. Left: sheet list. Right: select the tab to upload to.  
 One sheet per tab; sheets starting with the tab name are selected by default. Uncheck sheets you don't want to load.
