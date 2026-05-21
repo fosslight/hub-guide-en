@@ -3,8 +3,8 @@ sort: 5
 published: true
 ---
 
-# [Enterprise Only] Distribution Information Update
-- Distribution is an Enterprise-only feature.  
+# [LGE Only] Distribution Information Update
+- Distribution is an LGE-only feature.  
 - Use this when modifications are needed for a project distributed on the [LG Open Source site](http://opensource.lge.com/).  
 
 ## Description Update    

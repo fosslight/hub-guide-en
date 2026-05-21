@@ -4,7 +4,7 @@ published: true
 title: 4.Distribution
 ---
 
-# 4. Distribution(Enterprise Only)
+# 4. (LGE Only) Distribution
 <div class="note">
 When Distribution is performed, the OSS notice and OSS package are registered on the distribution site.  
 </div> 

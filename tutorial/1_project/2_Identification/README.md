@@ -18,7 +18,7 @@ Fill in the results of the Open Source Software analysis for the Project to rele
         - [**3rd Party, DEP, SRC, BIN**](https://fosslight.org/hub-guide-en/tutorial/1_project/2_Identification/1_3rd_DEP_SRC_BIN_Tab.html): Upload analysis report file or load a confirmed 3rd party or project.
         - [**SBOM**](https://fosslight.org/hub-guide-en/tutorial/1_project/2_Identification/2_SBOM_Tab.html): Combine the OSS List written on the other tab and review the warning message and request a review.  
 
-## (Enterprise Only) Identification Process for Platform-generated Project
+## (LGE Only) Identification Process for Platform-generated Project
 {: .left-bar-title }
 - BIN(Android), BIN(Yocto) Tab : Fill in each Tab → Request to review by clicking the Request button on each Tab.  
     - BIN(Android) : Upload the result of [Android Binary Analysis](https://fosslight.org/fosslight-guide-en/android/).  

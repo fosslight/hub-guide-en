@@ -113,7 +113,7 @@ For projects consisting only of software received from a 3rd party, you can carr
 
 <br><br><br>  
 
-## (Enterprise Only) Android & Yocto Platform Projects  
+## (LGE Only) Android & Yocto Platform Projects  
 {: .left-bar-title }  
 When the platform itself generates OSS Notice, you need to create a project for reviewing the platform-generated OSS Notice.
 - Fosslight Hub supported platforms : Android, Yocto    

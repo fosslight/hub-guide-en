@@ -22,6 +22,6 @@ published: true
     ![AdditionalInfoLink](../../images/common/project_link/additional_info_link.png){: .styled-image }  
     - 3rd party > Description  
     ![DescriptionLink](../../images/common/project_link/description_link.png){: .styled-image }  
-    - E-mail (Enterprise Only)  
+    - (LGE Only) E-mail 
     ![EmailLink](../../images/common/project_link/email_link.png){: .styled-image }     
         
