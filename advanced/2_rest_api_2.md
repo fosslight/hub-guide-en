@@ -75,6 +75,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             <td>
                 Query Open Source information.<br><br>
                 <ul class="description-list">
+                    <li><strong class="highlight-black">cveId</strong>: Value of the cve Id to query</li>
                     <li><strong class="highlight-black">downloadLocation</strong>: Value of the download location to query</li>
                     <li><strong class="highlight-black">downloadLocationExact</strong>: If set to true, only open source that exactly matches the value entered in downloadLocation will be listed (default = Y)</li>
                     <li><strong class="highlight-black">ossName</strong>: Name of the open source to query</li>
@@ -201,6 +202,8 @@ This is a feature provided to make authentication easier when using Swagger UI. 
                     <li><strong class="highlight-black">division</strong>: Query based on division information</li>
                     <li><strong class="highlight-black">modelName</strong>: Query based on the model name</li>
                     <li><strong class="highlight-black">modelNameExactYn</strong>: Set to true to retrieve only projects that exactly match the input model name</li>
+                    <li><strong class="highlight-black">ossName</strong>: Retrieve the list of projects that use the entered OSS name</li>
+                    <li><strong class="highlight-black">ossVersion</strong>: Retrieve the list of projects that use the entered OSS version</li>
                     <li><strong class="highlight-black">prjIdList</strong>: Query based on project ID. Multiple IDs can be input in list form</li>
                     <li><strong class="highlight-black">prjName</strong>: Query based on the project name</li>
                     <li><strong class="highlight-black">prjNameExactYn</strong>: Set to true to retrieve only projects that exactly match the input project name</li>
