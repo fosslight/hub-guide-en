@@ -179,7 +179,7 @@ Restriction details were based on the [OSORI](https://osori-db.github.io/en/docs
                     </li>
                 </ul>
             </td>
-            <td>5</td>
+            <td>2</td>
             <td>🟡</td>
         </tr>
         <tr>
