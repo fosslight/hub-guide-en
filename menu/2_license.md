@@ -159,7 +159,7 @@ Restriction details were based on the [OSORI](https://osori-db.github.io/en/docs
             <td>
                 <ul class="list-with-dot">
                     <li>
-                        The software must be used in accordance with specific specifications or standards.
+                        Restricts use related to specific specifications or standards.
                         <br>
                         <span style="padding-left: 20px;">ex) ETCPACK Software License Agreement (It can be used for compression and/or decompression according to the Khronos standard specifications)</span>
                     </li>
