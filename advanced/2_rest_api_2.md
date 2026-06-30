@@ -349,6 +349,33 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
+            <td><span class="highlight">POST /api/v2/projects/{id}/platform/reports</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
+            <td>
+                Upload report file to Android/Yocto(Platform-generate) project<br><br>
+                <ul class="description-list">
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> notice</strong>: Notice file to be uploaded</li>
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> ossReport</strong>: OSS Report file to be uploaded/li>
+                    <li><strong class="highlight-black">comment</strong>: User comment for the report file</li>
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> resetFlag</strong>: Whether to reset existing entered information when uploading the file (default = Y).
+                        <ul><li> Note: Even when resetFlag=N, only the most recently uploaded Report and Notice files are retained.</li></ul>
+                    </li>
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> sbomSave</strong>: Update SBOM tab (default = "Y")</li>
+                </ul>
+            </td>
+        </tr>
+        <tr style="background-color: white;">
+            <td><span class="highlight">POST /api/v2/projects/{id}/platform/reset</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
+            <td>
+                Reset the data in Android/Yocto(Platform-generate) Project > Identification.<br><br>
+                <ul class="description-list">
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
+                </ul>
+            </td>
+        </tr>
+        <tr style="background-color: white;">
             <td><span class="highlight">POST /api/v2/projects/{id}/security-mail</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
