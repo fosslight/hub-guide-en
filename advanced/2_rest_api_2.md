@@ -356,7 +356,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> notice</strong>: Notice file to be uploaded</li>
-                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> ossReport</strong>: OSS Report file to be uploaded/li>
+                    <li><strong class="highlight-black"><span style="color: red;">(required)</span> ossReport</strong>: OSS Report file to be uploaded</li>
                     <li><strong class="highlight-black">comment</strong>: User comment for the report file</li>
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> resetFlag</strong>: Whether to reset existing entered information when uploading the file (default = Y).
                         <ul><li> Note: Even when resetFlag=N, only the most recently uploaded Report and Notice files are retained.</li></ul>
