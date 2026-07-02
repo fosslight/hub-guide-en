@@ -4,8 +4,8 @@ published: true
 ---
 # Sign In & Sign Up
 How to sign in and register for an account with FOSSLight Hub.  
-- FOSSLight(LGE Only) : http://osc.lge.com  
-- FOSSLight Enterprise : https://enterprise.fosslight.org  
+- FOSSLight(LGE Only) : [https://osc.lge.com](https://osc.lge.com)    
+- FOSSLight Enterprise : [https://enterprise.fosslight.org](https://enterprise.fosslight.org)     
     - A separate account is required to use FOSSLight Enterprise. For account registration or login inquiries, please contact info@fosslight.org.  
 <br><br>
 
