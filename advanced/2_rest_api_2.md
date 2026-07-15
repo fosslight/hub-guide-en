@@ -376,6 +376,22 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
+          <td><span class="highlight">GET /api/v2/projects/{id}/platform/supplement-notice</span></td>
+          <td style="text-align: center;"><span class="highlight">FILE</span></td>
+          <td>
+              Downloads the Supplement NOTICE file of a Platform-generate (Android/Yocto) project.<br><br>
+              <ul class="description-list">
+                <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong> : Target project ID</li>
+                <li><strong class="highlight-black">noticeOutputType</strong> : Format of the notice to download (Enter one of the following)
+                  <ul>
+                    <li><code>ONE_FILE</code> : Downloads all notices in one HTML file</li>
+                    <li><code>BY_BINARY</code> : Generates NOTICE files by binary path and downloads them in a single ZIP file</li>
+                  </ul>
+                </li>
+              </ul>
+          </td>
+        </tr>
+        <tr style="background-color: white;">
             <td><span class="highlight">POST /api/v2/projects/{id}/security-mail</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
