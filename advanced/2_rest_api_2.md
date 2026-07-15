@@ -452,6 +452,19 @@ This is a feature provided to make authentication easier when using Swagger UI. 
                 </ul>
             </td>
         </tr>
+        <tr style="background-color: white;">
+            <td><span class="highlight">POST /api/v2/projects/{id}/{step}/review-requests</span></td>
+            <td style="text-align: center;"><span class="highlight">JSON</span></td>
+            <td>
+                Requests a review for a specific step (Identification, Packaging) of a project.<br><br>
+                <ul class="description-list">
+                  <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong> : Target project ID</li>
+                  <li><strong class="highlight-black"><span style="color: red;">(required)</span> step</strong> : The step to request a review (Currently, only 'identification' is functional; 'packaging' will be supported in the future)</li>
+                  <li><strong class="highlight-black">comment</strong> : User comment to be left upon request</li>
+                </ul>
+                ※ <strong>Warning:</strong> If a Red warning exists when requesting the identification step, the request will fail with an error message. (Requests can be made by ignoring Blue warnings)
+            </td>
+        </tr>
     </tbody>
 </table>
 
