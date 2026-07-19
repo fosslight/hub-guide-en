@@ -376,7 +376,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-          <td><span class="highlight">GET /api/v2/projects/{id}/platform/supplement-notice</span></td>
+          <td><span class="highlight"><span style="color: red;">(LGE only)</span>GET /api/v2/projects/{id}/platform/supplement-notice</span></td>
           <td style="text-align: center;"><span class="highlight">FILE</span></td>
           <td>
               Downloads the Supplement NOTICE file of a Platform-generate (Android/Yocto) project.<br><br>
