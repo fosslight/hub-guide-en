@@ -392,6 +392,21 @@ This is a feature provided to make authentication easier when using Swagger UI. 
           </td>
         </tr>
         <tr style="background-color: white;">
+          <td><span class="highlight">POST /api/v2/projects/{id}/reports</span></td>
+          <td style="text-align: center;"><span class="highlight">JSON</span></td>
+          <td>
+            Reads multiple sheets from a single Excel file and registers OSS components for dep/src/bin tabs at once (Multi-sheet)<br><br>
+            <ul class="description-list">
+              <li><strong class="highlight-black"><span style="color: red;">(required)</span> ossReport</strong>: Excel file to upload (max 15MB)</li>
+              <li><strong class="highlight-black"><span style="color: red;">(required)</span> tabSheetMapping</strong>: JSON mapping tabs and sheet names <br>
+                - Example: <code>{"src":["SRC_FL_Source"],"dep":["DEP_FL_Dependency"],"bin":["BIN_FL_Binary"]}</code>
+              </li>
+              <li><strong class="highlight-black">comment</strong>: Additional description upon upload</li>
+              <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Project ID to upload the report file</li>
+            </ul>
+          </td>
+        </tr>
+        <tr style="background-color: white;">
             <td><span class="highlight">POST /api/v2/projects/{id}/security-mail</span></td>
             <td style="text-align: center;"><span class="highlight">-</span></td>
             <td>
