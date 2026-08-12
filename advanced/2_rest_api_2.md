@@ -498,6 +498,17 @@ This is a feature provided to make authentication easier when using Swagger UI. 
     </thead>
     <tbody>
         <tr style="background-color: white;">
+          <td><span class="highlight">GET /api/v2/discovered-cves</span></td>
+          <td style="text-align: center;"><span class="highlight">JSON</span></td>
+          <td>
+            Search CVE ID list based on the sent vulnerability email.<br><br>
+            <ul class="description-list">
+              <li><strong class="highlight-black"><span style="color: red;">(required)</span> sendDate</strong>: Send Date (YYYY-MM-DD)</li>
+              <li><strong class="highlight-black">isAfterDate</strong>: true to search from this date onward, false to search only this date (default = false)</li>
+            </ul>
+          </td>
+        </tr>
+        <tr style="background-color: white;">
             <td><span class="highlight">GET /api/v2/max-vulnerabilities</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
