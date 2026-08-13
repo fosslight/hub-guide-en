@@ -349,7 +349,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><span class="highlight">POST /api/v2/projects/{id}/platform/reports</span></td>
+            <td><span class="highlight"><span style="color: red;">(LGE only)</span>POST /api/v2/projects/{id}/platform/reports</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Upload report file to Android/Yocto(Platform-generate) project<br><br>
@@ -366,7 +366,7 @@ This is a feature provided to make authentication easier when using Swagger UI. 
             </td>
         </tr>
         <tr style="background-color: white;">
-            <td><span class="highlight">POST /api/v2/projects/{id}/platform/reset</span></td>
+            <td><span class="highlight"><span style="color: red;">(LGE only)</span>POST /api/v2/projects/{id}/platform/reset</span></td>
             <td style="text-align: center;"><span class="highlight">JSON</span></td>
             <td>
                 Reset the data in Android/Yocto(Platform-generate) Project > Identification.<br><br>
