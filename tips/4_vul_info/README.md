@@ -3,24 +3,24 @@ sort: 4
 published: true
 ---
 
-# Tips: Vulnerability 
+# Tips: Vulnerability
 It provides information on collecting vulnerability data, notifications, and how to display scores.
 <br><br>  
 
 ## Vulnerability Data Collection  
 {: .left-bar-title }  
-- Vulnerability data is downloaded daily from the [NVD Data Feed](https://nvd.nist.gov/vuln/data-feeds) and stored in the FOSSLight Hub.
-- The Vulnerability Score in FOSSLight Hub is primarily based on the CVSS v4.0 Base Score. It is collected according to the following priority order.  
+- Vulnerability data is updated daily in the FOSSLight Hub from the [NVD](https://nvd.nist.gov/) and [OSV](https://osv.dev/) databases.
+- The Vulnerability Score in FOSSLight Hub is primarily based on the CVSS v4.0 Base Score. For NVD, it is collected according to the following priority order. However, for OSV, if a CVSS Score does not exist, the Severity Score is displayed as-is in the format provided by the OSV database.
     1. CVSS v4.0
     2. CVSS v3.1
     3. CVSS v3.0
-    4. CVSS v2.0  
+    4. CVSS v2.0
 <br><br><br>  
 
 ## Vulnerability Notification  
 {: .left-bar-title #project-vul-notice-en } 
-- When a project’s Identification stage has been confirmed, if a CVE ID with a CVSS score equal to or higher than the threshold is detected among the OSS included in the SBOM, or if the Max CVSS Score changes from above the threshold to below it, a Vulnerability Score Change notification email will be sent.    
-    - Recipients of the notification email :  Project's Creator, Users with edit permissions, and Reviewer.  
+- When a project's Identification stage has been confirmed, if a CVE ID with a CVSS score equal to or higher than the threshold is detected among the OSS included in the SBOM, or if the Max CVSS Score changes from above the threshold to below it, a Vulnerability Score Change notification email will be sent.    
+    - Recipients of the notification email :  Project's Creator, Users with edit permissions, Reviewer, and Security Responsible Person.  
     - If you no longer wish to receive notification emails, you can change the [Security Mail (Vulnerability) setting to Disable](#security-mail-en) in Project Information.
 <br><br><br>  
 

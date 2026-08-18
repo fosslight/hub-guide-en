@@ -67,5 +67,13 @@ You can search for a project, check the overall information of the project, and 
 ### 7. Security
 {: .specific-title}  
 It displays the Vulnerability information for the entire open source list included in the Identification stage (except the ones that 'Exclude' is checked).  
-- (<img src="images/4_project_security_need_to_resolve.PNG" width="120" height="25" />) : If the vulnerability score is above the threshold.  
-- (<img src="images/4_project_security_na.PNG" width="120" height="25" />) : If the vulnerability score is below the threshold.  
+
+- **How to enter the Security tab**
+  - You can enter the Security tab by clicking the button in the Security column of each project in the Project List.
+    ![security tab](images/4_project_security_list.png){: .styled-image}  
+
+- **Status**
+  - (<img src="images/4_project_security_need_to_resolve.PNG" width="120" height="25" />) : If there is a security vulnerability with a Vulnerability score equal to or higher than the threshold based on the SBOM tab in the Identification stage (the number in parentheses is the project's vulnerability max score)
+  - (<img src="images/4_project_security_discovered.png" width="118" height="25" />) : If there is no security vulnerability with a Vulnerability score equal to or higher than the threshold based on the SBOM tab in the Identification stage (the number in parentheses is the project's vulnerability max score)
+  - (<img src="images/4_project_security_na.PNG" width="115" height="25" />) : If the SBOM tab has not been saved so the OSS list has not been collected, or if no security vulnerability has been found
+  - (<img src="images/4_project_security_resolved.png" width="100" height="25" />) : If all security vulnerabilities with a Vulnerability score equal to or higher than the threshold based on the Need to resolve tab have a 'Fixed' resolution (the number in parentheses is the project's vulnerability max score below the vulnerability score threshold)
