@@ -14,7 +14,7 @@ In the Security tab, you can check and manage the status of actions for each Vul
 {: .left-bar-title }
 This is the first tab that appears when you enter the Security tab. You can check the statistics and charts of detected vulnerabilities for the OSS collected based on the SBOM tab in the Identification stage.
 ![prj](images/5_sec_overview.png){: .styled-image}  
-- In the Security tab, <span style="color:red">for OSS without an OSS version entered, it is difficult to accurately verify vulnerabilities, so the vulnerability list for that OSS is not displayed</span>. 
+- In the Security tab, <span style="color:red">for OSS without an OSS version entered, it is difficult to accurately verify vulnerabilities, so the vulnerability list by Vulnerability ID is not displayed. </span>However, in the **Need to resolve** and **Full discovered** tabs, the **OSS Name** and **Vulnerability Link** that allows you to view the vulnerability list in FOSSLight are provided.
   - After checking the list of OSS without an OSS version entered at the top of the Overview tab, you can enter the OSS Version in the Identification tab and Save in the SBOM tab to view the vulnerabilities for the entered OSS version in the Security tab.
 
 ### Vulnerability Score
