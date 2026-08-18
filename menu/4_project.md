@@ -66,7 +66,8 @@ You can search for a project, check the overall information of the project, and 
 
 ### 7. Security
 {: .specific-title}  
-It displays the Vulnerability information for the entire open source list included in the Identification stage (except the ones that 'Exclude' is checked).  
+It displays the Vulnerability information for the entire open source list included in the Identification stage (except the ones that 'Exclude' is checked).<br>
+<small>Reference: For more details about Security, see the [Security tutorial](../tutorial/1_project/5_security/README.md).</small>
 
 - **How to enter the Security tab**
   - You can enter the Security tab by clicking the button in the Security column of each project in the Project List.
