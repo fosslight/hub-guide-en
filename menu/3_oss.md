@@ -76,17 +76,16 @@ To see detailed information, click a cell in the OSS Name column of the OSS List
 
 ### Vulnerability
 {: .specific-title}  
-- When the OSS is found in the NVD database, it is displayed with the colored Vulnerability icon according to the severity of the vulnerability(CVE score).
+- When a security vulnerability provided by NVD or OSV is found for the OSS, it is displayed with the colored Vulnerability icon according to the severity.
 
-## OSS Details
+## OSS Details > Compliance
 {: .left-bar-title } 
-Click the OSS Name in the OSS List.    
-The Editable option and the Share, Save, Sync, Copy, and Delete buttons are displayed only if you are an Admin.  
-![OSS_DETAIL](images/2_oss_user_detail.png) 
+Click the OSS Name in the OSS List to view the OSS information in the first Compliance tab.
+![OssList](images/2_oss_user_detail_compliance.png) 
 
 ### Vulnerability Info
 {: .specific-title} 
-1. OSS Version Alias: Additional version information to be mapped when mapping CVE-ID.
+1. OSS Version Alias: Additional version information to be mapped when mapping Vulnerability ID.
 2. Include CPE: CPE information to be mapped when mapping CVE-ID.
 3. Exclude CPE: CPE information to be excluded when mapping CVE-ID.
 
@@ -113,6 +112,62 @@ For detailed information, please refer to the [Restriction](https://fosslight.or
 ### Attribution 
 {: .specific-title}
 - You can check the content that is included additionally when issuing an OSS Notice.
+
+
+## OSS Details > Vulnerability
+{: .left-bar-title }
+Click the OSS Name in the OSS List to view vulnerability information in the second Vulnerability tab.
+![OssList](images/2_oss_user_detail_vuln.png)  
+
+- You can check the number of Vulnerability IDs for each vulnerability score range, and clicking the vulnerability score icon displays the list of Vulnerability IDs in that range.
+- The icons for each vulnerability score range are as follows. Here, `?` means that the score does not correspond to a CVSS Score, so it is not included in any range.
+<div style="margin-left: 50px;">
+  <table border="1" cellspacing="0" cellpadding="8" style="border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th>Severity</th>
+        <th>CVSS Score Range</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="color:black; font-weight: bold;">
+          <img src="images/7_vul_critical.png" alt="CriticalIcon"
+               style="vertical-align:middle; width:16px; height:16px; margin:0 10px 0 10px;">
+          Critical
+        </td>
+        <td style="padding-left: 20px;">9.0 ~ 10.0</td>
+      </tr>
+      <tr>
+        <td style="color:red; font-weight: bold;">
+          <img src="images/7_vul_high.png" alt="HighIcon"
+               style="vertical-align:middle; width:16px; height:16px; margin:0 10px 0 10px;">
+          High
+        </td>
+        <td style="padding-left: 20px;">7.0 ~ 8.9</td>
+      </tr>
+      <tr>
+        <td style="color:orange; font-weight: bold;">
+          <img src="images/7_vul_medium.png" alt="MediumIcon"
+               style="vertical-align:middle; width:16px; height:16px; margin:0 10px 0 10px;">
+          Medium
+        </td>
+        <td style="padding-left: 20px;">4.0 ~ 6.9</td>
+      </tr>
+      <tr>
+        <td style="color:gold; font-weight: bold;">
+          <img src="images/7_vul_low.png" alt="LowIcon"
+               style="vertical-align:middle; width:16px; height:16px; margin:0 10px 0 10px;">
+          Low
+        </td>
+        <td style="padding-left: 20px;">0.1 ~ 3.9</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+- Through the Alias ID in the Vulnerability table, you can check the Vulnerability IDs issued by other databases for the same vulnerability.
+
+
 
 ## (Admin Only) Add, Modify, Delete, Copy, Sync OSS
 {: .left-bar-title } 
@@ -151,14 +206,14 @@ For detailed information, please refer to the [Restriction](https://fosslight.or
 1. In the OSS Details tab, fill in the reason for deletion in the Comment column.
 2. Click the **Delete** button at the upper right.
     - 📢 If the relevant OSS is included in the project where the identification step is confirmed, a window for selecting another OSS to be merged will pop up when clicking the Delete button.
-    ![NEW_OSS](images/2_oss_rename.PNG)
+    ![NEW_OSS](images/2_oss_rename.png)
         - If you select the OSS to be merged, name and nicknames of the OSS to be deleted will be add as nicknames of the OSS to be merged. 
 
 
 ### Update information for each OSS version at once
 {: .specific-title}
 - If multiple versions are registered in OSS, information for each version is updated at once. Click the **Sync** button at the upper right.
-![OSS_SYNC](images/2_oss_sync.PNG)  
+![OSS_SYNC](images/2_oss_sync.png)  
     1. Select the OSS version to be modified.
         - Versions that already have the same OSS information are grayed out and cannot be selected.
     2. Select the OSS information to be modified. Information is updated only for checked items.
