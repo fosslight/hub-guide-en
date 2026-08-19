@@ -75,11 +75,11 @@ You can modify multiple rows at once using the Bulk Edit function.
    ![bulkedit](images/5_sec_bulkedit.png){: .styled-image} 
 2. Select the Attributes to change and modify the Contents, then click the Change button.
    - Security Patch Link for Internal can only be written when the Vulnerability Resolution is 'Fixed'.
-    ![bulkedit](images/5_sec_bulkedit_detail.png){: width="600px" height="70px" .styled-image } 
+    ![bulkedit](images/5_sec_bulkedit_detail.png){: .styled-image } 
 
 ### Upload via Excel File
 {: .specific-title}
-![fixed](images/5_sec_excel_upload.png){: width="800px" height="70px" .styled-image } 
+![fixed](images/5_sec_excel_upload.png){: .styled-image } 
 - <span style="color:red">It is recommended to modify the result file exported from the Need to resolve tab and then Upload it for use.</span>
 - If a row with the same OSS Name, OSS Version, and Vulnerability ID values in the uploaded Excel file exists in the Security tab, the uploaded Vulnerability Resolution, Security Patch Link for Internal, and Security Comments values will be applied to that row. 
 - If the Vulnerability Resolution is not Fixed, the Security Patch Link for Internal value is always set to N/A. 
