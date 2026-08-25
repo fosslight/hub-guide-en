@@ -733,112 +733,89 @@ This is a feature provided to make authentication easier when using Swagger UI. 
 
 ## HTTP Status Code 
 {: .left-bar-title } 
-The following table lists the HTTP status codes and representative error messages that may be returned by the APIs.
-The same status code may correspond to different messages depending on the cause of the error, while successful requests return API-specific response data.
+The following table provides the HTTP status codes and representative error types returned by the APIs. For detailed error information, check the API response.
 
-<table>
+<table style="width: 100%; table-layout: fixed;">
   <thead>
     <tr style="background-color: #F0F0F0; color: black; font-weight: bold;">
-      <th scope="col" style="width: 150px; text-align: center; padding: 5px;">HTTP Status Code</th>
-      <th scope="col" style="width: 300px; padding: 5px;">Description</th>
-      <th scope="col" style="width: 600px; padding: 5px;">Error Message</th>
+      <th scope="col" style="width: 15%; text-align: center; padding: 8px;">HTTP Status Code</th>
+      <th scope="col" style="width: 30%; padding: 8px;">Description</th>
+      <th scope="col" style="width: 55%; padding: 8px;">Representative Error Types</th>
     </tr>
   </thead>
   <tbody>
     <tr style="background-color: white;">
-      <td style="text-align: center;"><code>200</code></td>
-      <td>OK (Success)</td>
-      <td>-</td>
+      <td style="text-align: center; vertical-align: top; padding: 8px;"><strong>200</strong></td>
+      <td style="vertical-align: top; padding: 8px;">OK (Success)</td>
+      <td style="vertical-align: top; padding: 8px;">API-specific response data</td>
     </tr>
     <tr style="background-color: white;">
-      <td style="text-align: center;"><code>400</code></td>
-      <td>Bad Request - Parameter error</td>
-      <td><code>The parameter is invalid.</code></td>
+      <td style="text-align: center; vertical-align: top; padding: 8px;"><strong>400</strong></td>
+      <td style="vertical-align: top; padding: 8px;">Bad Request</td>
+      <td style="vertical-align: top; padding: 8px;">
+        <ul class="description-list">
+          <li>Invalid parameter</li>
+          <li>Missing required parameter</li>
+          <li>Missing multipart file parameter</li>
+          <li>Bean Validation failure</li>
+          <li>Constraint violation</li>
+        </ul>
+      </td>
     </tr>
     <tr style="background-color: white;">
-      <td style="text-align: center;"><code>400</code></td>
-      <td>Bad Request - Missing required parameter</td>
-      <td><code>'&lt;paramName&gt;' parameter is missing or misspelled</code></td>
+      <td style="text-align: center; vertical-align: top; padding: 8px;"><strong>401</strong></td>
+      <td style="vertical-align: top; padding: 8px;">Unauthorized</td>
+      <td style="vertical-align: top; padding: 8px;">
+        <ul class="description-list">
+          <li>User does not exist</li>
+          <li>Invalid token</li>
+        </ul>
+      </td>
     </tr>
     <tr style="background-color: white;">
-      <td style="text-align: center;"><code>400</code></td>
-      <td>Bad Request - Missing multipart file parameter</td>
-      <td><code>A 'file' parameter is mandatory, though its name may differ depending on the API.</code></td>
+      <td style="text-align: center; vertical-align: top; padding: 8px;"><strong>403</strong></td>
+      <td style="vertical-align: top; padding: 8px;">Forbidden</td>
+      <td style="vertical-align: top; padding: 8px;">
+        <ul class="description-list">
+          <li>No permission</li>
+          <li>No project access permission (VIEW or EDIT)</li>
+        </ul>
+      </td>
     </tr>
     <tr style="background-color: white;">
-      <td style="text-align: center;"><code>400</code></td>
-      <td>Bad Request - Bean Validation failed</td>
-      <td><code>&lt;field error message&gt;</code></td>
+      <td style="text-align: center; vertical-align: top; padding: 8px;"><strong>404</strong></td>
+      <td style="vertical-align: top; padding: 8px;">Not Found</td>
+      <td style="vertical-align: top; padding: 8px;">
+        <ul class="description-list">
+          <li>Resource not found</li>
+          <li>Project not found</li>
+        </ul>
+      </td>
     </tr>
     <tr style="background-color: white;">
-      <td style="text-align: center;"><code>400</code></td>
-      <td>Bad Request - Constraint violation (<code>@ValuesAllowed</code>)</td>
-      <td><code>&lt;violation message&gt;</code></td>
+      <td style="text-align: center; vertical-align: top; padding: 8px;"><strong>413</strong></td>
+      <td style="vertical-align: top; padding: 8px;">Payload Too Large</td>
+      <td style="vertical-align: top; padding: 8px;">File size exceeded</td>
     </tr>
     <tr style="background-color: white;">
-      <td style="text-align: center;"><code>401</code></td>
-      <td>Unauthorized - User does not exist</td>
-      <td><code>User does not exist.</code></td>
+      <td style="text-align: center; vertical-align: top; padding: 8px;"><strong>422</strong></td>
+      <td style="vertical-align: top; padding: 8px;">Unprocessable Entity</td>
+      <td style="vertical-align: top; padding: 8px;">
+        <ul class="description-list">
+          <li>Project type error</li>
+          <li>Data validation error</li>
+        </ul>
+      </td>
     </tr>
     <tr style="background-color: white;">
-      <td style="text-align: center;"><code>401</code></td>
-      <td>Unauthorized - TOKEN error</td>
-      <td><code>There is an error in the TOKEN value.</code></td>
-    </tr>
-    <tr style="background-color: white;">
-      <td style="text-align: center;"><code>403</code></td>
-      <td>Forbidden - No permission</td>
-      <td><code>You do not have permission.</code></td>
-    </tr>
-    <tr style="background-color: white;">
-      <td style="text-align: center;"><code>403</code></td>
-      <td>Forbidden - No project access permission (VIEW)</td>
-      <td><code>The user does not have view permissions for Project &lt;prjId&gt;</code></td>
-    </tr>
-    <tr style="background-color: white;">
-      <td style="text-align: center;"><code>403</code></td>
-      <td>Forbidden - No project access permission (EDIT)</td>
-      <td><code>The user does not have edit permissions for Project &lt;prjId&gt;</code></td>
-    </tr>
-    <tr style="background-color: white;">
-      <td style="text-align: center;"><code>404</code></td>
-      <td>Not Found - Resource not found</td>
-      <td><code>The resource does not exist or User does not have permissions for the resource (resource example: project)</code></td>
-    </tr>
-    <tr style="background-color: white;">
-      <td style="text-align: center;"><code>404</code></td>
-      <td>Not Found - Project not found</td>
-      <td><code>Project not found.</code></td>
-    </tr>
-    <tr style="background-color: white;">
-      <td style="text-align: center;"><code>413</code></td>
-      <td>Payload Too Large - File size exceeded</td>
-      <td><code>File size exceeded. (Max size: 5MB for oss report, 4GB for packaging file)</code></td>
-    </tr>
-    <tr style="background-color: white;">
-      <td style="text-align: center;"><code>422</code></td>
-      <td>Unprocessable Entity - Project type error</td>
-      <td><code>Project Type is invalid. &lt;message&gt;</code></td>
-    </tr>
-    <tr style="background-color: white;">
-      <td style="text-align: center;"><code>422</code></td>
-      <td>Unprocessable Entity - Data validation error</td>
-      <td><code>There is an error in the data written in the file.</code></td>
-    </tr>
-    <tr style="background-color: white;">
-      <td style="text-align: center;"><code>422</code></td>
-      <td>Unprocessable Entity - Failed to generate Supplement Notice</td>
-      <td><code>Failed to generate supplement notice file. Please verify that the project contains valid binary components.</code></td>
-    </tr>
-    <tr style="background-color: white;">
-      <td style="text-align: center;"><code>500</code></td>
-      <td>Internal Server Error - Unknown error</td>
-      <td><code>Unknown error.</code></td>
-    </tr>
-    <tr style="background-color: white;">
-      <td style="text-align: center;"><code>500</code></td>
-      <td>Internal Server Error - Failed to generate file ID</td>
-      <td><code>Failed to generate new file ID</code></td>
+      <td style="text-align: center; vertical-align: top; padding: 8px;"><strong>500</strong></td>
+      <td style="vertical-align: top; padding: 8px;">Internal Server Error</td>
+      <td style="vertical-align: top; padding: 8px;">
+        <ul class="description-list">
+          <li>Unknown error</li>
+          <li>File ID generation failure</li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
