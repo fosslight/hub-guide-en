@@ -47,7 +47,7 @@ You can identify issues that need to be reviewed through the Warning Message in 
           <td>
             <ul>
               <li>If OSS List of the FOSSLight Hub has the same OSS but different name, change OSS Name to the name registered in the FOSSLight Hub.</li>
-              <li>However, if there is no OSS in the FOSSLight Hub, no correction is necessary. (In this case, the <strong>Download location and Homepage column</strong> must be filled in.)</li>
+              <li>However, if there is no OSS in the FOSSLight Hub, no correction is necessary. (In this case, the <strong>Download location column</strong> must be filled in.)</li>
             </ul>
           </td>
         </tr>
