@@ -47,7 +47,7 @@ You can identify issues that need to be reviewed through the Warning Message in 
           <td>
             <ul>
               <li>If OSS List of the FOSSLight Hub has the same OSS but different name, change OSS Name to the name registered in the FOSSLight Hub.</li>
-              <li>However, if there is no OSS in the FOSSLight Hub, no correction is necessary. (In this case, the <strong>Download location column</strong> must be filled in.)</li>
+              <li>However, if there is no OSS in the FOSSLight Hub, no correction is necessary. (In this case, the <strong>Download location and Homepage column</strong> must be filled in.)</li>
             </ul>
           </td>
         </tr>
@@ -77,12 +77,13 @@ You can identify issues that need to be reviewed through the Warning Message in 
           </td>
           <td>
             <ul>
-              <li>Check if you can download the source code for that version from Download Location.</li>
+              <li>The <strong>Download location</strong> must be entered.</li>
+              <li>Enter the official release version in <strong>Version</strong>, not the commit hash. Use the Semver format (e.g., v3.2.1 -> 3.2.1). For Git-based OSS, using the official tag is recommended when one is available.</li>
               <li>
-                In the following cases, leave the version blank.
+                Leave <strong>Version</strong> blank in the following cases.
                 <ul>
-                  <li>If the version is not officially distributed. (e.g., unspecified)</li>
-                  <li>In the case of OSS where the version is not separately managed.</li>
+                  <li>If there is no officially distributed release version (e.g., unspecified).</li>
+                  <li>If the OSS does not have a separately managed version.</li>
                 </ul>
               </li>
             </ul>
