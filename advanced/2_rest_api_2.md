@@ -437,6 +437,8 @@ This is a feature provided to make authentication easier when using Swagger UI. 
                 Query security vulnerability information detected in the project in JSON format<br><br>
                 <ul class="description-list">
                     <li><strong class="highlight-black"><span style="color: red;">(required)</span> id</strong>: Target project ID</li>
+                    <li><strong class="highlight-black">tabName</strong>: Target tab name. Default is all
+                                                                          (all/ fullDiscovered/ needToResolve)</li>
                 </ul>
             </td>
         </tr>
